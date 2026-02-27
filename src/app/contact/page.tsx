@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Phone, Mail, MapPin, Clock, ArrowRight, ArrowLeft, CheckCircle } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, ArrowRight, ArrowLeft, CheckCircle, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -17,6 +17,43 @@ const steps = ['Votre projet', 'Vos coordonn\u00e9es', 'Confirmation']
 export default function Contact() {
   const [step, setStep] = useState(0)
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
+
+  // Form state
+  const [projectType, setProjectType] = useState('neuf')
+  const [service, setService] = useState('')
+  const [surface, setSurface] = useState('')
+  const [budget, setBudget] = useState('')
+  const [details, setDetails] = useState('')
+  const [firstName, setFirstName] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [city, setCity] = useState('')
+
+  async function handleSubmit() {
+    if (!firstName || !lastName || !email || !phone) {
+      setError('Veuillez remplir tous les champs obligatoires.')
+      return
+    }
+    setSending(true)
+    setError('')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ projectType, service, surface, budget, details, firstName, lastName, email, phone, city }),
+      })
+      if (!res.ok) throw new Error('Erreur serveur')
+      setStep(2)
+      setSubmitted(true)
+    } catch {
+      setError('Une erreur est survenue. Appelez directement le +352 26 54 88 75.')
+    } finally {
+      setSending(false)
+    }
+  }
 
   const schema = {
     "@context": "https://schema.org",
@@ -81,7 +118,7 @@ export default function Contact() {
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Type de projet</Label>
-                        <RadioGroup defaultValue="neuf" className="grid grid-cols-2 gap-3">
+                        <RadioGroup value={projectType} onValueChange={setProjectType} className="grid grid-cols-2 gap-3">
                           <div className="flex items-center gap-2 p-3 border border-ivory-200 rounded-lg">
                             <RadioGroupItem value="neuf" id="neuf" />
                             <Label htmlFor="neuf" className="font-body text-sm cursor-pointer">Construction neuve</Label>
@@ -95,7 +132,7 @@ export default function Contact() {
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Type de prestation</Label>
-                        <Select>
+                        <Select value={service} onValueChange={setService}>
                           <SelectTrigger><SelectValue placeholder="S\u00e9lectionnez une prestation" /></SelectTrigger>
                           <SelectContent>
                             <SelectItem value="sol">Pose carrelage sol</SelectItem>
@@ -115,11 +152,11 @@ export default function Contact() {
                       <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
                           <Label className="font-body font-semibold text-brand-900">Surface estim\u00e9e (m\u00b2)</Label>
-                          <Input type="number" placeholder="ex: 25" />
+                          <Input type="number" placeholder="ex: 25" value={surface} onChange={e => setSurface(e.target.value)} />
                         </div>
                         <div className="space-y-2">
                           <Label className="font-body font-semibold text-brand-900">Budget indicatif</Label>
-                          <Select>
+                          <Select value={budget} onValueChange={setBudget}>
                             <SelectTrigger><SelectValue placeholder="Fourchette" /></SelectTrigger>
                             <SelectContent>
                               <SelectItem value="500-2000">&lt; 2 000 \u20ac</SelectItem>
@@ -134,7 +171,7 @@ export default function Contact() {
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">D\u00e9tails du projet</Label>
-                        <Textarea rows={4} placeholder="Mat\u00e9riau souhait\u00e9, pi\u00e8ce concern\u00e9e, contraintes particuli\u00e8res..." />
+                        <Textarea rows={4} placeholder="Mat\u00e9riau souhait\u00e9, pi\u00e8ce concern\u00e9e, contraintes particuli\u00e8res..." value={details} onChange={e => setDetails(e.target.value)} />
                       </div>
 
                       <Button onClick={() => setStep(1)} className="w-full bg-accent-500 hover:bg-accent-700 text-white font-body font-semibold rounded-[8px] h-12">
@@ -150,36 +187,37 @@ export default function Contact() {
                       <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
                           <Label className="font-body font-semibold text-brand-900">Pr\u00e9nom</Label>
-                          <Input placeholder="Votre pr\u00e9nom" required />
+                          <Input placeholder="Votre pr\u00e9nom" required value={firstName} onChange={e => setFirstName(e.target.value)} />
                         </div>
                         <div className="space-y-2">
                           <Label className="font-body font-semibold text-brand-900">Nom</Label>
-                          <Input placeholder="Votre nom" required />
+                          <Input placeholder="Votre nom" required value={lastName} onChange={e => setLastName(e.target.value)} />
                         </div>
                       </div>
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Email</Label>
-                        <Input type="email" placeholder="votre@email.lu" required />
+                        <Input type="email" placeholder="votre@email.lu" required value={email} onChange={e => setEmail(e.target.value)} />
                       </div>
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">T\u00e9l\u00e9phone</Label>
-                        <Input type="tel" placeholder="+352 ..." required />
+                        <Input type="tel" placeholder="+352 ..." required value={phone} onChange={e => setPhone(e.target.value)} />
                       </div>
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Commune / Ville</Label>
-                        <Input placeholder="Mersch, Luxembourg-Ville, Bertrange..." />
+                        <Input placeholder="Mersch, Luxembourg-Ville, Bertrange..." value={city} onChange={e => setCity(e.target.value)} />
                       </div>
 
                       <div className="flex gap-3">
                         <Button variant="outline" onClick={() => setStep(0)} className="flex-1 font-body font-semibold rounded-[8px] h-12">
                           <ArrowLeft className="size-4 mr-1" /> Retour
                         </Button>
-                        <Button onClick={() => { setStep(2); setSubmitted(true); }} className="flex-1 bg-accent-500 hover:bg-accent-700 text-white font-body font-semibold rounded-[8px] h-12">
-                          Envoyer ma demande
+                        <Button onClick={handleSubmit} disabled={sending} className="flex-1 bg-accent-500 hover:bg-accent-700 text-white font-body font-semibold rounded-[8px] h-12">
+                          {sending ? <><Loader2 className="size-4 mr-1 animate-spin" /> Envoi...</> : 'Envoyer ma demande'}
                         </Button>
+                        {error && <p className="text-red-600 text-sm font-body mt-2">{error}</p>}
                       </div>
                     </div>
                   )}

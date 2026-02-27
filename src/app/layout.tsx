@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.terranova-carrelage.lu",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

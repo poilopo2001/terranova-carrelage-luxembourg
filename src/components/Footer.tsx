@@ -62,7 +62,7 @@ const jsonLd = {
   description:
     'Artisan carreleur Compagnon du Tour de France au Grand-Duché depuis 2001. Pose carrelage, pierre naturelle, mosaïque haut de gamme. Protocole adapté à chaque matériau.',
   url: 'https://terranova-carrelage.lu',
-  telephone: '+352621252574',
+  telephone: '+35226548875',
   email: 'contact@terranova-carrelage.lu',
   founder: {
     '@type': 'Person',
@@ -71,7 +71,7 @@ const jsonLd = {
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '22 Rue de la Gare',
+    streetAddress: '5, Rue de la Gare',
     addressLocality: 'Mersch',
     postalCode: 'L-7535',
     addressCountry: 'LU',
@@ -162,11 +162,11 @@ export default function Footer() {
 
             <motion.div variants={fadeUp} custom={1} className="flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+352621252574"
+                href="tel:+35226548875"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-3.5 font-body font-semibold text-[#3D2B1F] shadow-lg transition-all duration-200 hover:scale-[1.02] hover:shadow-xl"
               >
                 <Phone className="size-4" />
-                +352 621 252 574
+                +352 26 54 88 75
               </a>
               <Link
                 href="/contact"
@@ -215,11 +215,11 @@ export default function Footer() {
 
             <address className="space-y-2.5 text-sm not-italic">
               <a
-                href="tel:+352621252574"
+                href="tel:+35226548875"
                 className="flex items-center gap-2.5 text-[#F0E6D3]/80 transition-colors hover:text-[#C4965A]"
               >
                 <Phone className="size-4 shrink-0" />
-                +352 621 252 574
+                +352 26 54 88 75
               </a>
               <a
                 href="mailto:contact@terranova-carrelage.lu"
@@ -231,7 +231,7 @@ export default function Footer() {
               <div className="flex items-start gap-2.5 text-[#F0E6D3]/80">
                 <MapPin className="mt-0.5 size-4 shrink-0" />
                 <span>
-                  22, Rue de la Gare
+                  5, Rue de la Gare
                   <br />
                   L-7535 Mersch, Luxembourg
                 </span>
