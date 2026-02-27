@@ -37,13 +37,12 @@ export default function ZonePageLayout({ city, h1, intro, specificContent, focus
         areaServed: { "@type": "City", name: city },
         address: { "@type": "PostalAddress", streetAddress: "5, Rue de la Gare", addressLocality: "Mersch", postalCode: "L-7535", addressCountry: "LU" },
       }} />
-      <Breadcrumb items={[
-        { label: 'Zones d\'intervention', href: '/zones-intervention' },
-        { label: city },
-      ]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-20 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-20 px-6">
         <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[
+            { label: 'Zones d\'intervention', href: '/zones-intervention' },
+            { label: city },
+          ]} variant="dark" />
           <div className="flex items-center gap-2 text-accent-400 mb-3">
             <MapPin className="size-4" />
             <p className="font-body font-semibold text-sm tracking-[0.15em] uppercase">{city} &middot; Grand-Duché;</p>

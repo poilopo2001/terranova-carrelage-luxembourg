@@ -40,9 +40,10 @@ export default function APropos() {
         foundingDate: "2001",
         address: { "@type": "PostalAddress", streetAddress: "5, Rue de la Gare", addressLocality: "Mersch", postalCode: "L-7535", addressCountry: "LU" },
       }} />
-      <Breadcrumb items={[{ label: 'À propos' }]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-24 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-24 px-6">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'À propos' }]}  variant="dark" />
+        </div>
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 space-y-5">
             <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase">Du showroom au chantier, c&apos;est le même homme</p>

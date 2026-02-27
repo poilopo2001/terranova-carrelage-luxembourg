@@ -20,10 +20,10 @@ export default function PillarPageLayout({ title, subtitle, intro, sections, faq
   return (
     <>
       <SchemaOrg schema={schema} />
-      <Breadcrumb items={[{ label: title }]} />
 
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-24 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-24 px-6">
         <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: title }]} variant="dark" />
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">{subtitle}</p>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight max-w-4xl">{title}</h1>
           <p className="font-body text-lg text-ivory-100 max-w-[680px] mt-5 leading-relaxed">{intro}</p>

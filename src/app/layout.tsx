@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="fr" className={`${playfair.variable} ${sourceSans.variable}`}>
       <body className="bg-background text-foreground font-body antialiased">
         <Header />
-        <main className="pt-[72px]">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

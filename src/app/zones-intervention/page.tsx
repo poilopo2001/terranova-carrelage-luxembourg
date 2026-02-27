@@ -22,9 +22,10 @@ const zones = [
 export default function ZonesIntervention() {
   return (
     <>
-      <Breadcrumb items={[{ label: 'Zones d\'intervention' }]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-20 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-20 px-6">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Zones d\'intervention' }]}  variant="dark" />
+        </div>
         <div className="max-w-[1280px] mx-auto">
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">Tout le Grand-Duché couvert</p>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">Chaque canton du Grand-Duch&eacute;, un carreleur qui conna&icirc;t le terrain</h1>

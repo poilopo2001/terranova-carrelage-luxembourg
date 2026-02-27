@@ -12,7 +12,7 @@ export default function PolitiqueConfidentialite() {
   return (
     <>
       <Breadcrumb items={[{ label: 'Politique de confidentialité' }]} />
-      <section className="bg-ivory-25 py-16 px-6">
+      <section className="bg-ivory-25 pt-24 pb-16 px-6">
         <div className="max-w-3xl mx-auto prose prose-brand">
           <h1 className="font-heading text-3xl font-bold text-brand-900">Politique de confidentialité</h1>
           <p className="font-body text-sm text-brand-500">Dernière mise à jour : 27 février 2026</p>

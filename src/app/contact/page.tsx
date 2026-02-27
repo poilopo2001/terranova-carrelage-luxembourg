@@ -74,9 +74,10 @@ export default function Contact() {
   return (
     <>
       <SchemaOrg schema={schema} />
-      <Breadcrumb items={[{ label: 'Contact' }]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-12 md:py-16 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-24 pb-12 md:pt-32 md:pb-16 px-6">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Contact' }]}  variant="dark" />
+        </div>
         <div className="max-w-[1280px] mx-auto">
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">
             Réponse sous 48h

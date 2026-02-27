@@ -30,10 +30,11 @@ export default function Realisations() {
         name: "Réalisations Terranova Carrelage Luxembourg",
         description: "Galerie de réalisations carrelage et pierre naturelle au Luxembourg.",
       }} />
-      <Breadcrumb items={[{ label: 'Réalisations' }]} />
-
       {/* Hero header -- asymmetric with giant counter */}
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-24 px-6 relative overflow-hidden">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-24 px-6 relative overflow-hidden">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Réalisations' }]}  variant="dark" />
+        </div>
         {/* Giant number background */}
         <div className="absolute top-1/2 -translate-y-1/2 -right-10 md:right-10 font-heading text-[12rem] md:text-[18rem] font-bold text-ivory-25/[0.03] leading-none select-none pointer-events-none">
           2800

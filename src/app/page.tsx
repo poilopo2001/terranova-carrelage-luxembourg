@@ -10,8 +10,8 @@ const testimonials = [
   {
     author: 'Marc Hoffmann',
     location: 'Kirchberg, Luxembourg-Ville',
-    text: 'François a posé 85\ m² de marbre Calacatta Oro dans notre villa au Kirchberg. Le calepinage en diagonale avec book matching sur les veines est spectaculaire. Un résultat digne d\'un palace.',
-    project: 'Marbre Calacatta Oro 85\ m²',
+    text: 'François a posé 85\ m² de marbre Calacatta Oro dans notre villa au Kirchberg. Le calepinage en diagonale avec book matching sur les veines est spectaculaire. Un résultat digne d\'un palace.',
+    project: 'Marbre Calacatta Oro 85\ m²',
     rating: 5,
   },
   {
@@ -24,8 +24,8 @@ const testimonials = [
   {
     author: 'Christine Schroeder',
     location: 'Ettelbruck',
-    text: 'Polissage marbre au lieu d\'une dépose-repose. Devis à 850€ vs 3\ 500€ proposés ailleurs. Résultat miroir identique au neuf. C\'est un professionnel qui conseille ce qui est le mieux pour le client.',
-    project: 'Polissage marbre 15\ m²',
+    text: 'Polissage marbre au lieu d\'une dépose-repose. Devis à 850€ vs 3\ 500€ proposés ailleurs. Résultat miroir identique au neuf. C\'est un professionnel qui conseille ce qui est le mieux pour le client.',
+    project: 'Polissage marbre 15\ m²',
     rating: 5,
   },
 ]
@@ -70,7 +70,7 @@ export default function Home() {
 
       <HeroBento stats={[
         { value: '25', label: 'ans de métier' },
-        { value: '2\ 800+', label: 'chantiers réalisés' },
+        { value: '2\ 800+', label: 'chantiers réalisés' },
         { value: '4', label: 'langues parlées' },
         { value: '10', label: 'ans de garantie' },
       ]} />

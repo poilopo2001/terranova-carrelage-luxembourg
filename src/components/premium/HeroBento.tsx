@@ -213,7 +213,7 @@ export function HeroBento({ stats }: HeroBentoProps) {
         {/* Main gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-brand-900 via-brand-900/97 to-brand-800/92" />
 
-        <div className="relative max-w-[1440px] mx-auto px-6 pt-16 md:pt-24 lg:pt-28 pb-8">
+        <div className="relative max-w-[1440px] mx-auto px-6 pt-28 md:pt-32 lg:pt-36 pb-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
             {/* ── Text column (5 cols) ── */}

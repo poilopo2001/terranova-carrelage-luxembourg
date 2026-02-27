@@ -24,9 +24,10 @@ const articles = [
 export default function Blog() {
   return (
     <>
-      <Breadcrumb items={[{ label: 'Blog' }]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-20 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-20 px-6">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Blog' }]}  variant="dark" />
+        </div>
         <div className="max-w-[1280px] mx-auto">
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">25 ans de terrain condens&eacute;s en articles</p>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">Le carnet de chantier de Fran&ccedil;ois</h1>

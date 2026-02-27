@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Phone, ChevronDown, ArrowRight, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -282,6 +283,11 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [hoveredNav, setHoveredNav] = useState<string | null>(null)
+  const pathname = usePathname()
+
+  // Pages with light background need header to start in brown mode
+  const isLightPage = pathname === '/mentions-legales' || pathname === '/politique-confidentialite' || pathname.startsWith('/blog/')
+  const hasDarkHero = !isLightPage
 
   const { scrollY } = useScroll()
 
@@ -294,12 +300,12 @@ export default function Header() {
   const headerMx = useTransform(springProgress, [0, 1], [0, 24])
   const headerRadius = useTransform(springProgress, [0, 1], [0, 16])
   const headerTop = useTransform(springProgress, [0, 1], [0, 8])
-  const bgOpacity = useTransform(springProgress, [0, 1], [0, 0.97])
-  const shadowOpacity = useTransform(springProgress, [0, 1], [0, 0.12])
-  const blurAmount = useTransform(springProgress, [0, 1], [0, 16])
+  const bgOpacity = useTransform(springProgress, [0, 1], hasDarkHero ? [0, 0.97] : [0.97, 0.97])
+  const shadowOpacity = useTransform(springProgress, [0, 1], hasDarkHero ? [0, 0.12] : [0.06, 0.12])
+  const blurAmount = useTransform(springProgress, [0, 1], hasDarkHero ? [0, 16] : [16, 16])
 
-  // Logo color: ivory at top → brand at scroll
-  const logoColorProgress = useTransform(scrollY, [0, 80], [0, 1])
+  // Logo color: on homepage ivory→brand on scroll; elsewhere always brand
+  const logoColorProgress = useTransform(scrollY, [0, 80], hasDarkHero ? [0, 1] : [1, 1])
   const springLogoColor = useSpring(logoColorProgress, { stiffness: 200, damping: 25 })
 
   // Gold progress line
@@ -526,9 +532,6 @@ export default function Header() {
 
       {/* Mobile menu */}
       <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
-
-      {/* Spacer — matches header height at top-of-page */}
-      <div className="h-20" />
     </>
   )
 }

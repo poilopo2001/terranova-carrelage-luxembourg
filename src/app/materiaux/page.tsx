@@ -59,9 +59,10 @@ export default function Materiaux() {
         headline: "Guide des Matériaux de Carrelage",
         author: { "@type": "Person", name: "François Rodrigues" },
       }} />
-      <Breadcrumb items={[{ label: 'Matériaux' }]} />
-
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-20 px-6">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-20 px-6">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Matériaux' }]}  variant="dark" />
+        </div>
         <div className="max-w-[1280px] mx-auto">
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">Marbre, travertin, grès cérame — chacun se pose différemment</p>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">Guide des Matériaux de Carrelage</h1>

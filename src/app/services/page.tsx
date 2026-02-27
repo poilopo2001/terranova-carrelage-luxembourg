@@ -43,10 +43,11 @@ export default function ServicesPage() {
   return (
     <>
       <SchemaOrg schema={schema} />
-      <Breadcrumb items={[{ label: 'Services' }]} />
-
       {/* Hero header -- asymmetric split */}
-      <section className="bg-brand-900 text-ivory-25 py-16 md:py-24 px-6 relative overflow-hidden">
+      <section className="bg-brand-900 text-ivory-25 pt-28 pb-16 md:pt-36 md:pb-24 px-6 relative overflow-hidden">
+        <div className="max-w-[1280px] mx-auto">
+          <Breadcrumb items={[{ label: 'Services' }]}  variant="dark" />
+        </div>
         {/* Decorative large text background */}
         <div className="absolute top-1/2 -translate-y-1/2 -right-20 font-heading text-[14rem] md:text-[20rem] font-bold text-ivory-25/[0.02] leading-none select-none pointer-events-none whitespace-nowrap">
           TERRANOVA

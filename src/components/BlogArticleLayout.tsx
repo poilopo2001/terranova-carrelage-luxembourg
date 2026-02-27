@@ -18,9 +18,10 @@ export default function BlogArticleLayout({ title, date, readTime, intro, sectio
   return (
     <>
       <SchemaOrg schema={schema} />
-      <Breadcrumb items={[{ label: 'Blog', href: '/blog' }, { label: title }]} />
-
-      <article className="bg-ivory-25 py-12 px-6">
+      <article className="bg-ivory-25 pt-24 pb-12 px-6">
+        <div className="max-w-3xl mx-auto mb-4">
+          <Breadcrumb items={[{ label: 'Blog', href: '/blog' }, { label: title }]} />
+        </div>
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-4 text-sm text-brand-500 font-body mb-4">
             <span className="flex items-center gap-1"><Calendar className="size-3.5" /> {date}</span>
