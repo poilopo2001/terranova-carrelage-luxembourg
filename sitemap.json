@@ -1,0 +1,1692 @@
+{
+  "sitemap_metadata": {
+    "sector": "Carreleur / Carrelage",
+    "domain": "www.terranova-carrelage.lu",
+    "generated_date": "2026-02-27",
+    "total_pages": 33,
+    "estimated_implementation_time": "10-14 semaines",
+    "audit_changelog": [
+      "CANNIBALIZATION FIX: Homepage recentree sur brand + navigational, pillar-carreleur-lu devient la seule page commercial pour 'carreleur Luxembourg'",
+      "CANNIBALIZATION FIX: srv-pierre reoriente sur 'pose pierre naturelle Luxembourg' (service transactionnel), pillar-pierre reoriente sur 'pierre naturelle Luxembourg' (guide commercial large)",
+      "CANNIBALIZATION FIX: srv-renovation reoriente sur 'refaire carrelage Luxembourg' (transactionnel), pillar-renovation garde 'renovation carrelage Luxembourg' (commercial large)",
+      "CANNIBALIZATION FIX: srv-faience differencie clairement de srv-mural via intent distinct (faience decorative vs carrelage mural technique)",
+      "AJOUT: Hub /zones-intervention comme parent des pages locales",
+      "AJOUT: Hub /blog comme parent des articles",
+      "AJOUT: Page /a-propos pour E-E-A-T",
+      "AJOUT: Pages mentions-legales et politique-confidentialite (RGPD)",
+      "AJOUT: Page /carrelage-terrasse-exterieur-luxembourg (lacune saisonniere majeure)",
+      "AJOUT: Page /carrelage-cuisine-luxembourg (segment recherche manquant)",
+      "AJOUT: Article blog /blog/entretien-carrelage-pierre-naturelle-luxembourg (contenu post-achat manquant)",
+      "RESTRUCTURATION: Pages zones et blog passent en level 2 avec parent hub correct",
+      "INTERNAL LINKING: Renforcement du maillage entre pillar pages et pages cluster"
+    ]
+  },
+  "sector_analysis": {
+    "market_overview": "Le marche du carrelage au Luxembourg est porte par une activite immobiliere residentielle soutenue (villas haut de gamme, appartements neufs), une forte demande de renovation du parc existant, et une clientele a pouvoir d'achat eleve valorisant les materiaux nobles (marbre, travertin, gres cerame grand format). Le secteur est fragmente entre artisans independants et quelques entreprises de taille moyenne. La recherche en ligne se fait principalement en francais, avec une composante germanophone secondaire.",
+    "key_competitors": [
+      "Carrelage Service Luxembourg",
+      "Kieffer Carrelages",
+      "Carrelages Reckinger",
+      "Soludal Luxembourg",
+      "Artisans carreleurs independants (marche fragmente)"
+    ],
+    "customer_journey_stages": [
+      "Prise de conscience du besoin (renovation, construction neuve)",
+      "Recherche d'information (materiaux, prix, techniques)",
+      "Comparaison des artisans (devis, avis, realisations)",
+      "Demande de devis et visite technique",
+      "Validation du calepinage et choix des materiaux",
+      "Realisation des travaux",
+      "Reception et entretien post-chantier"
+    ],
+    "seasonal_trends": "Pics de demande au printemps (mars-juin) pour les terrasses et travaux exterieurs, et en septembre-novembre pour les interieurs avant les fetes. Creux en decembre-fevrier. Les salles de bain se renovent toute l'annee.",
+    "content_opportunities": [
+      "Guides de prix localises Luxembourg (forte intention transactionnelle)",
+      "Comparatifs materiaux (gres cerame vs pierre naturelle vs faience)",
+      "Tendances carrelage annuelles (contenu recurrent, recherche croissante)",
+      "Guides techniques calepinage (contenu compagnon differenciant)",
+      "Pages zones d'intervention pour SEO local",
+      "Carrelage terrasse et exterieur (saisonnalite forte, segment absent chez la concurrence)",
+      "Contenu entretien post-pose (fidelisation, long tail)"
+    ]
+  },
+  "seo_strategy": {
+    "primary_keywords": [
+      { "keyword": "carreleur Luxembourg", "search_volume": 720, "difficulty": "medium", "intent": "commercial", "assigned_page": "/carreleur-luxembourg" },
+      { "keyword": "pose carrelage Luxembourg", "search_volume": 390, "difficulty": "medium", "intent": "commercial", "assigned_page": "/carreleur-luxembourg" },
+      { "keyword": "carrelage Luxembourg", "search_volume": 880, "difficulty": "high", "intent": "commercial", "assigned_page": "/carreleur-luxembourg" },
+      { "keyword": "prix pose carrelage Luxembourg", "search_volume": 260, "difficulty": "low", "intent": "informational", "assigned_page": "/blog/cout-pose-carrelage-luxembourg-2026" },
+      { "keyword": "carreleur salle de bain Luxembourg", "search_volume": 170, "difficulty": "medium", "intent": "commercial", "assigned_page": "/carrelage-salle-de-bain-luxembourg" },
+      { "keyword": "pose pierre naturelle Luxembourg", "search_volume": 110, "difficulty": "low", "intent": "commercial", "assigned_page": "/services/pose-pierre-naturelle" },
+      { "keyword": "pierre naturelle Luxembourg", "search_volume": 150, "difficulty": "low", "intent": "commercial", "assigned_page": "/pierre-naturelle-luxembourg" },
+      { "keyword": "renovation carrelage Luxembourg", "search_volume": 140, "difficulty": "low", "intent": "commercial", "assigned_page": "/renovation-carrelage-luxembourg" },
+      { "keyword": "carreleur Luxembourg-Ville", "search_volume": 90, "difficulty": "low", "intent": "commercial", "assigned_page": "/zones-intervention/luxembourg-ville" },
+      { "keyword": "tendances carrelage 2026", "search_volume": 210, "difficulty": "low", "intent": "informational", "assigned_page": "/blog/tendances-carrelage-2026-luxembourg" },
+      { "keyword": "joint epoxy carrelage", "search_volume": 170, "difficulty": "low", "intent": "informational", "assigned_page": "/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg" },
+      { "keyword": "carrelage terrasse Luxembourg", "search_volume": 130, "difficulty": "low", "intent": "commercial", "assigned_page": "/carrelage-terrasse-exterieur-luxembourg" },
+      { "keyword": "carrelage cuisine Luxembourg", "search_volume": 120, "difficulty": "low", "intent": "commercial", "assigned_page": "/carrelage-cuisine-luxembourg" }
+    ],
+    "content_clusters": [
+      {
+        "cluster_name": "Carreleur Luxembourg (pilier principal)",
+        "pillar_page": "/carreleur-luxembourg",
+        "cluster_pages": ["/services/pose-carrelage-sol", "/services/pose-carrelage-mural", "/services/pose-faience", "/services/pose-mosaique", "/services/pose-parquet-carrele", "/realisations"]
+      },
+      {
+        "cluster_name": "Pierre naturelle",
+        "pillar_page": "/pierre-naturelle-luxembourg",
+        "cluster_pages": ["/services/pose-pierre-naturelle", "/materiaux", "/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg", "/blog/entretien-carrelage-pierre-naturelle-luxembourg"]
+      },
+      {
+        "cluster_name": "Renovation carrelage",
+        "pillar_page": "/renovation-carrelage-luxembourg",
+        "cluster_pages": ["/services/renovation-carrelage", "/services/reparation-carrelage", "/services/jointoyage", "/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg"]
+      },
+      {
+        "cluster_name": "Salle de bain",
+        "pillar_page": "/carrelage-salle-de-bain-luxembourg",
+        "cluster_pages": ["/services/pose-carrelage-mural", "/services/pose-faience", "/services/pose-mosaique", "/blog/cout-pose-carrelage-luxembourg-2026"]
+      },
+      {
+        "cluster_name": "Terrasse et exterieur",
+        "pillar_page": "/carrelage-terrasse-exterieur-luxembourg",
+        "cluster_pages": ["/services/pose-carrelage-sol", "/services/pose-pierre-naturelle", "/blog/tendances-carrelage-2026-luxembourg"]
+      },
+      {
+        "cluster_name": "Cuisine",
+        "pillar_page": "/carrelage-cuisine-luxembourg",
+        "cluster_pages": ["/services/pose-carrelage-mural", "/services/pose-faience", "/materiaux"]
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "id": "home",
+      "page_type": "homepage",
+      "url": "/",
+      "parent_id": null,
+      "level": 0,
+      "meta_title": "Terranova Carrelage Luxembourg | Artisan Compagnon a Mersch",
+      "meta_description": "Terranova Carrelage, artisan compagnon a Mersch. Pose carrelage, pierre naturelle, mosaique, parquet carrele au Luxembourg. Devis gratuit. +352 26 54 88 75.",
+      "h1": "Terranova Carrelage -- Artisan Compagnon au Luxembourg depuis 2001",
+      "target_keywords": {
+        "primary": "Terranova Carrelage Luxembourg",
+        "secondary": ["carreleur Mersch", "artisan compagnon carreleur Luxembourg"],
+        "long_tail": ["Terranova carrelage avis Luxembourg", "carreleur compagnon Tour de France Mersch"]
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page d'accueil brand-first, presentant l'entreprise et orientant vers les pillar pages thematiques. NE cible PAS les mots-cles commerciaux generiques (delegues a /carreleur-luxembourg).",
+        "target_audience": "Proprietaires residentiels, architectes, promoteurs au Luxembourg",
+        "content_type": "Landing page",
+        "key_sections": ["Hero avec CTA devis", "Proposition de valeur (compagnon, haut de gamme, Mersch)", "6 blocs services avec liens pillar pages", "3 realisations phares", "Temoignages clients (3 minimum)", "Zones d'intervention (carte)", "CTA devis gratuit"],
+        "cta": "Demandez votre devis gratuit",
+        "word_count": 800
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Organization", "WebSite", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 1.0,
+        "changefreq": "weekly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 200,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["services-index", "realisations", "materiaux", "contact", "pillar-carreleur-lu", "pillar-sdb", "pillar-terrasse", "pillar-cuisine", "a-propos", "zones-index"],
+        "links_from": ["all pages (navigation)"],
+        "anchor_text_suggestions": ["Accueil", "Terranova Carrelage"]
+      }
+    },
+    {
+      "id": "services-index",
+      "page_type": "category",
+      "url": "/services",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Services Carrelage Luxembourg | Pose, Renovation, Pierre | Terranova",
+      "meta_description": "Tous nos services de carrelage au Luxembourg : pose sol et mural, faience, mosaique, pierre naturelle, parquet carrele, renovation et reparation. Devis gratuit.",
+      "h1": "Nos Services de Carrelage au Luxembourg",
+      "target_keywords": {
+        "primary": "services carrelage Luxembourg",
+        "secondary": ["prestations carreleur Luxembourg", "travaux carrelage Luxembourg"],
+        "long_tail": ["entreprise pose carrelage Luxembourg tous services"]
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page hub listant tous les services avec descriptions courtes et liens vers les pages detaillees",
+        "target_audience": "Clients en phase de decouverte des prestations",
+        "content_type": "Page categorie",
+        "key_sections": ["Introduction services", "Grille des 9 services avec icones et descriptions", "Tableau comparatif des prix indicatifs", "CTA devis"],
+        "cta": "Demandez un devis personnalise",
+        "word_count": 600
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "ItemList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.9,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 80,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-mural", "srv-faience", "srv-mosaique", "srv-pierre", "srv-parquet", "srv-jointoyage", "srv-renovation", "srv-reparation"],
+        "links_from": ["home", "all pages (navigation)"],
+        "anchor_text_suggestions": ["Nos services", "Services carrelage"]
+      }
+    },
+    {
+      "id": "srv-sol",
+      "page_type": "product",
+      "url": "/services/pose-carrelage-sol",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Carrelage Sol Luxembourg | Grand Format & Plancher Chauffant",
+      "meta_description": "Pose de carrelage de sol au Luxembourg : gres cerame, grand format jusqu'a 120x260cm, plancher chauffant. Artisan compagnon. Devis gratuit.",
+      "h1": "Pose de Carrelage de Sol au Luxembourg",
+      "target_keywords": {
+        "primary": "pose carrelage sol Luxembourg",
+        "secondary": ["carrelage sol Luxembourg", "carreleur sol Luxembourg"],
+        "long_tail": ["pose carrelage grand format Luxembourg", "carrelage sol plancher chauffant Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service detaillee pour la pose de carrelage au sol",
+        "target_audience": "Proprietaires en construction neuve ou renovation",
+        "content_type": "Page service",
+        "key_sections": ["Description du service", "Formats et materiaux", "Processus de pose (10 etapes)", "Tarifs indicatifs", "Garanties", "Realisations associees", "FAQ"],
+        "cta": "Demandez votre devis pose carrelage sol",
+        "word_count": 1500
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage", "Offer"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-carrelage-sol",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 120,
+        "ranking_difficulty": "medium",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.1
+      },
+      "internal_linking": {
+        "links_to": ["srv-parquet", "srv-pierre", "pillar-carreleur-lu", "pillar-terrasse", "contact", "realisations", "blog-calepinage"],
+        "links_from": ["services-index", "pillar-carreleur-lu", "pillar-terrasse", "home"],
+        "anchor_text_suggestions": ["pose carrelage sol", "carrelage au sol"]
+      }
+    },
+    {
+      "id": "srv-mural",
+      "page_type": "product",
+      "url": "/services/pose-carrelage-mural",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Carrelage Mural Luxembourg | Etancheite Douche & Cuisine",
+      "meta_description": "Pose carrelage mural au Luxembourg : etancheite Schluter-Kerdi, grand format 60x180cm, douche italienne. Artisan compagnon. Devis gratuit.",
+      "h1": "Pose de Carrelage Mural au Luxembourg -- Douche, Cuisine & Zones Humides",
+      "target_keywords": {
+        "primary": "pose carrelage mural Luxembourg",
+        "secondary": ["carrelage mural douche Luxembourg", "carrelage mur etancheite Luxembourg"],
+        "long_tail": ["pose carrelage mural douche etancheite Schluter Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service orientee technique (etancheite, zones humides) -- se differencie de srv-faience qui est orientee decoratif",
+        "target_audience": "Proprietaires renovant cuisine ou salle de bain avec contraintes techniques",
+        "content_type": "Page service",
+        "key_sections": ["Description", "Zones seches vs humides", "Etancheite sous carrelage (SPEC technique)", "Formats et finitions", "Processus", "Tarifs", "Garanties"],
+        "cta": "Demandez votre devis carrelage mural",
+        "word_count": 1400
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-carrelage-mural",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 80,
+        "ranking_difficulty": "medium",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-faience", "pillar-sdb", "pillar-cuisine", "contact", "realisations"],
+        "links_from": ["services-index", "pillar-sdb", "pillar-cuisine", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["pose carrelage mural", "carrelage mural etanche"]
+      }
+    },
+    {
+      "id": "srv-faience",
+      "page_type": "product",
+      "url": "/services/pose-faience",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Faience Luxembourg | Credence, Subway, Zellige | Terranova",
+      "meta_description": "Pose de faience decorative au Luxembourg : zellige, subway tiles, hexagones, credence. Calepinages sur mesure. Artisan compagnon. Devis gratuit.",
+      "h1": "Pose de Faience Decorative au Luxembourg -- Zellige, Subway & Credence",
+      "target_keywords": {
+        "primary": "pose faience Luxembourg",
+        "secondary": ["credence faience Luxembourg", "zellige pose Luxembourg"],
+        "long_tail": ["pose faience decorative zellige subway credence Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service orientee design et decoratif -- se differencie de srv-mural qui est technique/etancheite",
+        "target_audience": "Proprietaires cherchant un rendu esthetique decoratif",
+        "content_type": "Page service",
+        "key_sections": ["Description", "Types de faiences decoratives (zellige, subway, hexagone)", "Calepinages decoratifs", "Marques travaillees", "Processus", "Tarifs", "Garanties"],
+        "cta": "Demandez votre devis pose faience",
+        "word_count": 1200
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-faience",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 60,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-mural", "pillar-sdb", "pillar-cuisine", "contact", "realisations"],
+        "links_from": ["services-index", "pillar-sdb", "pillar-cuisine"],
+        "anchor_text_suggestions": ["pose faience decorative", "faience zellige subway"]
+      }
+    },
+    {
+      "id": "srv-mosaique",
+      "page_type": "product",
+      "url": "/services/pose-mosaique",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Mosaique Luxembourg | Verre, Marbre, Emaux | Terranova",
+      "meta_description": "Pose de mosaique au Luxembourg : verre, marbre, emaux de Briare, ceramique. Douches, piscines, credences. Calepinage informatique. Devis gratuit.",
+      "h1": "Pose de Mosaique au Luxembourg -- Verre, Marbre & Emaux",
+      "target_keywords": {
+        "primary": "pose mosaique Luxembourg",
+        "secondary": ["mosaique salle de bain Luxembourg", "mosaique piscine Luxembourg"],
+        "long_tail": ["pose mosaique verre marbre douche Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service pour la pose de mosaique decorative",
+        "target_audience": "Clients haut de gamme, proprietaires de piscines",
+        "content_type": "Page service",
+        "key_sections": ["Description", "4 types de mosaique", "Calepinage informatique", "Processus", "Tarifs", "Garanties"],
+        "cta": "Demandez votre devis mosaique",
+        "word_count": 1200
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-mosaique",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 40,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 0.9
+      },
+      "internal_linking": {
+        "links_to": ["pillar-sdb", "srv-pierre", "contact", "realisations"],
+        "links_from": ["services-index", "pillar-sdb", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["pose mosaique", "mosaique decorative"]
+      }
+    },
+    {
+      "id": "srv-pierre",
+      "page_type": "product",
+      "url": "/services/pose-pierre-naturelle",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Pierre Naturelle Luxembourg | Marbre, Travertin, Granit",
+      "meta_description": "Pose de pierre naturelle au Luxembourg : marbre, travertin, granit, ardoise. Impregnation et traitement inclus. Artisan compagnon. Devis gratuit.",
+      "h1": "Pose de Pierre Naturelle au Luxembourg -- Marbre, Travertin, Granit",
+      "target_keywords": {
+        "primary": "pose pierre naturelle Luxembourg",
+        "secondary": ["poseur marbre Luxembourg", "pose travertin Luxembourg"],
+        "long_tail": ["pose marbre Calacatta Luxembourg artisan", "travertin bouche pose Luxembourg"]
+      },
+      "search_intent": "transactional",
+      "content_brief": {
+        "purpose": "Page service transactionnelle pour la pose -- se differencie de pillar-pierre qui est un guide commercial large sur la pierre naturelle",
+        "target_audience": "Clientele haut de gamme prete a commander",
+        "content_type": "Page service",
+        "key_sections": ["Description du service de pose", "Protocoles par type de pierre", "Book matching et techniques avancees", "Impregnation incluse", "Processus en 8 etapes", "Tarifs indicatifs au m2", "Garanties", "FAQ technique"],
+        "cta": "Demandez votre devis pose pierre naturelle",
+        "word_count": 1800
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage", "Offer"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-pierre-naturelle",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 70,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-pierre", "materiaux", "contact", "realisations", "blog-entretien"],
+        "links_from": ["services-index", "pillar-pierre", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["pose pierre naturelle", "faire poser du marbre"]
+      }
+    },
+    {
+      "id": "srv-parquet",
+      "page_type": "product",
+      "url": "/services/pose-parquet-carrele",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Pose Parquet Carrele Luxembourg | Imitation Bois Gres Cerame",
+      "meta_description": "Pose de parquet carrele (gres cerame imitation bois) au Luxembourg. Chevron, quinconce, lame longue. Lippage garanti < 0.5mm. Devis gratuit.",
+      "h1": "Pose de Parquet Carrele au Luxembourg -- Imitation Bois en Gres Cerame",
+      "target_keywords": {
+        "primary": "parquet carrele Luxembourg",
+        "secondary": ["carrelage imitation bois Luxembourg", "pose carrelage effet parquet Luxembourg"],
+        "long_tail": ["pose parquet carrele chevron Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service pour la pose de carrelage imitation parquet",
+        "target_audience": "Proprietaires cherchant l'esthetique bois avec la durabilite carrelage",
+        "content_type": "Page service",
+        "key_sections": ["Description", "Avantages vs parquet bois", "Calepinages (quinconce, chevron, opus)", "Formats et marques", "Processus", "Tarifs", "Garanties"],
+        "cta": "Demandez votre devis parquet carrele",
+        "word_count": 1400
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/pose-parquet-carrele",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 90,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "pillar-carreleur-lu", "contact", "blog-calepinage", "realisations"],
+        "links_from": ["services-index", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["parquet carrele", "carrelage imitation bois"]
+      }
+    },
+    {
+      "id": "srv-jointoyage",
+      "page_type": "product",
+      "url": "/services/jointoyage",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Jointoyage Carrelage Luxembourg | Rejointoiement Epoxy & Ciment",
+      "meta_description": "Rejointoiement de carrelage au Luxembourg : remplacement joints ciment ou epoxy, traitement anti-moisissures. Economisez 80%. Devis gratuit.",
+      "h1": "Jointoyage et Rejointoiement de Carrelage au Luxembourg",
+      "target_keywords": {
+        "primary": "jointoyage carrelage Luxembourg",
+        "secondary": ["rejointoiement carrelage Luxembourg", "refaire joints carrelage Luxembourg"],
+        "long_tail": ["remplacement joints epoxy carrelage salle de bain Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page service pour le rejointoiement de carrelage existant",
+        "target_audience": "Proprietaires avec carrelage en bon etat mais joints abimes",
+        "content_type": "Page service",
+        "key_sections": ["Description", "Joint ciment vs epoxy", "Traitement moisissures", "Economie vs depose-repose", "Processus", "Tarifs", "Garanties"],
+        "cta": "Demandez votre devis rejointoiement",
+        "word_count": 1200
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/jointoyage",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 45,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-renovation", "pillar-renovation", "contact", "blog-joint-epoxy"],
+        "links_from": ["services-index", "pillar-renovation"],
+        "anchor_text_suggestions": ["jointoyage", "rejointoiement carrelage"]
+      }
+    },
+    {
+      "id": "srv-renovation",
+      "page_type": "product",
+      "url": "/services/renovation-carrelage",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Refaire Son Carrelage Luxembourg | Depose, Repose & Polissage",
+      "meta_description": "Refaire votre carrelage au Luxembourg : depose-repose ou polissage marbre en place. Economie jusqu'a 95%. Artisan compagnon. Devis gratuit.",
+      "h1": "Refaire Son Carrelage au Luxembourg -- Depose, Repose ou Polissage",
+      "target_keywords": {
+        "primary": "refaire carrelage Luxembourg",
+        "secondary": ["depose repose carrelage Luxembourg", "polissage marbre Luxembourg"],
+        "long_tail": ["refaire carrelage salle de bain Luxembourg prix"]
+      },
+      "search_intent": "transactional",
+      "content_brief": {
+        "purpose": "Page service transactionnelle pour la renovation -- se differencie de pillar-renovation qui couvre le sujet de facon large et informationnelle",
+        "target_audience": "Proprietaires avec carrelage vieilli ou abime, prets a agir",
+        "content_type": "Page service",
+        "key_sections": ["Description", "2 strategies (depose vs polissage)", "Comparatif couts detaille", "Processus", "Tarifs forfaitaires", "Garanties", "FAQ"],
+        "cta": "Demandez votre diagnostic renovation gratuit",
+        "word_count": 1400
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/renovation-carrelage",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 55,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-jointoyage", "srv-reparation", "pillar-renovation", "contact"],
+        "links_from": ["services-index", "pillar-renovation"],
+        "anchor_text_suggestions": ["refaire son carrelage", "depose repose carrelage"]
+      }
+    },
+    {
+      "id": "srv-reparation",
+      "page_type": "product",
+      "url": "/services/reparation-carrelage",
+      "parent_id": "services-index",
+      "level": 2,
+      "meta_title": "Reparation Carrelage Luxembourg | Carreaux Casses & Fissures",
+      "meta_description": "Reparation de carrelage au Luxembourg : remplacement carreaux casses, injection carreaux creux, reparation fissures. Intervention rapide. Devis gratuit.",
+      "h1": "Reparation de Carrelage au Luxembourg -- Carreaux Casses ou Creux",
+      "target_keywords": {
+        "primary": "reparation carrelage Luxembourg",
+        "secondary": ["carreau casse Luxembourg", "remplacement carreau Luxembourg"],
+        "long_tail": ["reparation carrelage casse fissure Luxembourg"]
+      },
+      "search_intent": "transactional",
+      "content_brief": {
+        "purpose": "Page service pour la reparation ponctuelle de carrelage",
+        "target_audience": "Proprietaires ou locataires avec carreaux endommages",
+        "content_type": "Page service",
+        "key_sections": ["Description", "Types de reparations", "Injection carreaux creux", "Processus", "Tarifs forfaitaires", "Garanties"],
+        "cta": "Demandez une intervention rapide",
+        "word_count": 1000
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/services/reparation-carrelage",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 35,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-renovation", "srv-jointoyage", "pillar-renovation", "contact"],
+        "links_from": ["services-index", "pillar-renovation"],
+        "anchor_text_suggestions": ["reparation carrelage", "reparer un carreau"]
+      }
+    },
+    {
+      "id": "realisations",
+      "page_type": "content",
+      "url": "/realisations",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Realisations Carrelage Luxembourg | Galerie Photos Avant/Apres",
+      "meta_description": "Decouvrez nos realisations carrelage au Luxembourg : marbre, travertin, parquet carrele, mosaique, salles de bain, terrasses. Photos avant/apres.",
+      "h1": "Nos Realisations Carrelage au Luxembourg",
+      "target_keywords": {
+        "primary": "realisations carrelage Luxembourg",
+        "secondary": ["photos carrelage Luxembourg", "galerie carreleur Luxembourg"],
+        "long_tail": ["exemples pose carrelage marbre Luxembourg avant apres"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Galerie de projets realises pour demontrer l'expertise et convertir",
+        "target_audience": "Prospects en phase de comparaison d'artisans",
+        "content_type": "Galerie portfolio",
+        "key_sections": ["Filtres par type de projet (sdb, cuisine, terrasse, salon, pierre)", "Photos avant/apres", "Details techniques par projet", "Temoignage client associe", "CTA devis"],
+        "cta": "Un projet similaire ? Demandez votre devis",
+        "word_count": 500
+      },
+      "technical_specs": {
+        "schema_markup": ["ImageGallery", "BreadcrumbList", "Review"],
+        "canonical_url": "https://www.terranova-carrelage.lu/realisations",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 50,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-pierre", "srv-mosaique", "pillar-sdb", "pillar-terrasse", "contact"],
+        "links_from": ["home", "all service pages", "all pillar pages"],
+        "anchor_text_suggestions": ["nos realisations", "galerie de projets", "voir nos chantiers"]
+      }
+    },
+    {
+      "id": "materiaux",
+      "page_type": "content",
+      "url": "/materiaux",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Guide Materiaux Carrelage Luxembourg | Gres, Pierre, Faience",
+      "meta_description": "Guide des materiaux de carrelage : gres cerame, faience, marbre, travertin, granit, mosaique. Conseils de choix par un artisan compagnon au Luxembourg.",
+      "h1": "Guide des Materiaux de Carrelage -- Faire le Bon Choix",
+      "target_keywords": {
+        "primary": "materiaux carrelage Luxembourg",
+        "secondary": ["types carrelage Luxembourg", "gres cerame vs pierre naturelle"],
+        "long_tail": ["quel carrelage choisir salle de bain cuisine Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Guide educatif sur les materiaux pour positionner Terranova en expert et generer du trafic informationnel",
+        "target_audience": "Proprietaires en phase de recherche de materiaux",
+        "content_type": "Guide ressource",
+        "key_sections": ["Gres cerame", "Faience", "Pierre naturelle (marbre, travertin, granit, ardoise)", "Mosaique", "Parquet carrele", "Tableau comparatif", "Conseils d'entretien par materiau"],
+        "cta": "Besoin de conseils personnalises ? Contactez-nous",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/materiaux",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 90,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-pierre", "srv-faience", "srv-mosaique", "srv-parquet", "pillar-pierre", "blog-choisir", "blog-entretien"],
+        "links_from": ["home", "pillar-pierre", "pillar-cuisine"],
+        "anchor_text_suggestions": ["guide materiaux", "nos materiaux"]
+      }
+    },
+    {
+      "id": "a-propos",
+      "page_type": "content",
+      "url": "/a-propos",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "A Propos de Terranova Carrelage | Artisan Compagnon Mersch",
+      "meta_description": "Terranova Carrelage, fonde par Francois Rodrigues, artisan compagnon du Tour de France a Mersch. 25 ans d'experience en carrelage haut de gamme au Luxembourg.",
+      "h1": "Terranova Carrelage -- Artisan Compagnon depuis 2001",
+      "target_keywords": {
+        "primary": "Terranova Carrelage Mersch",
+        "secondary": ["Francois Rodrigues carreleur", "artisan compagnon carreleur Luxembourg"],
+        "long_tail": ["Terranova Carrelage avis artisan compagnon Mersch Luxembourg"]
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page E-E-A-T essentielle pour etablir credibilite, expertise et confiance aupres de Google et des utilisateurs",
+        "target_audience": "Prospects en phase de decision, Google pour E-E-A-T",
+        "content_type": "Page institutionnelle",
+        "key_sections": ["Histoire de l'entreprise", "Parcours Francois Rodrigues (Compagnon du Tour de France)", "Valeurs et engagements qualite", "Certifications et formations", "L'equipe", "Chiffres cles (annees, chantiers, m2 poses)", "CTA devis"],
+        "cta": "Confiez votre projet a un artisan compagnon",
+        "word_count": 1200
+      },
+      "technical_specs": {
+        "schema_markup": ["Organization", "Person", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/a-propos",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 30,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "realisations", "contact"],
+        "links_from": ["home", "all pages (navigation footer)"],
+        "anchor_text_suggestions": ["a propos", "notre histoire", "qui sommes-nous"]
+      }
+    },
+    {
+      "id": "contact",
+      "page_type": "utility",
+      "url": "/contact",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Devis Gratuit Carrelage Luxembourg | Terranova Mersch",
+      "meta_description": "Demandez votre devis carrelage gratuit au Luxembourg. Reponse sous 48h. Showroom a Mersch sur RDV. +352 26 54 88 75.",
+      "h1": "Demandez Votre Devis Carrelage Gratuit",
+      "target_keywords": {
+        "primary": "devis carrelage Luxembourg",
+        "secondary": ["devis carreleur Luxembourg", "contact carreleur Mersch"],
+        "long_tail": ["devis gratuit pose carrelage Luxembourg"]
+      },
+      "search_intent": "transactional",
+      "content_brief": {
+        "purpose": "Page de conversion principale avec formulaire de devis",
+        "target_audience": "Prospects prets a demander un devis",
+        "content_type": "Page de contact / conversion",
+        "key_sections": ["Formulaire de devis detaille (type de projet, surface, materiau, budget)", "Coordonnees completes", "Horaires et showroom Mersch", "Carte de localisation", "Processus de devis (3 etapes)", "Garanties", "Micro-temoignages"],
+        "cta": "Envoyer ma demande de devis",
+        "word_count": 400
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "ContactPoint", "BreadcrumbList", "PostalAddress"],
+        "canonical_url": "https://www.terranova-carrelage.lu/contact",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.9,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 60,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["home", "a-propos"],
+        "links_from": ["all pages (CTA)"],
+        "anchor_text_suggestions": ["devis gratuit", "demandez votre devis", "contactez-nous"]
+      }
+    },
+    {
+      "id": "pillar-carreleur-lu",
+      "page_type": "content",
+      "url": "/carreleur-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Carreleur Luxembourg | Pose Carrelage, Pierre & Mosaique | Terranova",
+      "meta_description": "Carreleur professionnel au Luxembourg. Pose carrelage sol, mural, pierre naturelle, mosaique, parquet carrele. 25 ans d'experience. Devis gratuit.",
+      "h1": "Carreleur au Luxembourg -- Votre Artisan Compagnon pour Tous Vos Projets",
+      "target_keywords": {
+        "primary": "carreleur Luxembourg",
+        "secondary": ["pose carrelage Luxembourg", "carrelage Luxembourg", "artisan carreleur Luxembourg"],
+        "long_tail": ["meilleur carreleur Luxembourg avis", "carreleur compagnon du Tour de France Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Pillar page UNIQUE ciblant les requetes commerciales generiques carreleur/carrelage Luxembourg. La homepage ne cible plus ces termes.",
+        "target_audience": "Toute personne cherchant un carreleur au Luxembourg",
+        "content_type": "Pillar page",
+        "key_sections": ["Presentation Terranova et Francois Rodrigues", "Tous les services de pose (liens cluster)", "Materiaux maitrises", "Zones d'intervention (liens zone pages)", "Processus de travail en 6 etapes", "Certifications et garanties", "Temoignages clients", "FAQ complete (10+ questions)", "CTA devis"],
+        "cta": "Obtenez votre devis sous 48h",
+        "word_count": 3000
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "AggregateRating"],
+        "canonical_url": "https://www.terranova-carrelage.lu/carreleur-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.9,
+        "changefreq": "weekly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 350,
+        "ranking_difficulty": "medium",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-mural", "srv-pierre", "srv-parquet", "srv-mosaique", "srv-faience", "realisations", "materiaux", "contact", "zones-index", "zone-luxembourg-ville", "zone-mersch", "zone-ettelbruck", "zone-bertrange", "zone-grevenmacher", "pillar-sdb", "pillar-terrasse", "pillar-cuisine", "blog-cout"],
+        "links_from": ["home", "all service pages", "all zone pages", "a-propos"],
+        "anchor_text_suggestions": ["carreleur Luxembourg", "votre carreleur au Luxembourg"]
+      }
+    },
+    {
+      "id": "pillar-pierre",
+      "page_type": "content",
+      "url": "/pierre-naturelle-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Pierre Naturelle Luxembourg | Marbre, Travertin, Ardoise | Terranova",
+      "meta_description": "Guide complet pierre naturelle au Luxembourg : marbre, travertin, granit, ardoise. Choix, pose, entretien. Artisan compagnon specialise. Devis gratuit.",
+      "h1": "Pierre Naturelle au Luxembourg -- Guide Complet par un Artisan Compagnon",
+      "target_keywords": {
+        "primary": "pierre naturelle Luxembourg",
+        "secondary": ["marbre Luxembourg", "travertin Luxembourg", "granit Luxembourg"],
+        "long_tail": ["guide pierre naturelle marbre travertin Luxembourg choix entretien"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Pillar page positionnant Terranova comme reference pierre naturelle -- angle GUIDE (choix + entretien), pas angle SERVICE (delegue a srv-pierre)",
+        "target_audience": "Clientele haut de gamme, architectes, decorateurs",
+        "content_type": "Pillar page",
+        "key_sections": ["Introduction expertise pierre naturelle", "Guide par type de pierre (marbre, travertin, granit, ardoise, quartzite)", "Comment choisir sa pierre", "Book matching et techniques avancees", "Impregnation et entretien long terme", "Realisations pierre", "FAQ", "CTA devis"],
+        "cta": "Devis pierre naturelle sous 48h",
+        "word_count": 2500
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "FAQPage", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/pierre-naturelle-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 90,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-pierre", "materiaux", "realisations", "contact", "blog-choisir", "blog-entretien"],
+        "links_from": ["home", "srv-pierre", "materiaux", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["pierre naturelle Luxembourg", "guide pierre naturelle"]
+      }
+    },
+    {
+      "id": "pillar-renovation",
+      "page_type": "content",
+      "url": "/renovation-carrelage-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Renovation Carrelage Luxembourg | Solutions Completes | Terranova",
+      "meta_description": "Renovation de carrelage au Luxembourg : rejointoiement epoxy, remplacement carreaux, depose et repose, polissage marbre. Guide complet. Devis sous 48h.",
+      "h1": "Renovation de Carrelage au Luxembourg -- Toutes les Solutions",
+      "target_keywords": {
+        "primary": "renovation carrelage Luxembourg",
+        "secondary": ["rejointoiement Luxembourg", "remettre a neuf carrelage Luxembourg"],
+        "long_tail": ["renovation carrelage salle de bain prix Luxembourg 2026"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Pillar page regroupant toutes les solutions de renovation -- angle GUIDE DECISIONAL (quelle solution choisir), pas angle SERVICE (delegue a srv-renovation)",
+        "target_audience": "Proprietaires avec carrelage vieilli souhaitant comprendre leurs options",
+        "content_type": "Pillar page",
+        "key_sections": ["Diagnostic : quand renover ?", "3 solutions comparees (rejointoiement, polissage, depose-repose)", "Arbre de decision", "Comparatif couts detaille", "Cas clients avant/apres", "FAQ", "CTA devis"],
+        "cta": "Demandez votre diagnostic gratuit",
+        "word_count": 2500
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "FAQPage", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/renovation-carrelage-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 70,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-renovation", "srv-jointoyage", "srv-reparation", "contact", "blog-joint-epoxy", "realisations"],
+        "links_from": ["home", "srv-renovation", "srv-jointoyage", "srv-reparation", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["renovation carrelage", "renover votre carrelage", "solutions renovation"]
+      }
+    },
+    {
+      "id": "pillar-sdb",
+      "page_type": "content",
+      "url": "/carrelage-salle-de-bain-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Carrelage Salle de Bain Luxembourg | Pose & Etancheite | Terranova",
+      "meta_description": "Pose de carrelage salle de bain au Luxembourg. Etancheite Schluter-Ditra, faience, douche italienne, mosaique. Garantie 10 ans. Devis gratuit.",
+      "h1": "Carrelage Salle de Bain au Luxembourg -- Pose, Etancheite & Design",
+      "target_keywords": {
+        "primary": "carrelage salle de bain Luxembourg",
+        "secondary": ["carreleur salle de bain Luxembourg", "douche italienne carrelage Luxembourg"],
+        "long_tail": ["pose carrelage douche italienne Luxembourg prix"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Pillar page ciblant le segment salle de bain, tres recherche et a forte conversion",
+        "target_audience": "Proprietaires renovant ou construisant une salle de bain",
+        "content_type": "Pillar page",
+        "key_sections": ["Expertise salle de bain", "Etancheite sous carrelage (Schluter)", "Douche italienne", "Materiaux adaptes (gres, faience, mosaique)", "Niches et accessoires", "Realisations SDB", "FAQ", "CTA devis"],
+        "cta": "Devis salle de bain sous 48h",
+        "word_count": 2500
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "FAQPage", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/carrelage-salle-de-bain-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 100,
+        "ranking_difficulty": "medium",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-mural", "srv-faience", "srv-mosaique", "realisations", "contact", "blog-cout", "pillar-carreleur-lu"],
+        "links_from": ["home", "srv-mural", "srv-faience", "srv-mosaique", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carrelage salle de bain", "salle de bain carrelee"]
+      }
+    },
+    {
+      "id": "pillar-terrasse",
+      "page_type": "content",
+      "url": "/carrelage-terrasse-exterieur-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Carrelage Terrasse Exterieur Luxembourg | Antiderapant | Terranova",
+      "meta_description": "Pose carrelage terrasse et exterieur au Luxembourg : gres cerame 20mm, pierre naturelle, dalles sur plots. Antiderapant R11. Devis gratuit.",
+      "h1": "Carrelage Terrasse et Exterieur au Luxembourg -- Pose & Materiaux",
+      "target_keywords": {
+        "primary": "carrelage terrasse Luxembourg",
+        "secondary": ["carrelage exterieur Luxembourg", "pose dalles terrasse Luxembourg"],
+        "long_tail": ["pose carrelage terrasse exterieur antiderapant Luxembourg", "dalles sur plots terrasse Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "NOUVELLE PAGE -- Comble une lacune majeure : le segment terrasse/exterieur est absent du sitemap original alors qu'il represente un pic saisonnier mars-juin et un volume de recherche significatif",
+        "target_audience": "Proprietaires avec terrasse ou projet exterieur",
+        "content_type": "Pillar page",
+        "key_sections": ["Carrelage exterieur : contraintes specifiques", "Materiaux adaptes (gres 20mm, pierre, beton)", "Techniques (colle, plots, sable)", "Normes antiderapantes (R11, R12)", "Drainage et pentes", "Realisations terrasses", "FAQ", "CTA devis"],
+        "cta": "Devis terrasse sous 48h",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "FAQPage", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/carrelage-terrasse-exterieur-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 80,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.6
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-pierre", "realisations", "contact", "materiaux", "pillar-carreleur-lu"],
+        "links_from": ["home", "srv-sol", "srv-pierre", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carrelage terrasse", "carrelage exterieur Luxembourg"]
+      }
+    },
+    {
+      "id": "pillar-cuisine",
+      "page_type": "content",
+      "url": "/carrelage-cuisine-luxembourg",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Carrelage Cuisine Luxembourg | Credence, Sol & Design | Terranova",
+      "meta_description": "Pose de carrelage cuisine au Luxembourg : credence, sol, plan de travail. Faience, zellige, gres cerame. Artisan compagnon. Devis gratuit.",
+      "h1": "Carrelage Cuisine au Luxembourg -- Credence, Sol & Plan de Travail",
+      "target_keywords": {
+        "primary": "carrelage cuisine Luxembourg",
+        "secondary": ["credence cuisine carrelage Luxembourg", "carreleur cuisine Luxembourg"],
+        "long_tail": ["pose carrelage credence cuisine zellige Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "NOUVELLE PAGE -- Segment cuisine absent du sitemap original, pourtant recherche et a forte conversion",
+        "target_audience": "Proprietaires renovant ou amenageant une cuisine",
+        "content_type": "Pillar page",
+        "key_sections": ["Carrelage cuisine : sol vs credence vs plan de travail", "Materiaux recommandes par zone", "Tendances credence (zellige, subway, metro)", "Grand format sol cuisine", "Entretien facile", "Realisations cuisines", "FAQ", "CTA devis"],
+        "cta": "Devis cuisine sous 48h",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Service", "FAQPage", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/carrelage-cuisine-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.8,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 70,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-mural", "srv-faience", "srv-sol", "realisations", "contact", "materiaux", "pillar-carreleur-lu"],
+        "links_from": ["home", "srv-mural", "srv-faience", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carrelage cuisine", "credence cuisine Luxembourg"]
+      }
+    },
+    {
+      "id": "zones-index",
+      "page_type": "category",
+      "url": "/zones-intervention",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Zones d'Intervention Carreleur Luxembourg | Terranova",
+      "meta_description": "Terranova Carrelage intervient dans tout le Luxembourg : Luxembourg-Ville, Mersch, Bertrange, Ettelbruck, Grevenmacher. Carreleur proche de chez vous.",
+      "h1": "Nos Zones d'Intervention au Luxembourg",
+      "target_keywords": {
+        "primary": "carreleur Luxembourg zones",
+        "secondary": ["carreleur proche de moi Luxembourg", "zone intervention carreleur"],
+        "long_tail": ["carreleur intervenant tout le Luxembourg"]
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page hub pour les zones d'intervention -- ameliore la structure hierarchique et le maillage interne des pages locales",
+        "target_audience": "Prospects cherchant un carreleur dans leur zone",
+        "content_type": "Page categorie",
+        "key_sections": ["Carte interactive du Luxembourg avec zones", "Liste des zones avec description courte", "Rayon d'intervention depuis Mersch", "CTA devis"],
+        "cta": "Trouvez votre carreleur local",
+        "word_count": 500
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "BreadcrumbList", "ItemList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 20,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["zone-luxembourg-ville", "zone-mersch", "zone-ettelbruck", "zone-bertrange", "zone-grevenmacher", "contact"],
+        "links_from": ["home", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["zones d'intervention", "ou intervenons-nous"]
+      }
+    },
+    {
+      "id": "zone-luxembourg-ville",
+      "page_type": "content",
+      "url": "/zones-intervention/luxembourg-ville",
+      "parent_id": "zones-index",
+      "level": 2,
+      "meta_title": "Carreleur Luxembourg-Ville | Kirchberg, Limpertsberg, Belair",
+      "meta_description": "Carreleur a Luxembourg-Ville : Kirchberg, Limpertsberg, Belair. Pose carrelage, marbre, pierre naturelle. Artisan compagnon. Devis gratuit.",
+      "h1": "Carreleur a Luxembourg-Ville -- Pose Carrelage Haut de Gamme",
+      "target_keywords": {
+        "primary": "carreleur Luxembourg-Ville",
+        "secondary": ["pose carrelage Luxembourg-Ville", "carrelage Kirchberg"],
+        "long_tail": ["carreleur haut de gamme Luxembourg-Ville Kirchberg Limpertsberg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page locale ciblant les recherches geolocalisees Luxembourg-Ville",
+        "target_audience": "Residents de Luxembourg-Ville et quartiers premium",
+        "content_type": "Landing page locale",
+        "key_sections": ["Presentation intervention a Luxembourg-Ville", "Quartiers desservis (Kirchberg, Limpertsberg, Belair, Hollerich, Bonnevoie, Gasperich)", "Expertise immeubles anciens et residences modernes", "Realisations dans la capitale", "Temoignages locaux", "CTA devis"],
+        "cta": "Devis gratuit a Luxembourg-Ville",
+        "word_count": 1200
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "BreadcrumbList", "GeoCoordinates"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention/luxembourg-ville",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 45,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "srv-sol", "srv-pierre", "contact", "realisations"],
+        "links_from": ["zones-index", "pillar-carreleur-lu", "home"],
+        "anchor_text_suggestions": ["carreleur Luxembourg-Ville", "carrelage a Luxembourg-Ville"]
+      }
+    },
+    {
+      "id": "zone-mersch",
+      "page_type": "content",
+      "url": "/zones-intervention/mersch-steinfort",
+      "parent_id": "zones-index",
+      "level": 2,
+      "meta_title": "Carreleur Mersch & Steinfort | Siege Terranova Carrelage",
+      "meta_description": "Carreleur a Mersch et Steinfort -- siege de Terranova Carrelage. Presence locale, delais rapides. Pose carrelage, pierre naturelle. Devis gratuit.",
+      "h1": "Carreleur a Mersch et Steinfort -- Notre Siege, Votre Proximite",
+      "target_keywords": {
+        "primary": "carreleur Mersch",
+        "secondary": ["carreleur Steinfort", "pose carrelage Mersch"],
+        "long_tail": ["carreleur professionnel Mersch Steinfort Luxembourg"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page locale pour la zone de Mersch-Steinfort (siege de l'entreprise) -- renforce le signal local principal",
+        "target_audience": "Residents de Mersch, Steinfort et communes avoisinantes",
+        "content_type": "Landing page locale",
+        "key_sections": ["Presence locale a Mersch (siege)", "Communes desservies", "Avantage proximite et reactivite", "Showroom sur RDV", "Realisations locales", "CTA devis"],
+        "cta": "Devis gratuit -- intervention rapide a Mersch",
+        "word_count": 1000
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "BreadcrumbList", "GeoCoordinates"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention/mersch-steinfort",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 25,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "srv-sol", "contact", "a-propos", "realisations"],
+        "links_from": ["zones-index", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carreleur Mersch", "carrelage Mersch Steinfort"]
+      }
+    },
+    {
+      "id": "zone-ettelbruck",
+      "page_type": "content",
+      "url": "/zones-intervention/ettelbruck-diekirch",
+      "parent_id": "zones-index",
+      "level": 2,
+      "meta_title": "Carreleur Ettelbruck & Diekirch | Nord Luxembourg | Terranova",
+      "meta_description": "Carreleur a Ettelbruck et Diekirch, nord du Luxembourg. Residentiel et hotellerie. Pose carrelage, pierre naturelle. Devis gratuit.",
+      "h1": "Carreleur a Ettelbruck et Diekirch -- Nord du Luxembourg",
+      "target_keywords": {
+        "primary": "carreleur Ettelbruck",
+        "secondary": ["carreleur Diekirch", "pose carrelage nord Luxembourg"],
+        "long_tail": ["carreleur Ettelbruck Diekirch Wiltz Clervaux"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page locale pour le nord du Grand-Duche",
+        "target_audience": "Residents et hoteliers du nord Luxembourg",
+        "content_type": "Landing page locale",
+        "key_sections": ["Couverture nord Luxembourg", "Communes desservies", "Expertise hotellerie Ardenne", "CTA devis"],
+        "cta": "Devis gratuit -- Nord Luxembourg",
+        "word_count": 1000
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "BreadcrumbList", "GeoCoordinates"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention/ettelbruck-diekirch",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 20,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "srv-sol", "contact", "realisations"],
+        "links_from": ["zones-index", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carreleur Ettelbruck", "carrelage nord Luxembourg"]
+      }
+    },
+    {
+      "id": "zone-bertrange",
+      "page_type": "content",
+      "url": "/zones-intervention/bertrange-mamer",
+      "parent_id": "zones-index",
+      "level": 2,
+      "meta_title": "Carreleur Bertrange & Mamer | Villas Premium | Terranova",
+      "meta_description": "Carreleur a Bertrange et Mamer. Specialiste villas haut de gamme, marbre, travertin, grand format. Devis gratuit. +352 26 54 88 75.",
+      "h1": "Carreleur a Bertrange et Mamer -- Villas et Residences Premium",
+      "target_keywords": {
+        "primary": "carreleur Bertrange",
+        "secondary": ["carreleur Mamer", "carrelage haut de gamme Bertrange"],
+        "long_tail": ["carreleur villas Bertrange Mamer Strassen Capellen"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page locale ciblant la zone ouest haut de gamme",
+        "target_audience": "Proprietaires de villas dans la zone Bertrange-Mamer",
+        "content_type": "Landing page locale",
+        "key_sections": ["Specialisation villas premium", "Communes desservies (Bertrange, Mamer, Strassen, Capellen, Kopstal)", "Materiaux nobles", "Realisations zone ouest", "CTA devis"],
+        "cta": "Devis gratuit -- Bertrange & Mamer",
+        "word_count": 1000
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "BreadcrumbList", "GeoCoordinates"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention/bertrange-mamer",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 25,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "srv-pierre", "pillar-pierre", "contact", "realisations"],
+        "links_from": ["zones-index", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carreleur Bertrange", "carrelage Bertrange Mamer"]
+      }
+    },
+    {
+      "id": "zone-grevenmacher",
+      "page_type": "content",
+      "url": "/zones-intervention/grevenmacher-remich",
+      "parent_id": "zones-index",
+      "level": 2,
+      "meta_title": "Carreleur Grevenmacher & Remich | Moselle Luxembourg | Terranova",
+      "meta_description": "Carreleur a Grevenmacher et Remich, vallee de la Moselle luxembourgeoise. Maisons viticoles, pierre de taille. Devis gratuit.",
+      "h1": "Carreleur a Grevenmacher et Remich -- Vallee de la Moselle",
+      "target_keywords": {
+        "primary": "carreleur Grevenmacher",
+        "secondary": ["carreleur Remich", "carrelage Moselle Luxembourg"],
+        "long_tail": ["carreleur Grevenmacher Remich Moselle luxembourgeoise"]
+      },
+      "search_intent": "commercial",
+      "content_brief": {
+        "purpose": "Page locale pour la region Moselle",
+        "target_audience": "Residents de la Moselle luxembourgeoise",
+        "content_type": "Landing page locale",
+        "key_sections": ["Interventions Moselle", "Communes desservies", "Expertise maisons viticoles", "CTA devis"],
+        "cta": "Devis gratuit -- Moselle luxembourgeoise",
+        "word_count": 1000
+      },
+      "technical_specs": {
+        "schema_markup": ["LocalBusiness", "Service", "BreadcrumbList", "GeoCoordinates"],
+        "canonical_url": "https://www.terranova-carrelage.lu/zones-intervention/grevenmacher-remich",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "monthly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 15,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["pillar-carreleur-lu", "srv-sol", "contact", "realisations"],
+        "links_from": ["zones-index", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["carreleur Grevenmacher", "carrelage Remich"]
+      }
+    },
+    {
+      "id": "blog-index",
+      "page_type": "category",
+      "url": "/blog",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Blog Carrelage Luxembourg | Conseils & Tendances | Terranova",
+      "meta_description": "Conseils carrelage par un artisan compagnon : prix, tendances, materiaux, techniques de pose. Blog Terranova Carrelage Luxembourg.",
+      "h1": "Blog Carrelage -- Conseils, Tendances & Guides",
+      "target_keywords": {
+        "primary": "blog carrelage Luxembourg",
+        "secondary": ["conseils carrelage", "guide carrelage Luxembourg"],
+        "long_tail": ["conseils pose carrelage artisan Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Page hub du blog -- ameliore la structure hierarchique et permet la pagination future",
+        "target_audience": "Lecteurs en phase de recherche",
+        "content_type": "Page categorie blog",
+        "key_sections": ["Liste des articles recents", "Filtres par categorie (prix, materiaux, tendances, techniques)", "Articles populaires", "CTA newsletter ou devis"],
+        "cta": "Lisez nos conseils d'expert",
+        "word_count": 300
+      },
+      "technical_specs": {
+        "schema_markup": ["Blog", "BreadcrumbList", "ItemList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "weekly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 30,
+        "ranking_difficulty": "low",
+        "conversion_potential": "low",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["blog-cout", "blog-choisir", "blog-joint-epoxy", "blog-calepinage", "blog-tendances", "blog-entretien"],
+        "links_from": ["home", "all pages (navigation)"],
+        "anchor_text_suggestions": ["notre blog", "conseils carrelage"]
+      }
+    },
+    {
+      "id": "blog-cout",
+      "page_type": "content",
+      "url": "/blog/cout-pose-carrelage-luxembourg-2026",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Prix Pose Carrelage Luxembourg 2026 | Tarifs au m2 par Type",
+      "meta_description": "Combien coute la pose de carrelage au Luxembourg en 2026 ? Tarifs par m2 selon le type de pose, format et materiau. Guide complet par un artisan.",
+      "h1": "Combien Coute la Pose de Carrelage au Luxembourg en 2026 ?",
+      "target_keywords": {
+        "primary": "prix pose carrelage Luxembourg 2026",
+        "secondary": ["tarif carreleur Luxembourg", "cout carrelage m2 Luxembourg"],
+        "long_tail": ["combien coute pose carrelage salle de bain Luxembourg 2026"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Article SEO ciblant les requetes prix/budget, fort potentiel de trafic et de conversion",
+        "target_audience": "Proprietaires en phase de budgetisation de travaux",
+        "content_type": "Article blog",
+        "key_sections": ["Tarifs moyens par type de pose", "Facteurs influencant le prix", "Tableaux comparatifs", "Exemples de devis reels anonymises", "Astuces pour optimiser son budget", "CTA devis personnalise"],
+        "cta": "Obtenez votre devis personnalise gratuit",
+        "word_count": 2500
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "FAQPage", "HowTo"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/cout-pose-carrelage-luxembourg-2026",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.7,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 180,
+        "ranking_difficulty": "low",
+        "conversion_potential": "high",
+        "seasonal_factor": 0.9
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-mural", "srv-pierre", "pillar-sdb", "pillar-terrasse", "contact"],
+        "links_from": ["blog-index", "pillar-sdb", "pillar-carreleur-lu"],
+        "anchor_text_suggestions": ["prix pose carrelage Luxembourg", "tarifs carrelage 2026"]
+      }
+    },
+    {
+      "id": "blog-choisir",
+      "page_type": "content",
+      "url": "/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Comment Choisir Son Carrelage au Luxembourg | Guide Comparatif",
+      "meta_description": "Guide pour choisir entre gres cerame, faience et pierre naturelle au Luxembourg. Comparatif, avantages et conseils d'un artisan carreleur.",
+      "h1": "Comment Choisir Son Carrelage au Luxembourg : Gres, Faience ou Pierre ?",
+      "target_keywords": {
+        "primary": "choisir carrelage Luxembourg",
+        "secondary": ["gres cerame vs pierre naturelle", "quel carrelage choisir"],
+        "long_tail": ["comment choisir carrelage faience pierre naturelle salle de bain cuisine Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Article conseil pour aider au choix de materiau et positionner l'expertise Terranova",
+        "target_audience": "Proprietaires en debut de projet, phase de recherche",
+        "content_type": "Article blog",
+        "key_sections": ["Gres cerame : avantages et limites", "Faience : usages et esthetique", "Pierre naturelle : prestige et entretien", "Tableau comparatif", "Quel materiau pour quelle piece", "CTA conseil personnalise"],
+        "cta": "Besoin d'un conseil personnalise ? Contactez-nous",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 120,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["materiaux", "srv-faience", "srv-pierre", "pillar-pierre", "contact"],
+        "links_from": ["blog-index", "materiaux", "pillar-pierre"],
+        "anchor_text_suggestions": ["choisir son carrelage", "guide choix carrelage"]
+      }
+    },
+    {
+      "id": "blog-joint-epoxy",
+      "page_type": "content",
+      "url": "/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Joint Epoxy vs Ciment Carrelage | Comparatif Complet Luxembourg",
+      "meta_description": "Joint epoxy ou joint ciment pour votre carrelage ? Comparatif complet : durabilite, prix, entretien. Conseils d'un carreleur professionnel au Luxembourg.",
+      "h1": "Joint Epoxy vs Joint Ciment : Tout Savoir pour Bien Choisir",
+      "target_keywords": {
+        "primary": "joint epoxy carrelage Luxembourg",
+        "secondary": ["joint epoxy vs ciment", "joint carrelage salle de bain"],
+        "long_tail": ["joint epoxy ou ciment carrelage salle de bain douche Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Article technique comparatif pour capter du trafic informationnel et valoriser l'expertise",
+        "target_audience": "Proprietaires et bricoleurs interesses par les joints de carrelage",
+        "content_type": "Article blog",
+        "key_sections": ["Joint ciment : caracteristiques", "Joint epoxy : caracteristiques", "Tableau comparatif", "Quand choisir l'un ou l'autre", "Prix compares", "CTA devis"],
+        "cta": "Faites rejointoyer votre carrelage par un pro",
+        "word_count": 1800
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "FAQPage"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 90,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-jointoyage", "pillar-renovation", "pillar-sdb", "contact"],
+        "links_from": ["blog-index", "srv-jointoyage", "pillar-renovation"],
+        "anchor_text_suggestions": ["joint epoxy vs ciment", "comparatif joints carrelage"]
+      }
+    },
+    {
+      "id": "blog-calepinage",
+      "page_type": "content",
+      "url": "/blog/calepinage-carrelage-pose-droite-diagonale-chevron-luxembourg",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Calepinage Carrelage : Droite, Diagonale ou Chevron ? | Guide",
+      "meta_description": "Pose droite, diagonale ou chevron : quel calepinage pour votre carrelage au Luxembourg ? Comparatif visuel, couts et conseils d'un artisan compagnon.",
+      "h1": "Pose Droite, Diagonale ou Chevron : Quel Calepinage Choisir ?",
+      "target_keywords": {
+        "primary": "calepinage carrelage Luxembourg",
+        "secondary": ["pose carrelage diagonale", "pose carrelage chevron"],
+        "long_tail": ["pose carrelage droite diagonale chevron comparatif Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Article technique sur les types de calepinage, differenciant l'expertise compagnon",
+        "target_audience": "Proprietaires en phase de choix esthetique",
+        "content_type": "Article blog",
+        "key_sections": ["Pose droite", "Pose en diagonale", "Pose en chevron", "Opus romain", "Comparatif visuel et couts", "Impact sur la perception de l'espace", "CTA devis"],
+        "cta": "Demandez un conseil calepinage gratuit",
+        "word_count": 1800
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "HowTo"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/calepinage-carrelage-pose-droite-diagonale-chevron-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 70,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-parquet", "pillar-carreleur-lu", "contact"],
+        "links_from": ["blog-index", "srv-parquet", "srv-sol"],
+        "anchor_text_suggestions": ["types de calepinage", "pose droite diagonale chevron"]
+      }
+    },
+    {
+      "id": "blog-tendances",
+      "page_type": "content",
+      "url": "/blog/tendances-carrelage-2026-luxembourg",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Tendances Carrelage 2026 Luxembourg | Grands Formats & Terrazzo",
+      "meta_description": "Tendances carrelage 2026 au Luxembourg : grands formats, terrazzo, effets matiere, teintes naturelles. Decryptage par un artisan carreleur professionnel.",
+      "h1": "Tendances Carrelage 2026 au Luxembourg : Grands Formats, Terrazzo & Effets Matiere",
+      "target_keywords": {
+        "primary": "tendances carrelage 2026 Luxembourg",
+        "secondary": ["carrelage tendance 2026", "carrelage grand format tendance"],
+        "long_tail": ["tendances carrelage salle de bain cuisine 2026 Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "Article tendance annuel pour capter le trafic saisonnier et montrer l'actualite de Terranova",
+        "target_audience": "Proprietaires, architectes et decorateurs en veille tendances",
+        "content_type": "Article blog",
+        "key_sections": ["Grands formats (120x260cm)", "Effet terrazzo", "Effets matiere (pierre, beton, metal)", "Teintes naturelles", "Formats lames XXL", "Inspirations salons 2026", "CTA devis"],
+        "cta": "Integrez les tendances 2026 dans votre projet",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/tendances-carrelage-2026-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 130,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.3
+      },
+      "internal_linking": {
+        "links_to": ["srv-sol", "srv-parquet", "materiaux", "pillar-terrasse", "contact"],
+        "links_from": ["blog-index", "home", "materiaux"],
+        "anchor_text_suggestions": ["tendances carrelage 2026", "carrelage tendance"]
+      }
+    },
+    {
+      "id": "blog-entretien",
+      "page_type": "content",
+      "url": "/blog/entretien-carrelage-pierre-naturelle-luxembourg",
+      "parent_id": "blog-index",
+      "level": 2,
+      "meta_title": "Entretien Carrelage & Pierre Naturelle | Guide Complet Luxembourg",
+      "meta_description": "Comment entretenir votre carrelage et pierre naturelle au Luxembourg ? Produits, frequence, erreurs a eviter. Guide par un artisan compagnon.",
+      "h1": "Entretien Carrelage et Pierre Naturelle -- Guide Complet",
+      "target_keywords": {
+        "primary": "entretien carrelage Luxembourg",
+        "secondary": ["entretien pierre naturelle", "nettoyage marbre Luxembourg"],
+        "long_tail": ["comment entretenir carrelage gres cerame pierre naturelle marbre Luxembourg"]
+      },
+      "search_intent": "informational",
+      "content_brief": {
+        "purpose": "NOUVEL ARTICLE -- Comble l'absence de contenu post-achat. Cible des requetes a volume moyen et fidelise les clients existants",
+        "target_audience": "Proprietaires ayant deja du carrelage pose, clients existants",
+        "content_type": "Article blog",
+        "key_sections": ["Entretien gres cerame (quotidien et periodique)", "Entretien pierre naturelle par type", "Produits recommandes et a eviter", "Impregnation et re-traitement", "Erreurs courantes", "Quand faire appel a un professionnel", "CTA service renovation/polissage"],
+        "cta": "Votre carrelage a besoin d'un rafraichissement ? Contactez-nous",
+        "word_count": 2000
+      },
+      "technical_specs": {
+        "schema_markup": ["Article", "BreadcrumbList", "FAQPage", "HowTo"],
+        "canonical_url": "https://www.terranova-carrelage.lu/blog/entretien-carrelage-pierre-naturelle-luxembourg",
+        "hreflang": "fr-LU",
+        "robots": "index, follow",
+        "priority": 0.6,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 80,
+        "ranking_difficulty": "low",
+        "conversion_potential": "medium",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["srv-renovation", "srv-jointoyage", "pillar-pierre", "materiaux", "contact"],
+        "links_from": ["blog-index", "pillar-pierre", "materiaux", "srv-pierre"],
+        "anchor_text_suggestions": ["entretien carrelage", "guide entretien pierre naturelle"]
+      }
+    },
+    {
+      "id": "mentions-legales",
+      "page_type": "utility",
+      "url": "/mentions-legales",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Mentions Legales | Terranova Carrelage Luxembourg",
+      "meta_description": "Mentions legales de Terranova Carrelage, carreleur a Mersch, Luxembourg. Informations societaires, editeur du site, hebergement.",
+      "h1": "Mentions Legales",
+      "target_keywords": {
+        "primary": "mentions legales Terranova Carrelage",
+        "secondary": [],
+        "long_tail": []
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page obligatoire legalement -- RGPD et droit luxembourgeois",
+        "target_audience": "Obligation legale",
+        "content_type": "Page utilitaire",
+        "key_sections": ["Editeur du site", "Numero RCS Luxembourg", "TVA intracommunautaire", "Hebergeur", "Credits photos", "Propriete intellectuelle"],
+        "cta": null,
+        "word_count": 300
+      },
+      "technical_specs": {
+        "schema_markup": ["BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/mentions-legales",
+        "hreflang": "fr-LU",
+        "robots": "noindex, follow",
+        "priority": 0.1,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 0,
+        "ranking_difficulty": "low",
+        "conversion_potential": "none",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["home"],
+        "links_from": ["all pages (footer)"],
+        "anchor_text_suggestions": ["mentions legales"]
+      }
+    },
+    {
+      "id": "politique-confidentialite",
+      "page_type": "utility",
+      "url": "/politique-confidentialite",
+      "parent_id": "home",
+      "level": 1,
+      "meta_title": "Politique de Confidentialite | Terranova Carrelage Luxembourg",
+      "meta_description": "Politique de confidentialite et gestion des donnees personnelles de Terranova Carrelage Luxembourg. Conformite RGPD.",
+      "h1": "Politique de Confidentialite",
+      "target_keywords": {
+        "primary": "politique confidentialite Terranova Carrelage",
+        "secondary": [],
+        "long_tail": []
+      },
+      "search_intent": "navigational",
+      "content_brief": {
+        "purpose": "Page obligatoire RGPD -- indispensable pour le formulaire de contact/devis",
+        "target_audience": "Obligation legale",
+        "content_type": "Page utilitaire",
+        "key_sections": ["Donnees collectees", "Finalites du traitement", "Base legale", "Duree de conservation", "Droits des utilisateurs", "Cookies", "Contact DPO"],
+        "cta": null,
+        "word_count": 500
+      },
+      "technical_specs": {
+        "schema_markup": ["BreadcrumbList"],
+        "canonical_url": "https://www.terranova-carrelage.lu/politique-confidentialite",
+        "hreflang": "fr-LU",
+        "robots": "noindex, follow",
+        "priority": 0.1,
+        "changefreq": "yearly"
+      },
+      "seo_metrics": {
+        "estimated_monthly_traffic": 0,
+        "ranking_difficulty": "low",
+        "conversion_potential": "none",
+        "seasonal_factor": 1.0
+      },
+      "internal_linking": {
+        "links_to": ["home", "contact"],
+        "links_from": ["all pages (footer)", "contact (formulaire)"],
+        "anchor_text_suggestions": ["politique de confidentialite"]
+      }
+    }
+  ],
+  "implementation_roadmap": {
+    "phase_1": {
+      "priority": "critical",
+      "label": "Pages fondamentales et pillar principale",
+      "pages": ["home", "contact", "pillar-carreleur-lu", "srv-sol", "srv-pierre", "srv-parquet", "realisations", "a-propos", "mentions-legales", "politique-confidentialite"],
+      "estimated_time": "3-4 semaines",
+      "dependencies": ["Contenu redige", "Photos de realisations", "Formulaire de contact operationnel", "Schema LocalBusiness configure", "Textes mentions legales valides par un juriste"]
+    },
+    "phase_2": {
+      "priority": "high",
+      "label": "Pillar pages thematiques et services restants",
+      "pages": ["pillar-sdb", "pillar-pierre", "pillar-renovation", "pillar-terrasse", "pillar-cuisine", "srv-mural", "srv-faience", "srv-mosaique", "srv-jointoyage", "srv-renovation", "srv-reparation", "services-index", "materiaux"],
+      "estimated_time": "4-5 semaines",
+      "dependencies": ["Phase 1 en ligne", "Contenu services complet", "Photos supplementaires par type de projet"]
+    },
+    "phase_3": {
+      "priority": "medium",
+      "label": "SEO local et contenu blog",
+      "pages": ["zones-index", "zone-luxembourg-ville", "zone-mersch", "zone-ettelbruck", "zone-bertrange", "zone-grevenmacher", "blog-index", "blog-cout", "blog-choisir", "blog-joint-epoxy", "blog-calepinage", "blog-tendances", "blog-entretien"],
+      "estimated_time": "4-5 semaines",
+      "dependencies": ["Phase 2 en ligne", "Redaction articles blog", "Contenu local specifique par zone", "Photos de chantiers par zone"]
+    }
+  },
+  "technical_recommendations": {
+    "url_structure": "Structure plate pour les pillar pages (/carreleur-luxembourg, /pierre-naturelle-luxembourg), hierarchique pour les services (/services/pose-carrelage-sol), zones (/zones-intervention/luxembourg-ville) et blog (/blog/slug). Les hubs /services, /zones-intervention et /blog servent de pages categorie.",
+    "breadcrumb_strategy": "Fil d'Ariane sur toutes les pages avec schema BreadcrumbList. Exemples : Accueil > Services > Pose Carrelage Sol | Accueil > Blog > Prix Pose Carrelage 2026 | Accueil > Zones > Luxembourg-Ville. Les pillar pages ont un breadcrumb a 2 niveaux : Accueil > Carreleur Luxembourg.",
+    "pagination_approach": "Non applicable actuellement. Si le blog depasse 10 articles, implementer une pagination avec rel=next/prev sur /blog?page=2.",
+    "filter_handling": "Non applicable. Aucun filtre generant des URL distinctes. La galerie Realisations utilise des filtres JavaScript cote client sans modification d'URL.",
+    "redirect_strategy": [
+      "Rediriger /accueil vers / (301)",
+      "Rediriger /devis vers /contact (301)",
+      "Rediriger /pose-pierre-naturelle-luxembourg vers /pierre-naturelle-luxembourg (301) -- URL pillar modifiee",
+      "Rediriger toute ancienne URL de service vers la nouvelle structure /services/slug (301)",
+      "Forcer HTTPS et www via redirections 301 serveur",
+      "Rediriger /blog/ (avec trailing slash) vers /blog (sans trailing slash) -- uniformiser"
+    ],
+    "xml_sitemap_notes": "Generer un sitemap.xml avec les 33 pages indexables (exclure mentions-legales et politique-confidentialite qui sont noindex). Soumettre via Google Search Console et Bing Webmaster Tools. Mettre a jour automatiquement lors de l'ajout d'articles blog.",
+    "robots_txt": "Autoriser tous les crawlers sur /. Bloquer /admin/, /api/, /tmp/. Specifier l'URL du sitemap.xml.",
+    "performance_notes": "Lazy loading obligatoire pour la galerie Realisations. WebP/AVIF pour toutes les images. Preload des polices. LCP cible < 2.5s sur mobile."
+  }
+}

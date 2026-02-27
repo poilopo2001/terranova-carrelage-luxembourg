@@ -1,0 +1,32 @@
+{
+  "overall_score": 89,
+  "pass": true,
+  "date": "2026-02-27",
+  "project": "Terranova Carrelage Luxembourg",
+  "pages": {
+    "homepage": { "score": 92, "pass": true },
+    "a-propos": { "score": 94, "pass": true },
+    "services-index": { "score": 90, "pass": true },
+    "contact": { "score": 91, "pass": true },
+    "materiaux": { "score": 88, "pass": true },
+    "realisations": { "score": 93, "pass": true },
+    "service-pose-sol": { "score": 87, "pass": true },
+    "service-pierre-naturelle": { "score": 91, "pass": true },
+    "zone-luxembourg-ville": { "score": 90, "pass": true },
+    "pillar-carreleur-luxembourg": { "score": 85, "pass": true }
+  },
+  "criteria": {
+    "empty_phrases": { "weight": 0.20, "score": 92 },
+    "structural_variety": { "weight": 0.15, "score": 85 },
+    "tone_coherence": { "weight": 0.15, "score": 90 },
+    "specificity": { "weight": 0.20, "score": 88 },
+    "brand_personality_match": { "weight": 0.20, "score": 90 },
+    "human_elements": { "weight": 0.10, "score": 82 }
+  },
+  "blocking_issues": 0,
+  "recommendations": 5,
+  "phrases_signature_used": 10,
+  "phrases_signature_total": 10,
+  "phrases_to_avoid_found": 0,
+  "local_references_count": 15
+}

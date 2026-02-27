@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* === BRAND COLORS === */
+  --color-brand-900: oklch(0.27 0.04 45);
+  --color-brand-800: oklch(0.33 0.04 45);
+  --color-brand-700: oklch(0.39 0.04 45);
+  --color-brand-600: oklch(0.44 0.04 45);
+  --color-brand-500: oklch(0.50 0.04 45);
+
+  /* === ACCENT COLORS (Ocre Dore) === */
+  --color-accent-700: oklch(0.56 0.10 65);
+  --color-accent-600: oklch(0.62 0.10 65);
+  --color-accent-500: oklch(0.68 0.10 65);
+  --color-accent-400: oklch(0.74 0.08 65);
+  --color-accent-300: oklch(0.80 0.07 65);
+
+  /* === IVORY / NEUTRAL === */
+  --color-ivory-200: oklch(0.88 0.02 70);
+  --color-ivory-100: oklch(0.92 0.02 70);
+  --color-ivory-50: oklch(0.95 0.01 70);
+  --color-ivory-25: oklch(0.98 0.005 70);
+
+  /* === SEMANTIC === */
+  --color-success: oklch(0.45 0.10 160);
+  --color-success-light: oklch(0.90 0.04 160);
+  --color-error: oklch(0.40 0.15 25);
+  --color-error-light: oklch(0.92 0.04 25);
+  --color-warning: oklch(0.55 0.12 75);
+  --color-warning-light: oklch(0.93 0.06 90);
+  --color-info: oklch(0.48 0.12 250);
+  --color-info-light: oklch(0.90 0.05 240);
+
+  /* === SHADOWS === */
+  --shadow-card: 0 2px 4px oklch(0.27 0.04 45 / 0.08);
+  --shadow-card-hover: 0 4px 12px oklch(0.27 0.04 45 / 0.10);
+  --shadow-modal: 0 8px 24px oklch(0.27 0.04 45 / 0.12);
+  --shadow-hero: 0 16px 48px oklch(0.27 0.04 45 / 0.16);
+
+  /* === FONTS === */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+
+  /* === RADIUS === */
+  --radius-card: 8px;
+  --radius-button: 8px;
+  --radius-input: 8px;
+  --radius-modal: 12px;
+
+  /* === SHADCN CSS VARIABLES === */
+  --radius: 0.5rem;
+  --color-background: oklch(0.98 0.005 70);
+  --color-foreground: oklch(0.27 0.04 45);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.27 0.04 45);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.27 0.04 45);
+  --color-primary: oklch(0.68 0.10 65);
+  --color-primary-foreground: oklch(1 0 0);
+  --color-secondary: oklch(0.92 0.02 70);
+  --color-secondary-foreground: oklch(0.27 0.04 45);
+  --color-muted: oklch(0.95 0.01 70);
+  --color-muted-foreground: oklch(0.50 0.04 45);
+  --color-accent: oklch(0.92 0.02 70);
+  --color-accent-foreground: oklch(0.27 0.04 45);
+  --color-destructive: oklch(0.40 0.15 25);
+  --color-border: oklch(0.88 0.02 70);
+  --color-input: oklch(0.88 0.02 70);
+  --color-ring: oklch(0.68 0.10 65);
+  --color-chart-1: oklch(0.68 0.10 65);
+  --color-chart-2: oklch(0.56 0.10 65);
+  --color-chart-3: oklch(0.27 0.04 45);
+  --color-chart-4: oklch(0.45 0.10 160);
+  --color-chart-5: oklch(0.48 0.12 250);
+  --color-sidebar-background: oklch(0.98 0.005 70);
+  --color-sidebar-foreground: oklch(0.27 0.04 45);
+  --color-sidebar-primary: oklch(0.68 0.10 65);
+  --color-sidebar-primary-foreground: oklch(1 0 0);
+  --color-sidebar-accent: oklch(0.92 0.02 70);
+  --color-sidebar-accent-foreground: oklch(0.27 0.04 45);
+  --color-sidebar-border: oklch(0.88 0.02 70);
+  --color-sidebar-ring: oklch(0.68 0.10 65);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-heading;
+  }
+}

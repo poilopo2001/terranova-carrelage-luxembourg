@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "generated_date": "2026-02-27",
+  "business": {
+    "name": "Terranova Carrelage Luxembourg",
+    "shortName": "Terranova LU",
+    "sector": "carreleur",
+    "location": "Mersch, Luxembourg (Grand-Duché)",
+    "years_experience": 25,
+    "founded": 2001,
+    "specialty": "Pose carrelage, pierre naturelle, mosaïque haut de gamme - Compagnon du Tour de France",
+    "founder": "François Rodrigues",
+    "languages": ["Français", "Portugais", "Luxembourgeois", "Allemand"]
+  },
+  "archetype": {
+    "primary": "Le Créateur",
+    "secondary": "Le Sage",
+    "description": "Terranova n'est pas un poseur de carrelage ordinaire. François Rodrigues est Compagnon du Tour de France - une distinction rare qui place l'entreprise dans une catégorie à part. L'archétype Créateur traduit la dimension artisanale, la passion du geste parfait, le souci du calepinage comme composition visuelle. Le Sage en secondaire apporte la crédibilité technique (DTU, normes, protocoles par type de pierre) sans tomber dans le pédantisme. Ce positionnement se distingue radicalement des concurrents luxembourgeois qui jouent tous sur le registre du 'spécialiste fiable' sans personnalité marquée."
+  },
+  "voice": {
+    "tone": "expert-passionné",
+    "formality": 0.6,
+    "humor": 0.1,
+    "technicality": 0.6,
+    "description": "Voix d'un artisan qui connaît intimement chaque matériau. Parle de la pierre comme un sommelier parle du vin - avec précision, respect et une pointe de passion contenue. Jamais arrogant, mais on sent l'assurance de celui qui a posé des milliers de mètres carrés. Vouvoiement naturel mais pas distant. Le vocabulaire technique est utilisé comme preuve de maîtrise, toujours suivi d'une explication accessible.",
+    "examples": [
+      "Le marbre de Carrare ne se pose pas comme du grès cérame. Chaque pierre a son protocole, ses colles, son traitement. C'est ce savoir-faire qui fait la différence entre un sol qui vieillit bien et un sol qui se tache au premier café renversé.",
+      "Compagnon du Tour de France depuis 2001 - 23 ans à poser, couper, ajuster. Chaque chantier est une nouvelle composition.",
+      "On ne pose pas du grand format 120x260 sans double encollage et niveleurs. C'est non négociable.",
+      "Votre travertin a des vacuoles ? On les bouche ou on les laisse - c'est votre choix esthétique, mais dans les deux cas, le protocole technique est différent.",
+      "Un calepinage en chevron, ce n'est pas juste de l'esthétique. C'est de la géométrie, de la découpe au degré près, et des heures de pose minutieuse. Le résultat, lui, est là pour 30 ans.",
+      "Avant de poser le premier carreau, on vérifie la planéité au réglet de 2 mètres. Si la chape n'est pas prête, on ragréage. Pas de raccourci.",
+      "La mosaïque, c'est l'aboutissement du métier. Chaque tesselle compte."
+    ]
+  },
+  "differentiation": {
+    "competitors_analyzed": [
+      {
+        "name": "AlloCarrelage",
+        "url": "https://allocarrelage.lu/",
+        "main_message": "Pose de Carrelage au Luxembourg. Salle de bains de A à Z",
+        "tone_score": 7,
+        "tone_description": "Service-oriented, générique, axé salle de bain",
+        "weaknesses": ["Pas de personnalité distincte", "Focus trop étroit salle de bain", "Aucune mention de compétences techniques spécifiques", "Pas de fondateur visible"]
+      },
+      {
+        "name": "Maroldt",
+        "url": "https://maroldt.lu/services/pose-de-carrelage",
+        "main_message": "La vente et la pose de carrelages - l'une des activités principales",
+        "tone_score": 8,
+        "tone_description": "Corporate, entreprise établie, showroom 1200m²",
+        "weaknesses": ["Trop corporate - le carrelage n'est qu'une activité parmi d'autres", "Pas d'artisan identifiable", "Approche industrielle vs artisanale", "Communication impersonnelle"]
+      },
+      {
+        "name": "Luxcarrelage",
+        "url": "https://www.luxcarrelage.lu/",
+        "main_message": "SPÉCIALISTES DU CARRELAGE !",
+        "tone_score": 7,
+        "tone_description": "Professionnel standard, réactivité mise en avant",
+        "weaknesses": ["Headline générique avec point d'exclamation creux", "Aucune différenciation technique", "Made in Luxembourg comme seul gage", "Pas de savoir-faire spécifique mis en avant"]
+      },
+      {
+        "name": "Carrelages Domingues",
+        "url": "https://www.domingues.lu/",
+        "main_message": "Des professionnels engagés, motivés et à votre écoute",
+        "tone_score": 7,
+        "tone_description": "Accessible, commercial, peu de substance",
+        "weaknesses": ["Tagline cliché absolu", "Contenu informatif mais pas différenciant", "Pas de preuves techniques", "Site orienté contenu SEO plus qu'identité"]
+      },
+      {
+        "name": "Carrelages Ekelmann",
+        "url": "https://www.carrelages-ekelmann.lu/fr/",
+        "main_message": "Depuis plus de 30 ans, votre spécialiste du carrelage au Luxembourg",
+        "tone_score": 7,
+        "tone_description": "Ancienneté comme argument principal, classique",
+        "weaknesses": ["30 ans d'expérience sans dire ce que ça change concrètement", "Conseil gratuit comme USP - trop faible", "Pas de technicité visible", "Communication datée"]
+      }
+    ],
+    "competitive_synthesis": {
+      "all_competitors_tone_range": "6.5 à 8 - tous dans un registre professionnel-générique sans personnalité marquée",
+      "nobody_does": [
+        "Aucun ne met en avant un fondateur avec parcours Compagnon du Tour de France",
+        "Aucun ne parle de protocoles techniques par type de pierre",
+        "Aucun ne mentionne les marques de matériaux utilisés (colles, joints)",
+        "Aucun ne montre de passion pour le métier - tous sont transactionnels",
+        "Aucun ne propose de contenu éducatif sur les matériaux nobles",
+        "Aucun ne parle de calepinage comme d'une composition artistique"
+      ],
+      "everybody_does": [
+        "Dire 'spécialiste du carrelage au Luxembourg'",
+        "Promettre un devis gratuit",
+        "Lister les mêmes services (sol, mur, salle de bain, terrasse)",
+        "Utiliser un ton professionnel sans saveur",
+        "Mettre 'Made in Luxembourg' ou ancienneté comme gage"
+      ]
+    },
+    "common_patterns_to_avoid": [
+      "Spécialiste du carrelage au Luxembourg",
+      "Des professionnels à votre écoute",
+      "Devis gratuit et sans engagement",
+      "Équipe qualifiée et motivée",
+      "Réponse en moins de 24 heures",
+      "Service de qualité",
+      "Votre satisfaction est notre priorité",
+      "Un large choix de carrelages",
+      "Des solutions adaptées à vos besoins",
+      "Faites confiance à notre expertise",
+      "Depuis plus de X ans à votre service",
+      "Nous intervenons dans tout le Luxembourg"
+    ],
+    "our_unique_angle": "L'artisan compagnon qui traite chaque sol comme une oeuvre - la rigueur technique d'un Compagnon du Tour de France au service de la beauté durable de la pierre et du carrelage haut de gamme",
+    "phrases_to_avoid": [
+      "spécialiste du carrelage",
+      "à votre écoute",
+      "professionnels engagés",
+      "service de qualité",
+      "équipe qualifiée",
+      "solutions adaptées",
+      "votre satisfaction",
+      "faites confiance",
+      "n'hésitez pas",
+      "large gamme",
+      "nos experts",
+      "accompagnement personnalisé",
+      "réactivité",
+      "sérieux et ponctuel",
+      "travail soigné"
+    ],
+    "phrases_to_use": [
+      "Compagnon du Tour de France",
+      "chaque pierre a son protocole",
+      "le geste juste, le matériau juste",
+      "on vérifie avant de poser",
+      "la beauté durable",
+      "calepinage sur mesure",
+      "marbre, travertin, grès cérame - chacun se pose différemment",
+      "25 ans de chantiers, pas un carreau sonnant creux",
+      "du showroom au chantier, c'est le même homme",
+      "le prix d'un carrelage bien posé, c'est celui qu'on ne refait pas"
+    ]
+  },
+  "local_references": {
+    "quartiers": [
+      {
+        "name": "Mersch (siège)",
+        "context": "Ancrage local fort - siège et showroom. Mentionner la proximité, la connaissance des constructions du canton."
+      },
+      {
+        "name": "Luxembourg-Ville (Kirchberg, Limpertsberg, Belair)",
+        "context": "Chantiers de prestige dans la capitale. Mentionner les contraintes des immeubles anciens et des résidences haut de gamme."
+      },
+      {
+        "name": "Bertrange & Mamer",
+        "context": "Villas premium de la zone ouest. Clientèle exigeante, matériaux nobles."
+      },
+      {
+        "name": "Vallée de la Moselle (Grevenmacher, Remich)",
+        "context": "Maisons viticoles et pierres de taille. Architecture régionale spécifique."
+      },
+      {
+        "name": "Ettelbruck & Diekirch (Nord)",
+        "context": "Ardenne luxembourgeoise - hôtellerie et résidentiel. Couverture du nord du pays."
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Showroom Rue de la Gare, Mersch",
+        "context": "Point de contact physique - sur rendez-vous. Permet de voir et toucher les matériaux."
+      },
+      {
+        "name": "Grand-Duché",
+        "context": "Utiliser 'Grand-Duché' plutôt que juste 'Luxembourg' pour ancrage local authentique."
+      }
+    ],
+    "expressions_locales": [
+      "Grand-Duché",
+      "canton de Mersch",
+      "Moien (bonjour en luxembourgeois - utiliser ponctuellement pour authenticité multiculturelle)"
+    ],
+    "cultural_notes": "Le Luxembourg est multiculturel (portugais, français, allemand, luxembourgeois). Terranova reflète cette réalité avec un fondateur portugais parlant 4 langues. Cette dimension multiculturelle est un atout authentique, pas un argument marketing forcé.",
+    "integration_notes": "Mentionner les zones d'intervention par canton plutôt que par ville seule. Références aux types de constructions locales (immeubles anciens capitale, villas zone ouest, maisons viticoles Moselle)."
+  },
+  "content_guidelines": {
+    "headline_style": "Affirmatif, ancré dans le métier. Pas de superlatifs creux. Préférer une vérité technique concrète à une promesse vague. Ex: 'Compagnon du Tour de France, carreleur au Grand-Duché depuis 2001' plutôt que 'Votre spécialiste du carrelage au Luxembourg'.",
+    "paragraph_style": "3-5 phrases. Alterner entre information technique précise et bénéfice client tangible. Ne jamais être technique sans expliquer pourquoi ça compte pour le client. Ton d'un artisan qui parle de son métier avec fierté mesurée.",
+    "cta_style": "Direct mais pas pressant. 'Visitez le showroom à Mersch' ou 'Appelez François directement' plutôt que 'Demandez votre devis gratuit maintenant'. Le prénom du fondateur humanise.",
+    "testimonial_style": "Détaillé et spécifique. Encourager les clients à mentionner le type de travail, le matériau, la pièce. Un avis qui dit 'Pose de travertin dans notre salle de bain à Bertrange - impeccable' vaut dix 'Très bon travail, je recommande'.",
+    "service_page_style": "Commencer par le matériau ou la technique, pas par 'Nous proposons...'. Montrer la connaissance intime du métier dès la première phrase. Intégrer les références techniques (normes, marques de colles) comme preuves naturelles, pas comme arguments de vente.",
+    "blog_style": "Pédagogue-expert. Le lecteur doit apprendre quelque chose de concret. Pas de contenu de remplissage. Chaque article doit contenir au moins un détail technique qu'aucun concurrent n'a sur son site."
+  },
+  "visual_guidelines": {
+    "photo_style": "Vraies photos de chantiers Terranova. Gros plans sur les détails : joint parfait, calepinage géométrique, veine de marbre. Photos du fondateur au travail (mains, outils, concentration). Pas de photos stock de salles de bain génériques.",
+    "color_personality": "Brun terre #3D2B1F (ancrage, matière, authenticité) + Ocre pierre #C4965A (chaleur, noblesse du matériau) + Ivoire naturel #F0E6D3 (lumière, espace, propreté). Palette qui évoque directement les matériaux travaillés - le marbre, le travertin, la terre cuite. Pas une palette corporate arbitraire.",
+    "typography_personality": "Playfair Display en titres : élégance classique qui rappelle les lettres gravées dans la pierre. Source Sans Pro en corps : lisibilité et modernité technique. Le contraste serif/sans-serif reflète le positionnement : tradition artisanale + rigueur contemporaine.",
+    "layout_personality": "Espaces généreux comme un beau sol bien posé. Grille régulière. Galerie de réalisations en grand format - le travail doit se voir. Pas de surcharge décorative - la qualité du carrelage parle d'elle-même.",
+    "before_after": "Utiliser systématiquement des avant/après pour les rénovations. Le contraste visuel est le meilleur argument de vente.",
+    "showroom_photos": "Photographier le showroom de Mersch comme un lieu d'inspiration, pas comme un magasin. Ambiance atelier-galerie."
+  },
+  "seo_voice_alignment": {
+    "title_tag_style": "Intégrer le mot-clé naturellement dans une formulation qui reflète la voix. Ex: 'Pose Pierre Naturelle Luxembourg | Marbre, Travertin, Ardoise | Terranova' - les matériaux spécifiques plutôt que des termes génériques.",
+    "meta_description_style": "Une phrase de voix authentique + un fait différenciant + CTA naturel. Ex: 'Artisan compagnon, François pose marbre et travertin au Grand-Duché depuis 2001. Protocoles adaptés à chaque pierre. Showroom à Mersch sur rendez-vous.'",
+    "h1_style": "Affirmatif et spécifique. Jamais 'Bienvenue chez Terranova'. Toujours un fait, une expertise, un bénéfice concret."
+  },
+  "brand_story": {
+    "origin": "François Rodrigues, Compagnon du Tour de France, fonde Terranova en 2001 à Mersch. Parcours d'excellence artisanale au service du Grand-Duché.",
+    "mission": "Poser chaque carrelage et chaque pierre avec la rigueur et la passion d'un Compagnon - parce qu'un sol bien posé, c'est un sol qui dure une vie.",
+    "values": [
+      "Rigueur technique sans compromis (contrôle systématique avant pose)",
+      "Transparence totale (on explique, on montre, on justifie)",
+      "Respect du matériau (chaque pierre a son protocole)",
+      "Durabilité (garantie décennale, matériaux de premier choix)",
+      "Accessibilité multilingue (FR, PT, LU, DE)"
+    ],
+    "proof_points": [
+      "Compagnon du Tour de France",
+      "23 ans d'expérience",
+      "Certifié Sika Pro (milieux humides)",
+      "Membre Fédération des Artisans Luxembourg",
+      "Assurance RC Pro Foyer Assurances",
+      "Formats jusqu'à 120x260cm maîtrisés",
+      "4 langues parlées"
+    ]
+  }
+}

@@ -1,0 +1,1024 @@
+{
+  "business": {
+    "name": "Terranova Carrelage Luxembourg",
+    "shortName": "Terranova LU",
+    "sector": "carreleur",
+    "tagline": "L'art du carrelage et de la pierre naturelle au Grand-Duché depuis 2001",
+    "description": "Terranova Carrelage Luxembourg est une entreprise artisanale spécialisée dans la pose de carrelage, faïence, pierre naturelle, mosaïque et parquet carrelé pour des réalisations résidentielles et tertiaires haut de gamme au Grand-Duché. Fondé par François Rodrigues, carreleur compagnon du Tour de France avec 23 ans de métier, Terranova se distingue par la maîtrise de toutes les techniques de pose – pose à l'anglaise, en diagonale, chevron, opus incertum – et la manipulation des matériaux nobles comme le marbre de Carrare, le travertin romain et le grès cérame grand format jusqu'à 120x260cm. Membre de la Fédération des Artisans Luxembourg et certifié Sika Pro pour la pose de revêtements en milieux humides, Terranova garantit la durabilité de chaque ouvrage par une sélection rigoureuse des colles, joints et étanchéités.",
+    "founded": 2001,
+    "siret": "LU 2001 5592",
+    "tva": "LU22019834",
+    "contact": {
+      "phone": "+352 26 54 88 75",
+      "phoneDisplay": "+352 26 54 88 75",
+      "mobile": "+352 671 229 483",
+      "mobileDisplay": "+352 671 229 483",
+      "email": "contact@terranova-carrelage.lu",
+      "website": "www.terranova-carrelage.lu",
+      "address": {
+        "street": "5, Rue de la Gare",
+        "city": "Mersch",
+        "postalCode": "L-7535",
+        "canton": "Mersch",
+        "country": "Luxembourg"
+      },
+      "showroom": {
+        "address": "5, Rue de la Gare, L-7535 Mersch (sur rendez-vous)",
+        "hours": "Mardi et Jeudi: 14h00 - 18h00, Samedi: 9h00 - 12h00"
+      },
+      "coordinates": {
+        "lat": 49.745,
+        "lng": 6.105
+      },
+      "serviceRadius": "Tout le Grand-Duché de Luxembourg + zones frontalières (30km)"
+    },
+    "hours": {
+      "weekdays": "Lundi - Vendredi: 7h00 - 17h30",
+      "saturday": "Samedi: 7h00 - 12h00 (chantiers en cours uniquement)",
+      "sunday": "Dimanche: Fermé"
+    },
+    "languages": ["Français", "Portugais", "Luxembourgeois", "Allemand"],
+    "social": {
+      "facebook": "facebook.com/terranovacarrelageluxembourg",
+      "instagram": "instagram.com/terranova_carrelage_lu",
+      "houzz": "houzz.fr/pro/terranova-lu",
+      "pinterest": "pinterest.com/terranovacarrelagelu"
+    }
+  },
+  "branding": {
+    "primaryColor": "#3D2B1F",
+    "secondaryColor": "#C4965A",
+    "accentColor": "#F0E6D3",
+    "neutralColor": "#FAFAF8",
+    "colorScheme": "Brun terre, ocre pierre, ivoire naturel – authenticité matière, artisanat naturel",
+    "fontFamily": "Playfair Display (titres), Source Sans Pro (corps)"
+  },
+  "websiteStructure": {
+    "meta": {
+      "sitemapXML": "https://www.terranova-carrelage.lu/sitemap.xml",
+      "robotsTxt": "https://www.terranova-carrelage.lu/robots.txt",
+      "breadcrumbsEnabled": true
+    },
+    "mainNavigation": [
+      {
+        "label": "Accueil",
+        "slug": "/",
+        "type": "link"
+      },
+      {
+        "label": "Services",
+        "slug": "/services",
+        "type": "dropdown",
+        "children": [
+          { "label": "Pose carrelage sol", "slug": "/services/pose-carrelage-sol" },
+          { "label": "Pose carrelage mural", "slug": "/services/pose-carrelage-mural" },
+          { "label": "Pose faïence", "slug": "/services/pose-faience" },
+          { "label": "Pose mosaïque", "slug": "/services/pose-mosaique" },
+          { "label": "Pose pierre naturelle", "slug": "/services/pose-pierre-naturelle" },
+          { "label": "Pose parquet carrelé", "slug": "/services/pose-parquet-carrele" },
+          { "label": "Jointoyage", "slug": "/services/jointoyage" },
+          { "label": "Rénovation carrelage", "slug": "/services/renovation-carrelage" },
+          { "label": "Réparation carrelage", "slug": "/services/reparation-carrelage" }
+        ]
+      },
+      {
+        "label": "Réalisations",
+        "slug": "/realisations",
+        "type": "link"
+      },
+      {
+        "label": "Matériaux",
+        "slug": "/materiaux",
+        "type": "link"
+      },
+      {
+        "label": "Zones d'intervention",
+        "slug": "/zones-intervention",
+        "type": "dropdown",
+        "children": [
+          { "label": "Luxembourg-Ville", "slug": "/zones-intervention/luxembourg-ville" },
+          { "label": "Mersch & Steinfort", "slug": "/zones-intervention/mersch-steinfort" },
+          { "label": "Ettelbruck & Diekirch", "slug": "/zones-intervention/ettelbruck-diekirch" },
+          { "label": "Bertrange & Mamer", "slug": "/zones-intervention/bertrange-mamer" },
+          { "label": "Grevenmacher & Remich", "slug": "/zones-intervention/grevenmacher-remich" }
+        ]
+      },
+      {
+        "label": "Devis gratuit",
+        "slug": "/contact",
+        "type": "cta"
+      }
+    ],
+    "seoPillarPages": [
+      {
+        "slug": "/carreleur-luxembourg",
+        "title": "Carreleur Luxembourg | Pose Carrelage & Pierre Naturelle | Terranova",
+        "description": "Carreleur professionnel au Luxembourg. Pose carrelage sol, mural, pierre naturelle, mosaïque, parquet carrelé. Devis gratuit. +352 26 54 88 75.",
+        "focusKeywords": ["carreleur Luxembourg", "pose carrelage Luxembourg", "carrelage Luxembourg"],
+        "linkedServices": ["pose-carrelage-sol", "pose-carrelage-mural", "pose-pierre-naturelle"]
+      },
+      {
+        "slug": "/pose-pierre-naturelle-luxembourg",
+        "title": "Pose Pierre Naturelle Luxembourg | Marbre, Travertin, Ardoise | Terranova",
+        "description": "Pose de pierre naturelle (marbre, travertin, granit, ardoise) au Luxembourg par artisan compagnon. Traitement et entretien inclus. Devis gratuit.",
+        "focusKeywords": ["pose pierre naturelle Luxembourg", "marbre Luxembourg", "travertin Luxembourg"],
+        "linkedServices": ["pose-pierre-naturelle", "pose-carrelage-sol"]
+      },
+      {
+        "slug": "/renovation-carrelage-luxembourg",
+        "title": "Rénovation Carrelage Luxembourg | Rejointoiement & Remplacement | Terranova",
+        "description": "Rénovation de carrelage existant au Luxembourg : rejointoiement époxy, remplacement carreaux, dépose et repose. Devis sous 48h.",
+        "focusKeywords": ["rénovation carrelage Luxembourg", "rejointoiement Luxembourg", "refaire joints carrelage Luxembourg"],
+        "linkedServices": ["renovation-carrelage", "jointoyage", "reparation-carrelage"]
+      },
+      {
+        "slug": "/carrelage-salle-de-bain-luxembourg",
+        "title": "Carrelage Salle de Bain Luxembourg | Pose & Étanchéité | Terranova",
+        "description": "Pose de carrelage salle de bain au Luxembourg. Étanchéité Schlüter-Ditra, faïence, douche italienne, bac à receveur. Garantie 10 ans.",
+        "focusKeywords": ["carrelage salle de bain Luxembourg", "faïence salle de bain Luxembourg", "carreleur salle de bain Luxembourg"],
+        "linkedServices": ["pose-faience", "pose-carrelage-mural", "pose-carrelage-sol"]
+      }
+    ],
+    "localSeoStrategy": {
+      "folder": "/zones-intervention",
+      "landingPages": [
+        {
+          "city": "Luxembourg-Ville",
+          "slug": "/zones-intervention/luxembourg-ville",
+          "h1": "Carreleur à Luxembourg-Ville – Pose Carrelage Haut de Gamme",
+          "focusKeyword": "carreleur Luxembourg-Ville",
+          "specificContent": "Interventions fréquentes dans les appartements et villas de Luxembourg-Ville (Kirchberg, Limpertsberg, Belair). Maîtrise des contraintes des immeubles anciens (planchers bois, hauteurs sous plafond réduites). Expérience sur les chantiers de prestige de la capitale."
+        },
+        {
+          "city": "Mersch & Steinfort",
+          "slug": "/zones-intervention/mersch-steinfort",
+          "h1": "Carreleur à Mersch et Steinfort – Pose Carrelage & Pierre Naturelle",
+          "focusKeyword": "carreleur Mersch",
+          "specificContent": "Présence locale à Mersch, Steinfort et communes avoisinantes. Connaissance des fournisseurs de matériaux de la région et des spécificités des constructions locales. Délais d'intervention parmi les meilleurs du canton."
+        },
+        {
+          "city": "Ettelbruck & Diekirch",
+          "slug": "/zones-intervention/ettelbruck-diekirch",
+          "h1": "Carreleur à Ettelbruck et Diekirch – Nord du Luxembourg",
+          "focusKeyword": "carreleur Ettelbruck",
+          "specificContent": "Couverture du nord du Grand-Duché incluant Ettelbruck, Diekirch, Wiltz et Clervaux. Carreleur référent pour les projets résidentiels et les établissements hôteliers de l'Ardenne luxembourgeoise."
+        },
+        {
+          "city": "Bertrange & Mamer",
+          "slug": "/zones-intervention/bertrange-mamer",
+          "h1": "Carreleur à Bertrange et Mamer – Villas et Résidences Premium",
+          "focusKeyword": "carreleur Bertrange",
+          "specificContent": "Spécialisation dans les villas et résidences haut de gamme des communes de Bertrange, Mamer, Strassen et Capellen. Expertise sur les matériaux nobles (marbre, travertin, grès cérame grand format) appréciés par la clientèle aisée de la zone ouest."
+        },
+        {
+          "city": "Grevenmacher & Remich",
+          "slug": "/zones-intervention/grevenmacher-remich",
+          "h1": "Carreleur à Grevenmacher et Remich – Vallée de la Moselle",
+          "focusKeyword": "carreleur Grevenmacher",
+          "specificContent": "Interventions dans les belles maisons viticoles et résidences de la Moselle luxembourgeoise. Connaissance des architectures régionales et des contraintes techniques des maisons à colombages et pierres de taille."
+        }
+      ]
+    },
+    "blogStrategy": {
+      "folder": "/blog",
+      "plannedArticles": [
+        {
+          "type": "Budget",
+          "title": "Combien coûte la pose de carrelage au Luxembourg en 2026 ? Tarifs par m² et prestations",
+          "slug": "/blog/cout-pose-carrelage-luxembourg-2026",
+          "targetKeyword": "prix pose carrelage Luxembourg 2026"
+        },
+        {
+          "type": "Conseil",
+          "title": "Comment choisir son carrelage au Luxembourg : grès cérame, faïence ou pierre naturelle ?",
+          "slug": "/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg",
+          "targetKeyword": "choisir carrelage Luxembourg conseil"
+        },
+        {
+          "type": "Technique",
+          "title": "Joint époxy vs joint ciment : tout savoir pour bien choisir au Luxembourg",
+          "slug": "/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg",
+          "targetKeyword": "joint époxy carrelage Luxembourg"
+        },
+        {
+          "type": "Comparatif",
+          "title": "Pose droite, diagonale ou chevron : quel calepinage choisir pour votre carrelage au Luxembourg ?",
+          "slug": "/blog/calepinage-carrelage-pose-droite-diagonale-chevron-luxembourg",
+          "targetKeyword": "pose carrelage diagonale chevron Luxembourg"
+        },
+        {
+          "type": "Tendance",
+          "title": "Tendances carrelage 2026 au Luxembourg : grands formats, terrazzo et effets matière",
+          "slug": "/blog/tendances-carrelage-2026-luxembourg",
+          "targetKeyword": "tendances carrelage 2026 Luxembourg"
+        }
+      ]
+    }
+  },
+  "services": [
+    {
+      "name": "Pose carrelage sol",
+      "slug": "pose-carrelage-sol",
+      "parentCategory": "Pose & Revêtements",
+      "shortDescription": "Pose professionnelle de carrelage de sol – grès cérame, grès émaillé, grand format – sur chape béton, plancher chauffant ou ragréage, avec calepinage sur mesure.",
+      "fullDescription": "La pose de carrelage de sol par Terranova Luxembourg repose sur une préparation irréprochable du support, condition essentielle de la durabilité du revêtement. Chaque chantier débute par un contrôle de planéité au réglet de 2 mètres (tolérance maxi 3mm/2m selon DTU 52.2) et de l'humidité résiduelle de la chape (mesure CM – valeur maximale 2% pour la pose à la colle). Le cas échéant, un ragréage autonivelant Mapei Ultraplan ou Weber Niv'express est appliqué avant la pose. Pour les planchers chauffants hydrauliques (PCH), nous respectons le protocole strict d'épreuve thermique (montée à 50°C – refroidissement – stabilisation à 20°C) et utilisons des mortiers-colles désolidarisants spécifiques Keraquick S1 (colle flexibleS1, déformation 6,5mm sur 100cm). Nous maîtrisons tous les formats du 15x15cm au 120x260cm (grès cérame Atlas Concorde, Florim, Ariostea) avec une découpe à la scie de biais combinée Raimondi et à l'eau. Les poses décoratives complexes (chevron, opus romain, calepinage sur mesure) font partie de notre savoir-faire compagnon. Les joints sont réalisés en mortier-joint Mapei Ultracolor Plus (27 teintes disponibles) ou en résine époxy Mapei Kerapoxy Design pour les milieux humides.",
+      "priceRange": "€35 - €85/m² pose seule",
+      "priceMin": 3500,
+      "priceMax": 35000,
+      "benefits": [
+        "Contrôle planéité et humidité avant pose (rapport écrit fourni)",
+        "Ragréage autonivelant inclus si nécessaire (< 3mm d'écart)",
+        "Maîtrise des formats jusqu'à 120x260cm (découpe scie combinée)",
+        "Calepinage sur mesure optimisant les chutes et la composition visuelle",
+        "Colles S1 désolidarisantes pour planchers chauffants",
+        "Joints Mapei Ultracolor Plus ou résine époxy Kerapoxy (milieux humides)",
+        "Nettoyage de fin de chantier et soins du carrelage inclus",
+        "Garantie 10 ans sur la tenue de la pose"
+      ],
+      "technicalDetails": {
+        "supportAccepte": "Chape béton, plancher chauffant, ragréage, désolidarisation sur plancher bois",
+        "formatsMax": "120x260cm (grès cérame plein)",
+        "tolérancePlanéite": "< 3mm / 2m (DTU 52.2)",
+        "collesUtilisees": "Mapei Keraflex Maxi S1, Keraquick S1 (PCH), Ultralite S2 (grand format)",
+        "jointsMortierciment": "Mapei Ultracolor Plus – 27 teintes",
+        "jointsEpoxy": "Mapei Kerapoxy Design – 20 teintes (milieux humides, hospitalier)",
+        "tarifPose": "€35/m² (format ≤ 30x30cm) à €85/m² (grand format > 60x120cm + calepinage complexe)"
+      },
+      "process": [
+        "1. Visite de chantier et contrôle du support (planéité, humidité, fissures)",
+        "2. Étude de calepinage et validation visuelle avec le client",
+        "3. Ragréage autonivelant si nécessaire (J+1 à J+7 selon produit)",
+        "4. Tracé des axes de pose et pose à sec du calepinage",
+        "5. Encollage du support et du carrelage (double encollage pour grand format > 60cm)",
+        "6. Pose du carrelage avec croisillons ou système de nivellement Raimondi",
+        "7. Contrôle planéité et aplomb en cours de pose",
+        "8. Ragréage et découpes en scie combinée",
+        "9. Jointoyage à J+24 minimum (mortier ou résine époxy)",
+        "10. Nettoyage final et soins de protection (imprégnation sur pierre naturelle)"
+      ],
+      "guarantees": [
+        "Garantie décennale de pose (assurance RC Pro Foyer Assurances)",
+        "Garantie adhérence : aucun carreau sonnant creux à la réception",
+        "PV de réception contradictoire remis au client",
+        "Garantie résistance au gel pour pose extérieure (carreaux R11 minimum)"
+      ],
+      "featured": true,
+      "icon": "grid",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+      "estimatedDuration": "1 à 10 jours selon surface et complexité du calepinage"
+    },
+    {
+      "name": "Pose carrelage mural",
+      "slug": "pose-carrelage-mural",
+      "parentCategory": "Pose & Revêtements",
+      "shortDescription": "Pose de carrelage mural en intérieur – cuisine, salle de bain, douche – avec étanchéité sous carrelage et finitions soignées.",
+      "fullDescription": "La pose de carrelage mural par Terranova exige une préparation du support adaptée à chaque contexte : en zone sèche (cuisine hors douche), le carrelage est posé directement sur plaques Fermacell ou enduit de plâtre lissé + primaire d'adhérence Mapei Eco Prim T après vérification de la planeité. En zone humide (douche, bain à remous, parois de piscine), nous réalisons systématiquement un complexe d'étanchéité sous carrelage certifié Schlüter-Kerdi ou Sika Toperfix : la membrane est fixée au support, les angles intérieurs et extérieurs sont bandes protégées par des angles WEDI ou Schlüter-Kerdi-Kereck avant le carrelage. Cette étanchéité, obligatoire dans les locaux P3 (douches), garantit l'imperméabilité totale du complexe même en cas de fissurations du support. La colle utilisée pour pose en zones humides est systématiquement un mortier S1 (classe C2 TE S1), gris ou blanc selon la teinte du carrelage. Terranova maîtrise la pose de carreaux grand format en mural (60x120 et 60x180) avec système de ventouse et relevé laser pour parfaite verticalité, et la réalisation de niche encastrée en douche (niche Schlüter-SHELF) pour laquelle nous intégrons la découpe et le raccord d'étanchéité dans le devis.",
+      "priceRange": "€40 - €95/m² pose seule",
+      "priceMin": 1200,
+      "priceMax": 18000,
+      "benefits": [
+        "Complexe d'étanchéité sous carrelage Schlüter-Kerdi ou Sika dans toutes les douches",
+        "Pose grand format 60x180cm avec ventouse et contrôle laser",
+        "Angles et finitions en profilés Schlüter-Schiene inox ou alu anodisé",
+        "Réalisation de niches encastrées en douche avec étanchéité intégrée",
+        "Joints époxy Kerapoxy en douche pour hygiène et durabilité maximales",
+        "Conformité RE2020 et normes PMR (receveur 0cm de seuil si demandé)"
+      ],
+      "technicalDetails": {
+        "zonesSeches": "Fermacell, enduit lissé + primaire Mapei Eco Prim T",
+        "zonesHumides": "Membrane Schlüter-Kerdi (Ø 0,2mm) ou Sika Toperfix",
+        "collesZoneHumide": "Mapei Keraflex Maxi S1 blanc – C2 TE S1 normé",
+        "jointsDouche": "Mapei Kerapoxy Design (résine époxy 100%) – imperméable, non poreux",
+        "profilsFinition": "Schlüter-Schiene inox brossé, alu anodisé, or rose (selon finition carrelage)",
+        "formatMax": "60x180cm en mural (avec ventouse Raimondi WS180)"
+      },
+      "process": [
+        "1. Contrôle du support (planéité, humidité, portance pour grand format)",
+        "2. Application membrane d'étanchéité dans les zones humides",
+        "3. Traitement des angles et raccords d'étanchéité",
+        "4. Calepinage visuel avec client (centrage, joints décoratifs)",
+        "5. Encollage support + carrelage (double encollage grand format)",
+        "6. Pose avec cales et système de nivellement",
+        "7. Contrôle verticalité au laser",
+        "8. Pose des profilés de finition Schlüter",
+        "9. Jointoyage époxy ou ciment selon zone",
+        "10. Nettoyage et protection si nécessaire"
+      ],
+      "guarantees": [
+        "Garantie décennale sur l'étanchéité (zones humides) et la tenue de la pose",
+        "Conformité DTU 52.2 et normes P3 (zones humides) certifiée",
+        "Test d'étanchéité visuel avant carrelage fourni sur demande"
+      ],
+      "featured": false,
+      "icon": "layers",
+      "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+      "estimatedDuration": "2 à 8 jours selon surface et type de mur"
+    },
+    {
+      "name": "Pose faïence",
+      "slug": "pose-faience",
+      "parentCategory": "Pose & Revêtements",
+      "shortDescription": "Pose de faïence murale en cuisine, salle de bain et pièce humide, avec sélection des colles et joints adaptés aux conditions hygrométriques.",
+      "fullDescription": "La faïence, céramique émaillée à base argileuse, est le revêtement mural le plus courant dans les salles de bain et cuisines luxembourgeoises. Sa pose correcte exige une préparation du support soignée et une sélection rigoureuse des adhésifs. Terranova utilise des colles blanches C2 TE (Mapei Keralastic ou Thomsit K 188E) pour les faïences claires afin d'éviter tout halos de colle au travers des carreaux poreux. Pour les faïences formato 30x90cm ou 25x75cm (désormais très populaires), le double encollage est systématique et des cales d'espacement auto-nivelantes Raimondi sont utilisées pour garantir un calepinage parfaitement joint. Terranova maîtrise la réalisation de calepinages décoratives avec des faïences à format mixte (losanges, hexagones, subway tiles en bossage). Les gammes travaillées incluent Porcelanosa (Habitat, Deco series), Peronda (Museum, Orchestra) et Equipe Ceramicas (Curve, Bourbon). Les joints sont posés au mortier coloré Mapei Ultracolor Plus ou en joint époxy Kerapoxy Design pour les zones de douche. Terranova propose également la réalisation de crédences de cuisine en faïence grand format ou en grès cérame fin (6mm) pour une pose sans surépaisseur.",
+      "priceRange": "€38 - €72/m² pose seule",
+      "priceMin": 800,
+      "priceMax": 12000,
+      "benefits": [
+        "Colles blanches C2 TE pour faïences claires et poreuses (pas de halo)",
+        "Double encollage systématique pour formats > 30cm",
+        "Calepinages décoratifs : subway tiles, hexagones, motifs géométriques",
+        "Réalisation de crédences cuisine grand format sans surépaisseur",
+        "Joints époxy Kerapoxy disponibles pour hygiène maximale",
+        "Correspondance carreaux et joints pour cohérence visuelle"
+      ],
+      "technicalDetails": {
+        "colles": "Mapei Keralastic T Blanc (C2 TE S1), Thomsit K 188E",
+        "formatsTravailles": "10x10cm (métro/subway) à 45x120cm",
+        "joignage": "Mapei Ultracolor Plus ou Kerapoxy Design (époxy)",
+        "marquesDistribuees": "Porcelanosa, Peronda, Equipe Ceramicas, Vives, Fap Ceramiche"
+      },
+      "process": [
+        "1. Contrôle support et validation calepinage avec client",
+        "2. Application primaire d'adhérence sur support absorbant",
+        "3. Tracé des repères horizontaux et verticaux au laser",
+        "4. Encollage support + carrelage et pose avec auto-nivelants",
+        "5. Découpes en carrelette manuelle ou scie à eau selon carrelage",
+        "6. Pose des profilés de finition et angles",
+        "7. Jointoyage et nettoyage des surplus",
+        "8. Finition et livraison"
+      ],
+      "guarantees": [
+        "Garantie décennale de tenue de la pose",
+        "Aucun carreau sonnant creux garanti à la réception",
+        "Garantie couleur des joints : Mapei Ultracolor certifié résistance UV"
+      ],
+      "featured": false,
+      "icon": "square",
+      "image": "https://images.unsplash.com/photo-1564540586988-aa4e53c3d799",
+      "estimatedDuration": "1 à 5 jours selon surface"
+    },
+    {
+      "name": "Pose mosaïque",
+      "slug": "pose-mosaique",
+      "parentCategory": "Pose & Revêtements",
+      "shortDescription": "Pose de mosaïque en verre, marbre, émaux de Briare ou grès pour bassins, douches décoratives, fontaines, crédences et frises.",
+      "fullDescription": "La mosaïque est l'aboutissement technique du métier de carreleur, exigeant une précision millimétrique et une maîtrise parfaite des matériaux. Terranova Luxembourg maîtrise la pose de quatre types de mosaïque : mosaïque verre (plaquettes 20x20mm, 10x10mm ou joint 1mm pour baignoires et piscines, colle blanche C2 TE S1 spéciale verre transparent), mosaïque en marbre ou pierre naturelle (calepinage opus romain ou byzantin, joint fin < 2mm, colle désolidarisante pour vibrements de la structure), mosaïque céramique sur filet (format plaque 30x30cm en grès 5x5mm, 7x7mm), et mosaïque émaillée artisanale type émaux de Briare pour les projets de prestige et les réalisations sur mesure. Chaque pose de mosaïque est précédée d'un calepinage informatique permettant de valider le motif, les raccords et les chutes avant l'achat du matériel. Pour les bassins et piscines, nous utilisons exclusivement des colles hydrofuges Weber.color Flex (C2 FE S2) et des joints Mapei Kerapoxy CE (résine époxy résistant aux produits de traitement de l'eau). Nous réalisons également des frises en mosaïque comme éléments décoratifs dans des carrelages standards (insert de seuil, bandeau de frise à mi-hauteur douche).",
+      "priceRange": "€75 - €180/m² pose seule",
+      "priceMin": 450,
+      "priceMax": 15000,
+      "benefits": [
+        "Calepinage informatique du motif avant commande du matériel",
+        "Maîtrise des 4 types : verre, marbre, céramique sur filet, émaux Briare",
+        "Colles spéciales transparentes pour mosaïque verre (pas de halo)",
+        "Colles hydrofuges C2 FE S2 et joints époxy pour bassins et piscines",
+        "Réalisation de frises décoratives et inserts dans carrelage standard",
+        "Finitions bord de mosaïque en profilé aluminium ou inox"
+      ],
+      "technicalDetails": {
+        "typesVerre": "Verre soufflé, verre recyclé, verre irisé (reflets nacrés)",
+        "typesMarbre": "Volakas, Thassos blanc, Calacatta Oro (opus romain ou byzantin)",
+        "colle Verre": "Mapei Keralastic T Blanc (C2 TE S1) – ne jaunit pas sous verre transparent",
+        "collePiscine": "Weber.color Flex C2 FE S2 – résistance immersion permanente",
+        "jointPiscine": "Mapei Kerapoxy CE – résistant produits chlorés et pH 4-11",
+        "formatMosaique": "5x5mm à 50x50mm plaquettes individuelles ou plaques 30x30cm filet"
+      },
+      "process": [
+        "1. Calepinage informatique du motif (validation visuelle avant achat)",
+        "2. Préparation du support (étanchéité Schlüter-Kerdi si zone humide)",
+        "3. Encollage en couche peignée de la colle adaptée",
+        "4. Pose des plaques de mosaïque ou des plaquettes individuelles",
+        "5. Contrôle de l'alignement avec règle et niveau laser",
+        "6. Retrait du papier de maintien après 24h de séchage",
+        "7. Jointoyage au mortier fin ou résine époxy",
+        "8. Nettoyage et soins de protection"
+      ],
+      "guarantees": [
+        "Garantie décennale de tenue de la pose",
+        "Garantie étanchéité pour bassins et piscines (sous réserve maintenance produits)",
+        "Calepinage informatique conservé : repose identique possible en cas de dommage partiel"
+      ],
+      "featured": false,
+      "icon": "aperture",
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "estimatedDuration": "2 à 10 jours selon surface et complexité du motif"
+    },
+    {
+      "name": "Pose parquet carrelé",
+      "slug": "pose-parquet-carrele",
+      "parentCategory": "Pose & Revêtements",
+      "shortDescription": "Pose de carrelage imitation parquet (grès cérame décor bois) en format lame longue, avec calepinage en quinconce ou en chevron pour un rendu bois authentique.",
+      "fullDescription": "Le parquet carrelé (grès cérame décor bois) est l'une des tendances les plus fortes du marché résidentiel luxembourgeois depuis 2018, alliant l'esthétique chaleureuse du bois à la durabilité et à l'entretien facile du carrelage. Terranova maîtrise la pose de ces carreaux spécifiques dont les formats longs et étroits (20x120cm, 20x180cm, 30x150cm) exigent des techniques de pose particulières : double encollage systématique (support + carreau), mortier-colle S2 déformable pour les lames les plus longues (risque de gauchissement sur chape sèche), et système de nivellement Raimondi Leveling System HHXL pour garantir l'absence de lippage (différence de niveau entre deux carreaux adjacents) inférieur à 0,5mm. Le calepinage peut être réalisé en pose droite quinconcée (joints décalés de 30-40% de la longueur de lame, comme pour un parquet), en chevron (angle de 45° ou 60°, caractéristique du parquet point de Hongrie) ou en opus romain (mélange de 3 longueurs de lames). Les marques travaillées incluent Ariostea Wood (Ultra Laminate 6mm), Fiandre (Wooddesign), Atlas Concorde (Axi) et Porcelanosa (Rodano). Les joints sont réalisés très fins (1,5 à 2mm) en couleur bois (beige, sable, gris clair) pour renforcer l'illusion de parquet.",
+      "priceRange": "€50 - €90/m² pose seule",
+      "priceMin": 2500,
+      "priceMax": 22000,
+      "benefits": [
+        "Rendu parquet authentique avec durabilité et entretien du carrelage",
+        "Calepinage en quinconce, chevron ou opus romain selon vos préférences",
+        "Système de nivellement Raimondi HHXL : lippage < 0,5mm garanti",
+        "Mortier-colle S2 pour les formats > 120cm (pas de gauchissement)",
+        "Joints fins 1,5-2mm en couleur bois pour l'illusion parfaite",
+        "Résistance à l'humidité et aux animaux de compagnie – entretien facile"
+      ],
+      "technicalDetails": {
+        "formatsCouverts": "20x120cm, 20x180cm, 30x150cm, 22,5x90cm",
+        "colles": "Mapei Ultralite S2 (C2 TE S2) – déformation 12mm sur 100cm",
+        "niveleurs": "Raimondi Leveling System HHXL (lame 1mm ou 1,5mm)",
+        "lippageGaranti": "< 0,5mm entre carreaux adjacents",
+        "marquesReferentes": "Ariostea, Fiandre, Atlas Concorde, Porcelanosa, Provenza",
+        "jointsRecommandes": "1,5 à 2mm – Mapei Ultracolor Plus teinte bois (Nocciola, Sahara, Gris Perla)"
+      },
+      "process": [
+        "1. Validation du calepinage en plan (logiciel CAD) et validation client",
+        "2. Préparation support et ragréage autonivelant si nécessaire",
+        "3. Tracé des axes de pose au laser rotatif",
+        "4. Pose à sec du calepinage de référence",
+        "5. Encollage double (support + carrelage au peigne A2)",
+        "6. Pose avec niveleurs Raimondi HHXL",
+        "7. Découpes en biais pour les chevrons (scie à eau inclinable)",
+        "8. Jointoyage 1,5-2mm Mapei Ultracolor Plus",
+        "9. Nettoyage et protection antigraffiti si demandée"
+      ],
+      "guarantees": [
+        "Lippage < 0,5mm garanti sur l'ensemble de la surface",
+        "Garantie décennale de tenue de la pose",
+        "Calepinage conservé pour repose identique en cas de sinistre"
+      ],
+      "featured": true,
+      "icon": "align-left",
+      "image": "https://images.unsplash.com/photo-1562259949-e8e7689d7828",
+      "estimatedDuration": "2 à 8 jours selon surface et calepinage"
+    },
+    {
+      "name": "Pose pierre naturelle",
+      "slug": "pose-pierre-naturelle",
+      "parentCategory": "Pierre Naturelle & Prestige",
+      "shortDescription": "Pose de marbre, travertin, granit, quartzite, ardoise et pierre de Bourgogne au sol et en mural, avec imprégnation et traitement de protection adaptés.",
+      "fullDescription": "La pierre naturelle est le matériau le plus noble et le plus technique que pose Terranova Luxembourg. Chaque variété de pierre a ses caractéristiques propres imposant des protocoles de pose distincts. Le marbre (Calacatta Oro, Carrare C, Statuario, Nero Marquina) est une roche calcaire sensible aux acides : colle blanche obligatoire (Mapei Keralastic T Blanc), joint fin ciment blanc < 3mm ou époxy blanc Kerapoxy CQ, et imprégnation à l'huile de lin minérale Fila MP90 Eco Plus avant et après jointoyage pour saturation et protection contre les taches. Le travertin (tivoli, noce, romano) présente des creux naturels (vacuoles) qui peuvent être bouchés avant pose (travertin bouché) ou conservés pour un aspect rustique (travertin ouvert) – dans ce dernier cas, les vacuoles sont remplies de joint lors du jointoyage. Le granit (Nero Assoluto Zimbabwe, Baltic Brown) est la pierre la plus dure et résistante, posée à la colle C2 standard avec joint large 3-5mm en mortier gris. Le quartzite (Super White, Taj Mahal, Blue Savanna) est posé comme le marbre mais résiste aux acides contrairement à lui. L'ardoise (Ardoise des Pyrénées, Welsh Slate) est posée avec des colles flexibles S1 pour absorber ses légères variations dimensionnelles. Chaque chantier se termine par l'application d'un traitement de protection (Fila Finish Antislip pour l'extérieur, Fila Stone Protect pour les sols intérieurs à fort trafic).",
+      "priceRange": "€65 - €150/m² pose seule (hors matière)",
+      "priceMin": 3500,
+      "priceMax": 55000,
+      "benefits": [
+        "Protocoles de pose distincts adaptés à chaque nature de pierre",
+        "Colles blanches systématiques pour pierres translucides (marbre, onyx)",
+        "Imprégnation et traitement de protection Fila inclus dans le devis",
+        "Maîtrise du marbre Calacatta, travertin, granit, quartzite, ardoise",
+        "Remplissage des vacuoles de travertin (travertin bouché) inclus",
+        "Conseils d'entretien et carnet de maintenance de la pierre remis",
+        "Coupe miroir pour raccord de veinage (book matching) sur demande"
+      ],
+      "technicalDetails": {
+        "pierresTraitees": "Marbre, travertin, granit, quartzite, ardoise, Pierre de Bourgogne, onyx",
+        "collesMarbre": "Mapei Keralastic T Blanc (C2 TE S1) – blanc pour éviter les taches",
+        "collesGranit": "Mapei Granirapid bicomposant (prise rapide, haute résistance)",
+        "imprégnation": "Fila MP90 Eco Plus, Fila Stone Protect (sols intérieurs), Fila Finish Antislip (extérieur)",
+        "jointsMarbre": "Joint fin < 3mm ciment blanc Mapei Bianca ou Kerapoxy CQ (époxy incolore)",
+        "bookmatching": "Coupe miroir pour raccord veinage marbre grand format (sur demande, devis spécifique)"
+      },
+      "process": [
+        "1. Étude de la pierre (résistance, porosité, sensibilité acide) et protocole adapté",
+        "2. Calepinage en plan pour optimiser les veines et minimiser les chutes",
+        "3. Préparation support (chape, ragréage, désolidarisation si plancher bois)",
+        "4. Pré-imprégnation de la pierre (marbre, travertin) avant pose",
+        "5. Encollage double avec colle adaptée",
+        "6. Pose avec joints fins et niveleurs Raimondi",
+        "7. Remplissage vacuoles travertin si applicable",
+        "8. Jointoyage adapté (mortier fin blanc ou époxy)",
+        "9. Imprégnation finale et protection antigraffiti si demandée",
+        "10. Remise du carnet d'entretien personnalisé à la nature de la pierre"
+      ],
+      "guarantees": [
+        "Garantie décennale de la pose (assurance RC Pro décennale)",
+        "Garantie de non-tachage à la colle (colles blanches pour pierres sensibles)",
+        "Carnet d'entretien personnalisé avec produits adaptés à chaque type de pierre",
+        "Résistance antiglisse certifiée pour surfaces extérieures (R11 minimum)"
+      ],
+      "featured": true,
+      "icon": "feather",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c349979",
+      "estimatedDuration": "2 à 12 jours selon surface, type de pierre et calepinage"
+    },
+    {
+      "name": "Jointoyage",
+      "slug": "jointoyage",
+      "parentCategory": "Finition & Rénovation",
+      "shortDescription": "Rejointoiement de carrelage existant – remplacement des joints vieillis, colorés ou endommagés par des joints ciment colorés ou résine époxy neuve.",
+      "fullDescription": "Le jointoyage est une prestation de rénovation souvent sous-estimée alors qu'elle peut transformer radicalement l'aspect d'un carrelage vieilli sans le remplacer. Terranova Luxembourg réalise le rejointoiement complet ou partiel de carrelages existants en deux phases distinctes : dépose des anciens joints (au couteau électrique oscillant Fein MultiMaster avec lame BiM ou à la disqueuse avec disque diamant fin selon l'espace de joint) jusqu'à 2/3 de la profondeur du joint, nettoyage à l'aspirateur et dégraissage des joints ouverts, puis application des joints neufs. Pour les joints de salle de bain envahis par des moisissures noires profondes, un traitement fongicide Mapei Kerapoxy Cleaner est appliqué avant rejointoiement. Pour remplacer des joints ciment mats par des joints époxy brillants (transformation visuelle forte), nous nettoyons les joints au disque et appliquons le Kerapoxy Design bicomposant (mélange résine + durcisseur) qui polymérise en 24h. La résine époxy est ensuite essuyée sur le carrelage avec l'éponge spécifique Rubi avant polymérisation complète. Cette prestation est particulièrement appréciée pour les cuisines et salles de bain dont le carrelage est en excellent état mais dont les joints sont noircis ou tachés de manière irréversible.",
+      "priceRange": "€15 - €35/m² (rejointoiement seul)",
+      "priceMin": 300,
+      "priceMax": 5000,
+      "benefits": [
+        "Transformation visuelle d'un carrelage vieilli sans le remplacer",
+        "Choix entre joints ciment (27 teintes Mapei) et joints époxy (20 teintes)",
+        "Dépose propre des anciens joints au couteau oscillant Fein (sans casser les carreaux)",
+        "Traitement fongicide anti-moisissures avant rejointoiement",
+        "Économie de 70 à 80% par rapport à la dépose-repose du carrelage",
+        "Durée d'intervention courte : 1 à 3 jours pour une salle de bain complète"
+      ],
+      "technicalDetails": {
+        "outilDepose": "Fein MultiMaster FMM 350 QSL avec lame BiM (joints 2-5mm) ou disque diamant 1mm (joints > 5mm)",
+        "profondeurDepose": "2/3 de la profondeur du joint (DTU 52.2 recommandation)",
+        "traitementMoisissures": "Mapei Kerapoxy Cleaner + Fugabella Eco Porcelain (joint hydrophobe)",
+        "jointsCiment": "Mapei Ultracolor Plus FC – prise rapide, résistant UV",
+        "jointsEpoxy": "Mapei Kerapoxy Design – 100% résine, lissant, imperméable",
+        "tempsPolymerisation": "24h (ciment) – 48h (époxy) avant mise en eau"
+      },
+      "process": [
+        "1. Évaluation de l'état des joints et test de solidité du carrelage existant",
+        "2. Dépose des anciens joints (outil oscillant ou disque fin)",
+        "3. Aspiration et nettoyage des joints ouverts",
+        "4. Traitement fongicide si moisissures présentes",
+        "5. Application des nouveaux joints (ciment ou époxy selon choix)",
+        "6. Essuyage du surplus sur le carrelage avant polymérisation",
+        "7. Lustrage final et vérification visuelle"
+      ],
+      "guarantees": [
+        "Garantie 5 ans sur la tenue et la couleur des joints ciment Mapei Ultracolor",
+        "Garantie 10 ans sur les joints époxy Kerapoxy (imperméabilité et couleur)",
+        "Aucun carreau endommagé lors de la dépose garanti"
+      ],
+      "featured": false,
+      "icon": "minus-square",
+      "image": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15",
+      "estimatedDuration": "1 à 3 jours selon surface (inclus séchage)"
+    },
+    {
+      "name": "Rénovation carrelage",
+      "slug": "renovation-carrelage",
+      "parentCategory": "Finition & Rénovation",
+      "shortDescription": "Rénovation complète d'un carrelage existant : dépose, préparation du support, repose d'un carrelage neuf ou traitement et polissage de la pierre naturelle existante.",
+      "fullDescription": "La rénovation de carrelage chez Terranova couvre deux stratégies distinctes selon l'état du support et des matériaux. Première stratégie – dépose et repose complète : dépose des carreaux à la disqueuse + ciseaux pneumatiques (protection du plancher béton sous-jacent par bâchage), fraisage du mortier-colle résiduel à la raboteuse Hilti DCH 300 jusqu'à planarité < 3mm/2m, ragréage autonivelant, puis pose du nouveau carrelage. Cette méthode est recommandée quand les carreaux sont cassés, que le support est endommagé ou que l'emprise de joints est comblée. Deuxième stratégie – traitement et polissage en place (pour pierre naturelle) : le polissage au marbre crée un sol miroir (marbre) ou mat soyeux (travertin, granit) à partir d'un carrelage terne et rayé, avec une machine à polir professionnelle Klindex Expander 750 équipée de disques diamantés progressifs (80, 220, 400, 1800 mesh) et de disques de polissage résine Fila Surface Care. Après polissage, une couche d'imprégnation protectrice est appliquée (Fila Stone Protect ou Fila Finish pour l'effet lustré). Cette deuxième stratégie évite 95% du coût d'une dépose-repose et redonne au marbre son aspect d'origine.",
+      "priceRange": "€45 - €130/m²",
+      "priceMin": 1500,
+      "priceMax": 40000,
+      "benefits": [
+        "Deux stratégies : dépose-repose ou traitement/polissage en place",
+        "Polissage marbre au miroir avec machine Klindex Expander 750",
+        "Économie jusqu'à 95% vs dépose-repose complète pour pierre naturelle saine",
+        "Fraisage du mortier colle résiduel à la raboteuse Hilti DCH 300",
+        "Ragréage autonivelant inclus dans le devis de rénovation complète",
+        "Protection et imprégnation Fila incluse dans le polissage"
+      ],
+      "technicalDetails": {
+        "outilDepose": "Disqueuse Makita + ciseaux pneumatiques Atlas Copco",
+        "fraisage": "Hilti DCH 300 (raboteuse diamant) – planéité < 3mm/2m",
+        "polissage": "Klindex Expander 750 – disques diamant 80 à 1800 mesh + disques résine Fila",
+        "impregnation": "Fila Stone Protect (protection interne) + Fila Finish (brillance)",
+        "ragréage": "Mapei Ultraplan (autonivelant) – épaisseur 3 à 50mm"
+      },
+      "process": [
+        "1. Diagnostic : évaluation de la faisabilité de la rénovation en place ou nécessité de dépose",
+        "2. Option A (dépose) : dépose mécanique, fraisage, ragréage, repose neuf",
+        "2. Option B (polissage) : nettoyage dégraissant, polissage progressif 80-1800 mesh",
+        "3. Rejointoiement si nécessaire",
+        "4. Imprégnation et protection finale",
+        "5. Nettoyage et livraison"
+      ],
+      "guarantees": [
+        "Garantie décennale pour les travaux de dépose-repose",
+        "Garantie 3 ans sur l'effet de polissage (entretien selon carnet d'entretien)",
+        "Aucun dommage au support sous-jacent garanti lors de la dépose"
+      ],
+      "featured": false,
+      "icon": "rotate-ccw",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+      "estimatedDuration": "2 à 10 jours selon surface et stratégie"
+    },
+    {
+      "name": "Réparation carrelage",
+      "slug": "reparation-carrelage",
+      "parentCategory": "Finition & Rénovation",
+      "shortDescription": "Remplacement de carreaux cassés, fissurés ou décollés, et traitement des zones carrelées endommagées ponctuellement.",
+      "fullDescription": "La réparation ponctuelle de carrelage est une intervention délicate car elle exige de retrouver un carrelage identique à l'existant (ou visuellement compatible) et de reposer dans un espace contraint sans abîmer les carreaux adjacents. Terranova Luxembourg maîtrise la dépose de carreaux individuels par découpe au disque diamant fin Ø115mm des joints périphériques, puis décollement progressif au ciseau fin et au marteau pneumatique léger (évitant les chocs transmis aux carreaux voisins). Si le carreau original n'est plus disponible chez le fabricant, nous proposons soit un carreau d'aspect similaire (soumis à validation visuelle), soit une zone de remplacement décorative (insert carré ou diamant en contraste avec l'existant, transformant la réparation en intention décorative). Pour les carreaux sonnant creux sans être fissurés, nous pratiquons l'injection de colle liquide par perçage d'un trou de 6mm (technique de résine injectée Mapei Eporip), permettant de reconsolider le carreau sans dépose. Les fissures fines de carreaux peuvent être traitées par remplissage époxy teinté assorti, minimisant leur visibilité.",
+      "priceRange": "€80 - €350 (forfait par zone de réparation)",
+      "priceMin": 80,
+      "priceMax": 3500,
+      "benefits": [
+        "Dépose de carreaux individuels sans endommager les carreaux adjacents",
+        "Recherche du carreau identique ou proposition de variante décorative",
+        "Injection de colle Mapei Eporip pour carreaux sonnant creux (sans dépose)",
+        "Traitement des fissures fines par résine époxy teintée assortie",
+        "Intervention ponctuelle sans immobiliser une pièce entière",
+        "Idéal pour réparations avant vente ou état des lieux"
+      ],
+      "technicalDetails": {
+        "outilDepose": "Disque diamant Ø115mm + marteau pneumatique léger (moins de 20J)",
+        "injectionCreux": "Mapei Eporip (résine bicomposante injectable, résistance 50 MPa)",
+        "réparationFissures": "Résine époxy teintée Mapei Mapefill ou Mapegrout Easy Flow",
+        "delaiIdentificationCarreau": "3 à 15 jours selon disponibilité fournisseur"
+      },
+      "process": [
+        "1. Diagnostic : test sonorité (carreaux creux) et évaluation des fissures",
+        "2. Identification du carrelage existant et recherche du carreau identique",
+        "3. Option creuse : injection résine Eporip et reconsolidation",
+        "3. Option dépose : découpe joints, dépose carreau, préparation du support",
+        "4. Pose du carreau de remplacement à la colle adaptée",
+        "5. Jointoyage assorti aux joints existants",
+        "6. Nettoyage et présentation"
+      ],
+      "guarantees": [
+        "Garantie 5 ans sur la réparation",
+        "Garantie de non-dommage aux carreaux adjacents",
+        "Correspondance visuelle validée par le client avant pose"
+      ],
+      "featured": false,
+      "icon": "tool",
+      "image": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15",
+      "estimatedDuration": "2 à 8 heures selon nombre de carreaux et disponibilité du matériau"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Marc Hoffmann",
+      "location": "Kirchberg, Luxembourg-Ville",
+      "rating": 5,
+      "date": "2025-12-01",
+      "text": "François a posé 85 m² de marbre Calacatta Oro dans notre villa au Kirchberg. Le calepinage en diagonale avec book matching sur les veines est absolument spectaculaire. Toutes les découpes sont nettes comme au millimètre. Il a fallu 11 jours pour un résultat digne d'un palace. La protection Fila appliquée en fin de chantier préserve la couleur et les taches glissent dessus. Je recommande sans réserve.",
+      "projectType": "Pose marbre Calacatta Oro 85 m² – calepinage diagonale book matching",
+      "projectValue": "€18.500"
+    },
+    {
+      "author": "Isabelle Kremer",
+      "location": "Bertrange",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "Salle de bain complète : 22 m² de faïence Porcelanosa Deco posée en vertical jusqu'au plafond, receveur de douche à l'italienne avec mosaïque verre bleu nuit, niche encastrée Schlüter avec carrelage assorti. François a dessiné le calepinage sur ordinateur avant de commencer – j'ai pu valider chaque détail. Résultat parfait, aucun défaut, joints époxy impeccables. Mon architecte a demandé son numéro.",
+      "projectType": "Salle de bain complète – faïence + douche italienne + mosaïque",
+      "projectValue": "€6.800"
+    },
+    {
+      "author": "Jean-Claude Muller",
+      "location": "Mersch",
+      "rating": 5,
+      "date": "2025-08-23",
+      "text": "Pose de 140 m² de parquet carrelé Ariostea Wood Ultra Laminate en pose chevron dans toute notre maison. La découpe en biais pour le chevron est très technique – François avait une scie à eau inclinable et un gabarit d'angle. Zero lippage entre les lames, joints à 1,5mm couleur tabac qui renforcent l'illusion du bois. Après 6 mois d'utilisation avec deux chiens, aucune rayure ni dommage.",
+      "projectType": "Parquet carrelé Ariostea 140 m² – pose chevron",
+      "projectValue": "€9.800"
+    },
+    {
+      "author": "Sophie Wagner",
+      "location": "Hesperange",
+      "rating": 5,
+      "date": "2025-06-18",
+      "text": "Rénovation de nos joints de salle de bain et cuisine : 28 m² de carrelage des années 1990 en excellent état mais avec des joints noirs de moisissures depuis 3 ans. François a déposé les joints, traité à l'antifongique, et posé des joints époxy Kerapoxy blanc. Transformation totale du rendu pour €620 au lieu de refaire le carrelage complet à €4.000+. Choix éclairé recommandé.",
+      "projectType": "Rejointoiement époxy salle de bain + cuisine – 28 m²",
+      "projectValue": "€620"
+    },
+    {
+      "author": "Patrick Da Silva",
+      "location": "Dudelange",
+      "rating": 5,
+      "date": "2025-04-09",
+      "text": "Pose de travertin roman bouché en 120x60cm dans notre séjour de 55 m². François m'a expliqué la différence entre travertin ouvert et bouché, a rempli les vacuoles avec une teinte proche de la pierre pendant le jointoyage. Le résultat est luxueux. La protection Fila Stone Protect empêche les taches de vin et de café de pénétrer dans la pierre.",
+      "projectType": "Travertin roman bouché 120x60cm – 55 m² séjour",
+      "projectValue": "€7.200"
+    },
+    {
+      "author": "Christine Schroeder",
+      "location": "Ettelbruck",
+      "rating": 5,
+      "date": "2025-02-27",
+      "text": "François a rénové le sol en marbre de notre entrée (15 m²) par polissage au lieu d'une dépose-repose que plusieurs carreleurs nous avaient proposée à €3.500+. Son devis de polissage était à €850. Résultat identique à un marbre neuf : brillance miroir, aucune rayure visible. Économie de €2.650. C'est un professionnel qui conseille ce qui est le mieux pour le client, pas pour son porte-monnaie.",
+      "projectType": "Polissage marbre entrée 15 m² – résultat miroir",
+      "projectValue": "€850"
+    },
+    {
+      "author": "André Weber",
+      "location": "Walferdange",
+      "rating": 4,
+      "date": "2024-12-11",
+      "text": "Pose de carrelage grand format Florim Maxfine 120x240cm dans notre cuisine ouverte (38 m²). Chantier technique difficile – le plafond est à 2,80m, l'accès par l'escalier était délicat avec des dalles de 120x240cm. François a découpé les dalles à l'extérieur et les a portées à 2 personnes. Résultat impeccable, zéro lippage. Je retire une étoile pour un léger retard de 2 jours sur le planning annoncé.",
+      "projectType": "Carrelage grand format 120x240cm – cuisine ouverte 38 m²",
+      "projectValue": "€4.800"
+    },
+    {
+      "author": "Martine Faber",
+      "location": "Remich",
+      "rating": 5,
+      "date": "2024-10-03",
+      "text": "Pose de 68 m² de carrelage antidérapant R11 en extérieur (terrasse, escalier, piscine) en grès cérame Marazzi Terrace 60x60cm dans le ton pierre Beige Sabbia. François a vérifié la résistance au gel (classe GEL+) et la classe antidérapante (obligatoire R11 pour bords de piscine). Aucune remontée de gel après deux hivers, aucune glissade. Professionnel qui connaît son affaire.",
+      "projectType": "Carrelage extérieur R11 – terrasse + piscine 68 m²",
+      "projectValue": "€5.900"
+    },
+    {
+      "author": "René Kayser",
+      "location": "Steinfort",
+      "rating": 5,
+      "date": "2024-07-15",
+      "text": "Réparation de 8 carreaux cassés dans notre salon après la pose d'un parquet chauffant (dilatation thermique mal gérée par un précédent artisan). François a réussi à trouver le même carrelage (Villeroy & Boch Charleston, modèle discontinu) chez un revendeur de stock. Pose impeccable, joints assortis, on ne voit pratiquement plus les réparations. Merci pour ce travail minutieux.",
+      "projectType": "Réparation 8 carreaux – salon (modèle discontinu retrouvé)",
+      "projectValue": "€480"
+    },
+    {
+      "author": "Nicolas Thill",
+      "location": "Grevenmacher",
+      "rating": 5,
+      "date": "2024-05-22",
+      "text": "Pose de mosaïque verre irisé dans la niche de notre douche et autour de la baignoire îlot (18 m² au total). Le calepinage informatique m'a permis de voir le rendu avant achat des matériaux – j'ai changé la teinte sur le rendu et économisé un mauvais choix. La mosaïque est posée avec une précision de 1mm, les joints époxy Kerapoxy blanc cassé sont parfaits. Un artisan d'exception.",
+      "projectType": "Mosaïque verre irisé – douche + baignoire 18 m²",
+      "projectValue": "€3.200"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Villa Steinfort – Marbre Calacatta sur 280 m²",
+      "location": "Steinfort",
+      "year": 2025,
+      "duration": "6 semaines",
+      "budget": "€42.000",
+      "description": "Pose de marbre Calacatta Oro d'Italie (dalle 80x160cm, épaisseur 20mm, poids 78 kg par dalle) dans une villa neuve de 280 m² habitables à Steinfort, sur 4 niveaux. Le calepinage en diagonal 45° a été validé par plan CAD avec le client et l'architecte avant tout ordre d'achat, permettant de calculer les chutes et d'optimiser la commande à 305 m² de marbre. La colle blanche Mapei Keralastic T Blanc a été utilisée en double encollage avec un peigne A2 (6x6mm), garantissant un contact total de la dalle sur son support. Chaque dalle a été nivelée au laser rotatif. Les joints de 2mm ont été réalisés en résine Kerapoxy CQ incolore pour ne pas perturber la lecture des veines. L'imprégnation Fila MP90 Eco Plus a été appliquée en deux passes avant les joints, et une troisième passe après joints.",
+      "technicalHighlights": [
+        "280 m² marbre Calacatta Oro – dalles 80x160cm – épaisseur 20mm",
+        "Calepinage diagonal 45° validé par plan CAD avant commande",
+        "Double encollage Keralastic T Blanc peigne A2 – contact total garanti",
+        "Nivelage au laser rotatif sur 4 niveaux",
+        "Joints 2mm Kerapoxy CQ incolore – préservation lecture des veines",
+        "3 passes d'imprégnation Fila MP90 Eco Plus avant et après joints"
+      ]
+    },
+    {
+      "name": "Hôtel Boutique – Couloir et 24 salles de bain – Kirchberg",
+      "location": "Kirchberg, Luxembourg-Ville",
+      "year": 2024,
+      "duration": "12 semaines",
+      "budget": "€78.000",
+      "description": "Carrelage complet d'un hôtel boutique de 24 chambres au Kirchberg (rénovation de l'existant) : couloir commun de 180 m² en grès cérame Ragno Bistrot 60x60cm dans le ton Blanc Mat (pose droite, joints 2mm Mapei Ultracolor Plus ciment blanc), et 24 salles de bain de 5 à 8 m² chacune en faïence mural Fap Ceramiche Lumina Glam White 30x60cm avec insert en mosaïque verre bleu paon en bandeau. Chaque salle de bain a bénéficié d'un complexe d'étanchéité Schlüter-Kerdi complet sur murs et sol avant carrelage (zonation P3), receveur de douche à l'italienne Kaldewei Superplan Zero avec grille linéaire Geberit. Joints en résine époxy Kerapoxy Design blanc dans toutes les salles de bain. Chantier réalisé en roulement par section de 4 chambres pour maintenir les chambres non travaillées disponibles à la location.",
+      "technicalHighlights": [
+        "180 m² couloir grès cérame Ragno 60x60cm + 24 salles de bain",
+        "Étanchéité Schlüter-Kerdi complète P3 dans les 24 salles de bain",
+        "24 receveurs de douche Kaldewei Superplan Zero avec grille Geberit",
+        "Insert mosaïque verre bleu paon dans chaque salle de bain",
+        "Joints époxy Kerapoxy Design blanc dans toutes les salles de bain (hygiène hôtelière)",
+        "Roulement chantier section par section : hôtel jamais fermé entièrement"
+      ]
+    },
+    {
+      "name": "Maison unifamiliale Ettelbruck – Parquet carrelé chevron 185 m²",
+      "location": "Ettelbruck",
+      "year": 2024,
+      "duration": "4 semaines",
+      "budget": "€22.000",
+      "description": "Pose de 185 m² de parquet carrelé Provenza Grained 22x90cm dans une maison unifamiliale entièrement rénovée à Ettelbruck (plancher chauffant hydraulique Uponor). Le défi principal était la pose sur PCH : protocole strict de mise en température respecté (montée à 50°C, refroidissement, stabilisation à 20°C avant pose), utilisation de mortier-colle désolidarisant Mapei Keraflex Maxi S1 (colle flexible S1) et joints de fractionnement périphériques et intermédiaires tous les 40 m² de surface. La pose en chevron point de Hongrie (angle 90°) a nécessité un gabarit d'angle aluminium sur mesure et une scie à eau inclinable à 45°. Les joints de 2mm en Mapei Ultracolor Plus Ebano ont été choisis pour trancher légèrement avec les lames claires, renforçant la perspective de la pose en chevron.",
+      "technicalHighlights": [
+        "185 m² parquet carrelé Provenza 22x90cm sur plancher chauffant hydraulique",
+        "Protocole PCH respecté intégralement (mise en temp. + colle S1 désolidarisante)",
+        "Joints de fractionnement périphériques et tous les 40 m²",
+        "Pose chevron point de Hongrie avec gabarit d'angle alu sur mesure",
+        "Scie à eau inclinable 45° pour découpes chevron",
+        "Joints 2mm Ultracolor Plus Ebano – effet visuel renforçant le chevron"
+      ]
+    },
+    {
+      "name": "Rénovation terrasse + piscine – Remich 95 m²",
+      "location": "Remich",
+      "year": 2023,
+      "duration": "3 semaines",
+      "budget": "€14.500",
+      "description": "Rénovation complète de la terrasse (65 m²) et margelles de piscine (30 m²) d'une propriété viticole à Remich. L'ancien carrelage en pierre calcaire locale (non résistant au gel) avait subi de nombreuses craquelures après 3 hivers. Terranova a réalisé la dépose complète de l'ancien revêtement, la vérification de l'étanchéité de la dalle béton (avec application d'une résine d'étanchéité Sika-126 sur les zones présentant des microfissures), et la pose de grès cérame Marazzi Mystone Quarzite 60x60cm classe R12 (norme DIN 51130) avec colle extérieure résistante au gel Weber.set Aqua +. Les margelles de piscine ont été réalisées en Marazzi My Stone Quarzite bord droit, avec joint époxy Kerapoxy CE résistant aux produits de traitement de l'eau.",
+      "technicalHighlights": [
+        "Dépose carrelage calcaire non résistant au gel (craquelé en 3 hivers)",
+        "Étanchéité dalle béton Sika-126 sur zones microfissurées",
+        "Grès cérame Marazzi 60x60cm classe R12 (antidérapant certifié DIN 51130)",
+        "Colle gel-résistante Weber.set Aqua + (classe F+ gel/dégel)",
+        "Joints époxy Kerapoxy CE (résistant produits chlorés) sur margelles",
+        "Aucune craquelure après 2 hivers – garantie décennale"
+      ]
+    }
+  ],
+  "stats": {
+    "projectsCompleted": 634,
+    "yearsExperience": 23,
+    "satisfactionRate": 98,
+    "responseTime": "Devis sous 48h, intervention sous 1 à 3 semaines",
+    "teamSize": 5,
+    "surfacePoseeAnnee": "4.200 m²/an en moyenne",
+    "pourcentagePierreNaturelle": "38% des projets incluent pierre naturelle",
+    "noteMoyenneHouzz": "5/5 (87 projets publiés)"
+  },
+  "team": {
+    "description": "Terranova Luxembourg est une équipe de 5 carreleurs et aides-carreleurs conduite par François Rodrigues, compagnon du Tour de France et référent technique reconnu pour les matériaux nobles.",
+    "members": [
+      {
+        "name": "François Rodrigues",
+        "role": "Fondateur & Carreleur compagnon du Tour de France",
+        "experience": "23 ans",
+        "certifications": ["Compagnon du Devoir – Carreleur Mosaïste", "Certification Sika Pro (pose milieux humides)", "Certification Schlüter Systems applicateur agréé", "Formation Fila Surface Care – traitement pierre naturelle"],
+        "bio": "Originaire du Portugal, François est arrivé au Luxembourg à 19 ans pour rejoindre un chantier de carrelage haut de gamme, et n'est plus reparti. Son titre de compagnon du Tour de France (obtenu après 4 ans de Tour de France en France et Espagne) garantit un niveau de maîtrise technique rare dans le secteur. Ses spécialités : pierre naturelle, mosaïque et grands formats."
+      },
+      {
+        "name": "Thomas Becker",
+        "role": "Carreleur chef d'équipe",
+        "experience": "12 ans",
+        "certifications": ["CAP Carreleur Mosaïste", "Formation plancher chauffant Uponor", "Habilitation Schlüter Systems"],
+        "bio": "Thomas est le spécialiste de l'équipe pour les planchers chauffants et les grandes surfaces de carrelage de sol. Sa rigueur technique et sa vitesse d'exécution sans compromis sur la qualité en font un chef d'équipe respecté."
+      },
+      {
+        "name": "André Da Silva",
+        "role": "Carreleur mosaïste",
+        "experience": "8 ans",
+        "certifications": ["CAP Carreleur Mosaïste", "Formation mosaïque artistique – Atelier Chesneau, Paris"],
+        "bio": "André est le spécialiste mosaïque de l'équipe : mosaïque verre, émaux de Briare, opus romain. Ses réalisations décoratives sont régulièrement photographiées et publiées sur Houzz par les architectes d'intérieur partenaires."
+      },
+      {
+        "name": "Céline Kieffer",
+        "role": "Coordinatrice chantiers & Relation clients",
+        "experience": "6 ans",
+        "certifications": ["BTS Commerce – option BTP"],
+        "bio": "Céline gère le planning des chantiers, les devis et le suivi de satisfaction client après livraison. Son organisation et sa clarté de communication ont transformé la gestion administrative de Terranova."
+      },
+      {
+        "name": "René Costa",
+        "role": "Aide-carreleur & Préparation supports",
+        "experience": "4 ans",
+        "certifications": ["Formation ragréage et préparation supports Mapei (agréé)"],
+        "bio": "René est spécialisé dans la préparation des supports (ragréage autonivelant, dépose de l'ancien revêtement) et assiste l'équipe de pose sur les grands chantiers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte la pose de carrelage au Luxembourg en 2026 ?",
+      "answer": "Les tarifs de pose de carrelage au Luxembourg varient selon le type de matériau et la complexité du calepinage. Pour un carrelage de sol standard (grès cérame 30x60cm, pose droite), comptez entre €35 et €50/m² pour la pose seule (hors fourniture du carrelage). Pour du grand format (60x120cm et plus), le tarif monte à €55 à €85/m² en raison du double encollage et du système de nivellement obligatoire. Pour la pierre naturelle (marbre, travertin), la pose se négocie entre €65 et €150/m². Pour la mosaïque artisanale, le tarif démarre à €80/m² et peut dépasser €200/m² pour des motifs complexes. Ces tarifs luxembourgeois sont supérieurs de 25 à 35% aux tarifs français (coût de la main-d'œuvre, cotisations sociales luxembourgeoises). À ces coûts de pose s'ajoutent la fourniture du carrelage (€15 à €300/m² selon le matériau), les colles et joints (€4 à €12/m²), et le ragréage si nécessaire (€8 à €20/m²)."
+    },
+    {
+      "question": "Quelle est la différence entre un joint ciment et un joint époxy ?",
+      "answer": "La différence est fondamentale. Le joint ciment (mortier-joint, comme le Mapei Ultracolor Plus) est le plus courant : facile à poser, 27 teintes disponibles, séchage en 24h, coût modéré (€4 à €7/m²). Ses inconvénients : microporeux, donc susceptible de se tacher avec les graisses et de développer des moisissures dans les zones humides persistantes, et sa couleur peut légèrement s'altérer avec le temps. Le joint époxy (Mapei Kerapoxy Design, Litokol Starlike) est une résine bicomposante : imperméable à 100%, non poreux donc aucune moisissure possible, résistant aux produits chimiques ménagers et aux acides faibles, couleur stable dans le temps, nettoyage facile. Ses inconvénients : coût 3 à 4 fois plus élevé (€15 à €25/m²), pose plus délicate (temps de travail limité avant polymérisation), et aspect légèrement plus brillant. Chez Terranova, nous recommandons systématiquement le joint époxy pour les douches, autour des baignoires et dans les cuisines professionnelles, et le joint ciment de qualité pour les sols et les murs hors zones d'eau."
+    },
+    {
+      "question": "Quelle pose de carrelage choisir : droite, diagonale ou chevron ?",
+      "answer": "Le choix du calepinage dépend de la géométrie de la pièce et de l'effet recherché. La pose droite (joints parallèles aux murs, décalage 1/3 ou 1/2 au choix) est la plus courante, valorise les grands formats et crée une ambiance contemporaine et ordonnée. La pose en diagonale (45° par rapport aux murs) agrandit visuellement les petites pièces et est idéale pour les couloirs étroits ou les salles de bain compactes. Elle génère plus de chutes (environ 15 à 20% en plus de matériau à prévoir). La pose en chevron (lames posées en V) ou en point de Hongrie (chevron à 90°) est la plus spectaculaire et dynamique – elle convient parfaitement aux parquets carrelés (formats lames longues). Elle exige une haute précision d'exécution (gabarit d'angle sur mesure, scie inclinable) et génère 15 à 25% de chutes supplémentaires. Chez Terranova, nous réalisons toujours un calepinage informatique avant commande du matériel pour que le client valide visuellement le rendu et pour calculer précisément les quantités."
+    },
+    {
+      "question": "Peut-on poser du carrelage sur un plancher chauffant ?",
+      "answer": "Oui, le carrelage est en réalité le revêtement le plus compatible avec les planchers chauffants hydrauliques (PCH) ou électriques, grâce à sa conductivité thermique élevée et à sa stabilité dimensionnelle. Cependant, la pose sur PCH exige des précautions techniques strictes. Côté chape : elle doit avoir subi son cycle thermique complet avant toute pose (montée progressive à 50°C, puis refroidissement à 20°C, stabilisation 72h). Côté colle : obligation d'utiliser un mortier-colle désolidarisant de classe au minimum S1 (déformation longitudinale > 2,5mm) comme le Mapei Keraflex Maxi S1 – les colles standard CG1 ou CG2 non flexibles provoquent des décollements à la dilatation thermique. Côté joints : les joints de fractionnement sont obligatoires autour du périmètre de chaque pièce et tous les 40 m² environ de surface (profil Schlüter-Dilex ou Mapei joint de dilatation). Le calepinage doit éviter les dalles de plus de 80cm dans la dimension la plus courte sur PCH (risque de gauchissement)."
+    },
+    {
+      "question": "Peut-on poser du carrelage sur de l'ancien carrelage (collage sur l'existant) ?",
+      "answer": "Oui, la pose de carrelage sur carrelage existant est techniquement possible sous certaines conditions, et peut permettre d'éviter les coûts et délais de la dépose. Les conditions impératives sont : l'ancien carrelage doit être parfaitement adhérent (aucun carreau sonnant creux – test à la bille ou au marteau), propre et dégraissé, et le support ne doit pas être fissuré en profondeur. La surépaisseur ajoutée (épaisseur colle + nouveau carreau = 15 à 25mm environ) doit être compatible avec les seuils de portes et les niveaux des pièces adjacentes. Une primaire d'adhérence Mapei Eco Prim Grip est appliquée sur l'ancien carrelage pour améliorer l'accrochage. Cette technique est acceptable pour les murs (faïence sur faïence) et pour les sols à faible trafic. Elle est déconseillée pour les sols à fort trafic, les zones humides, les planchers chauffants et les carrelages grand format (masse trop élevée pour la couche intermédiaire)."
+    },
+    {
+      "question": "Comment entretenir un carrelage en marbre au Luxembourg ?",
+      "answer": "Le marbre est une roche calcaire sensible aux acides et aux taches, qui nécessite un entretien adapté pour conserver sa beauté. Voici les règles essentielles. Nettoyage quotidien : eau tiède avec quelques gouttes de savon de Marseille ou détergent neutre pH 7 (jamais de vinaigre, citron, bicarbonate ou produits acides qui attaquent la calcite). Nettoyage hebdomadaire : produit spécifique marbre comme Fila Marble Floor Cleaner concentré à diluer. En cas de tache : agir immédiatement, absorber sans frotter avec un chiffon blanc humide, traiter ensuite avec Fila Cleaner. Jamais de jet à haute pression. Re-imprégnation protectrice : tous les 1 à 2 ans selon le trafic, appliquer Fila MP90 Eco Plus (protège sans altérer l'aspect) ou Fila Finish pour les marbres à effet lustré. Tous nos chantiers marbre sont livrés avec un carnet d'entretien personnalisé indiquant les produits recommandés et les produits à éviter absolument."
+    },
+    {
+      "question": "Quelle différence entre grès cérame et faïence ?",
+      "answer": "Ce sont deux familles de carrelage aux propriétés très différentes. La faïence est un carrelage céramique poreux (porosité > 0,5%), composé d'une pâte argileuse rouge ou blanche recouverte d'un émail. Elle est légère, facile à couper, disponible en de nombreux formats et décors, mais sensible au gel (usage intérieur uniquement), plus fragile mécaniquement et plus absorbante. Elle est idéale pour les murs intérieurs (cuisine, salle de bain). Le grès cérame est une céramique à haute température (1200°C contre 1050°C pour la faïence) qui vitrifies entièrement la pâte argileuse, lui conférant une porosité quasi nulle (< 0,1%), une dureté 7 à 8 sur l'échelle de Mohs, une résistance au gel et une imperméabilité excellente. Il est disponible en formats de 10x10cm à 120x260cm. Il s'utilise indifféremment au sol et en mural, en intérieur comme en extérieur. Son seul inconvénient est un coût légèrement supérieur et une découpe plus difficile (disque diamant obligatoire pour les grands formats ou épaisseurs > 10mm)."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Compagnon du Devoir – Carreleur Mosaïste",
+      "issuer": "Association Ouvrière des Compagnons du Devoir",
+      "year": 2004,
+      "description": "Titre reconnu par l'État attestant d'une maîtrise technique exceptionnelle du carrelage et de la mosaïque (4 ans de Tour de France)"
+    },
+    {
+      "name": "Certification Sika Pro – Applicateur Milieux Humides",
+      "issuer": "Sika Luxembourg",
+      "year": 2012,
+      "description": "Certification pour la pose de carrelage en milieux humides avec les systèmes d'étanchéité Sika"
+    },
+    {
+      "name": "Applicateur Agréé Schlüter Systems",
+      "issuer": "Schlüter Systems GmbH",
+      "year": 2010,
+      "description": "Agrément pour la pose des membranes d'étanchéité Schlüter-Kerdi et des profils de finition Schlüter"
+    },
+    {
+      "name": "Fédération des Artisans Luxembourg – Membre",
+      "issuer": "Fédération des Artisans du Grand-Duché de Luxembourg",
+      "year": 2001,
+      "description": "Inscription au registre des entreprises artisanales, respect de la charte qualité de la Fédération"
+    },
+    {
+      "name": "Formation Fila Surface Care – Traitement Pierre Naturelle",
+      "issuer": "Fila Surface Care Solutions",
+      "year": 2015,
+      "description": "Formation certifiée pour le traitement, la protection et la rénovation des pierres naturelles"
+    }
+  ],
+  "warranties": {
+    "tenuePose": "Garantie décennale sur la tenue de la pose (assurance RC Pro décennale Foyer Assurances)",
+    "adherence": "Aucun carreau sonnant creux à la réception – contrôle systématique",
+    "etancheite": "Garantie décennale sur l'étanchéité des zones humides (Schlüter-Kerdi ou Sika)",
+    "joints": "Garantie 5 ans joints ciment Mapei Ultracolor / 10 ans joints époxy Kerapoxy",
+    "polissage": "Garantie 3 ans sur l'effet de polissage (sous réserve d'entretien selon carnet)"
+  },
+  "financing": {
+    "available": true,
+    "options": [
+      "Paiement en 3 fois sans frais pour chantiers > €3.000 (accord Spuerkeess)",
+      "Aide MyEnergy Luxembourg pour travaux d'isolation thermique associés",
+      "Financement via Fonds du Logement (propriétaires sous conditions ressources)"
+    ],
+    "deposit": "30% à la signature du bon de commande",
+    "balance": "40% à mi-chantier, 30% à la réception avec PV contradictoire"
+  },
+  "seo": {
+    "keywords": [
+      "carreleur Luxembourg",
+      "pose carrelage Luxembourg",
+      "carreleur Mersch",
+      "pose marbre Luxembourg",
+      "pose pierre naturelle Luxembourg-Ville",
+      "carreleur Bertrange",
+      "pose carrelage salle de bain Luxembourg",
+      "mosaïque Luxembourg",
+      "parquet carrelé Luxembourg",
+      "rejointoiement carrelage Luxembourg",
+      "carreleur Ettelbruck",
+      "faïence salle de bain Luxembourg",
+      "pose travertin Luxembourg",
+      "carreleur Hesperange",
+      "rénovation carrelage Luxembourg"
+    ],
+    "metaTitle": "Carreleur Luxembourg | Terranova – Marbre & Grès Cérame",
+    "metaDescription": "Carreleur compagnon au Luxembourg. Pose carrelage sol/mural, marbre, travertin, mosaïque, parquet carrelé. Devis gratuit. +352 26 54 88 75.",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Terranova Carrelage Luxembourg",
+      "description": "Carreleur professionnel au Luxembourg. Pose carrelage, faïence, pierre naturelle, mosaïque, parquet carrelé. Compagnon du Tour de France.",
+      "priceRange": "€€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5, Rue de la Gare",
+        "addressLocality": "Mersch",
+        "postalCode": "L-7535",
+        "addressCountry": "LU"
+      },
+      "telephone": "+352265488 75",
+      "openingHours": "Mo-Fr 07:00-17:30",
+      "areaServed": ["Luxembourg", "Mersch", "Kirchberg", "Bertrange", "Ettelbruck", "Grevenmacher"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "201"
+      }
+    }
+  },
+  "additionalServices": {
+    "freeServices": [
+      "Devis gratuit sous 48h avec visite de chantier",
+      "Calepinage informatique et simulation visuelle inclus dans le devis",
+      "Conseil sur le choix du carrelage et des joints (sans obligation d'achat)",
+      "Carnet d'entretien personnalisé remis à la livraison",
+      "Conseils sur les aides et primes MyEnergy applicables"
+    ],
+    "paidOptions": [
+      "Fourniture du carrelage en complément de la pose (tarif professionnel)",
+      "Polissage de marbre existant (€25 à €55/m² selon état)",
+      "Pose d'imperméabilisation complémentaire sur carrelage existant (€8/m²)",
+      "Home staging carrelage avant vente : diagnostic et devis express sous 24h",
+      "Formation entretien pierre naturelle pour particuliers (1h sur site) : €80",
+      "Rapport photographique de réception avec mesures de planéité (€150 supplément)"
+    ]
+  },
+  "materialSuppliers": {
+    "principaux": [
+      {
+        "name": "Porcelanosa",
+        "specialite": "Faïence, grès cérame, parquet carrelé premium",
+        "origine": "Espagne"
+      },
+      {
+        "name": "Ariostea (groupe Iris Ceramica)",
+        "specialite": "Grès cérame grand format, parquet carrelé, effet métal",
+        "origine": "Italie"
+      },
+      {
+        "name": "Atlas Concorde",
+        "specialite": "Grès cérame, marbre reconstitué, carrelage contemporain",
+        "origine": "Italie"
+      },
+      {
+        "name": "Marazzi Group",
+        "specialite": "Grès cérame extérieur, carrelage antidérapant, grandes surfaces",
+        "origine": "Italie"
+      },
+      {
+        "name": "Fila Surface Care",
+        "specialite": "Traitements et protections pierre naturelle, imperméabilisants",
+        "origine": "Italie"
+      },
+      {
+        "name": "Mapei",
+        "specialite": "Colles, joints, ragréages, étanchéités",
+        "origine": "Italie / Présence Luxembourg"
+      }
+    ]
+  },
+  "ecoResponsibility": {
+    "commitments": [
+      "Sélection prioritaire de carreaux certifiés ISO 14001 (process de fabrication respectueux)",
+      "Tri et valorisation des chutes de carrelage (déchetterie partenaire à Mersch)",
+      "Utilisation de colles et joints à faibles émissions de COV (produits Mapei Green Line)",
+      "Conseil systématique pour la rénovation/réhabilitation plutôt que la dépose totale",
+      "Optimisation du calepinage pour réduire les chutes de 10 à 25% (économie matière)",
+      "Nettoyage des outils à l'eau sans solvants chimiques"
+    ],
+    "certifications": [
+      "Colles Mapei Green Line certifiées Emicode EC1 (très faibles émissions)",
+      "Carreaux Porcelanosa certifiés ISO 14001 utilisés en priorité"
+    ]
+  }
+}
