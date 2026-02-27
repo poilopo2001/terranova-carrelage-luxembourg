@@ -13,7 +13,7 @@ const zones = [
   },
   {
     name: 'Mersch & Steinfort',
-    detail: 'Si\u00e8ge, showroom, canton de Mersch',
+    detail: 'Siège, showroom, canton de Mersch',
     href: '/zones-intervention/mersch-steinfort',
   },
   {
@@ -28,7 +28,7 @@ const zones = [
   },
   {
     name: 'Grevenmacher & Remich',
-    detail: 'Vall\u00e9e de la Moselle, vignobles',
+    detail: 'Vallée de la Moselle, vignobles',
     href: '/zones-intervention/grevenmacher-remich',
   },
 ]

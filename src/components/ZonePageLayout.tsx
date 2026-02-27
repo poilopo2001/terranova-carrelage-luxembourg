@@ -19,10 +19,10 @@ const services = [
   { label: 'Pose carrelage sol', href: '/services/pose-carrelage-sol' },
   { label: 'Pose carrelage mural', href: '/services/pose-carrelage-mural' },
   { label: 'Pierre naturelle', href: '/services/pose-pierre-naturelle' },
-  { label: 'Fa\u00efence d\u00e9corative', href: '/services/pose-faience' },
-  { label: 'Parquet carrel\u00e9', href: '/services/pose-parquet-carrele' },
-  { label: 'Mosa\u00efque', href: '/services/pose-mosaique' },
-  { label: 'R\u00e9novation', href: '/services/renovation-carrelage' },
+  { label: 'Faïence décorative', href: '/services/pose-faience' },
+  { label: 'Parquet carrelé', href: '/services/pose-parquet-carrele' },
+  { label: 'Mosaïque', href: '/services/pose-mosaique' },
+  { label: 'Rénovation', href: '/services/renovation-carrelage' },
   { label: 'Jointoyage', href: '/services/jointoyage' },
 ]
 
@@ -38,7 +38,7 @@ export default function ZonePageLayout({ city, h1, intro, specificContent, focus
         address: { "@type": "PostalAddress", streetAddress: "5, Rue de la Gare", addressLocality: "Mersch", postalCode: "L-7535", addressCountry: "LU" },
       }} />
       <Breadcrumb items={[
-        { label: 'Zones d\u0027intervention', href: '/zones-intervention' },
+        { label: 'Zones d\'intervention', href: '/zones-intervention' },
         { label: city },
       ]} />
 
@@ -46,7 +46,7 @@ export default function ZonePageLayout({ city, h1, intro, specificContent, focus
         <div className="max-w-[1280px] mx-auto">
           <div className="flex items-center gap-2 text-accent-400 mb-3">
             <MapPin className="size-4" />
-            <p className="font-body font-semibold text-sm tracking-[0.15em] uppercase">{city} &middot; Grand-Duch\u00e9;</p>
+            <p className="font-body font-semibold text-sm tracking-[0.15em] uppercase">{city} &middot; Grand-Duché;</p>
           </div>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">{h1}</h1>
           <p className="font-body text-lg text-ivory-100 max-w-[680px] mt-4 leading-relaxed">{intro}</p>
@@ -67,7 +67,7 @@ export default function ZonePageLayout({ city, h1, intro, specificContent, focus
             <h2 className="font-heading text-2xl font-bold text-brand-900">Fran&ccedil;ois &agrave; {city} &mdash; 25 ans de terrain</h2>
             <p className="font-body text-brand-800 leading-relaxed">{specificContent}</p>
             <div className="space-y-3">
-              {['Garantie d\u00e9cennale assur\u00e9e par Foyer Assurances', 'Visite technique sur place avant chaque chiffrage', 'Fran\u00e7ais, portugais, luxembourgeois, allemand', 'Marbre de Carrare, travertin romain, gr\u00e8s c\u00e9rame grand format', 'Dalles jusqu\u0027\u00e0 120x260cm pos\u00e9es \u00e0 deux avec ventouses'].map((b, i) => (
+              {['Garantie décennale assurée par Foyer Assurances', 'Visite technique sur place avant chaque chiffrage', 'Français, portugais, luxembourgeois, allemand', 'Marbre de Carrare, travertin romain, grès cérame grand format', 'Dalles jusqu\'à 120x260cm posées à deux avec ventouses'].map((b, i) => (
                 <div key={i} className="flex items-center gap-2">
                   <CheckCircle className="size-4 text-accent-500 shrink-0" />
                   <p className="font-body text-sm text-brand-800">{b}</p>
@@ -108,7 +108,7 @@ export default function ZonePageLayout({ city, h1, intro, specificContent, focus
         </section>
       )}
 
-      <CTASection dark title={`Un chantier pr\u00e9vu \u00e0 ${city}\u00a0?`} subtitle="Fran\u00e7ois se d\u00e9place pour voir le support, mesurer et discuter du mat\u00e9riau. Premier \u00e9change sous 48h." />
+      <CTASection dark title={`Un chantier prévu à ${city}\ ?`} subtitle="François se déplace pour voir le support, mesurer et discuter du matériau. Premier échange sous 48h." />
     </>
   )
 }

@@ -8,17 +8,17 @@ import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
   title: 'Blog Carrelage Luxembourg | Conseils, Techniques, Tendances',
-  description: 'Blog carrelage par Terranova : prix pose 2026, choisir son carrelage, joint \u00e9poxy, calepinage, tendances, entretien pierre. Conseils d\u0027un artisan compagnon.',
+  description: 'Blog carrelage par Terranova : prix pose 2026, choisir son carrelage, joint époxy, calepinage, tendances, entretien pierre. Conseils d\'un artisan compagnon.',
   alternates: { canonical: 'https://www.terranova-carrelage.lu/blog' },
 }
 
 const articles = [
-  { title: 'Combien co\u00fbte la pose de carrelage au Luxembourg en 2026\u00a0?', slug: '/blog/cout-pose-carrelage-luxembourg-2026', type: 'Budget', date: 'F\u00e9vrier 2026' },
-  { title: 'Comment choisir son carrelage : gr\u00e8s c\u00e9rame, fa\u00efence ou pierre naturelle\u00a0?', slug: '/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg', type: 'Conseil', date: 'F\u00e9vrier 2026' },
-  { title: 'Joint \u00e9poxy vs joint ciment : tout savoir pour bien choisir', slug: '/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg', type: 'Technique', date: 'Janvier 2026' },
-  { title: 'Pose droite, diagonale ou chevron : quel calepinage choisir\u00a0?', slug: '/blog/calepinage-carrelage-pose-droite-diagonale-chevron-luxembourg', type: 'Comparatif', date: 'Janvier 2026' },
-  { title: 'Tendances carrelage 2026 : grands formats, terrazzo et effets mati\u00e8re', slug: '/blog/tendances-carrelage-2026-luxembourg', type: 'Tendance', date: 'D\u00e9cembre 2025' },
-  { title: 'Entretien du carrelage et de la pierre naturelle : le guide complet', slug: '/blog/entretien-carrelage-pierre-naturelle-luxembourg', type: 'Guide', date: 'D\u00e9cembre 2025' },
+  { title: 'Combien coûte la pose de carrelage au Luxembourg en 2026\ ?', slug: '/blog/cout-pose-carrelage-luxembourg-2026', type: 'Budget', date: 'Février 2026' },
+  { title: 'Comment choisir son carrelage : grès cérame, faïence ou pierre naturelle\ ?', slug: '/blog/choisir-carrelage-faience-pierre-naturelle-luxembourg', type: 'Conseil', date: 'Février 2026' },
+  { title: 'Joint époxy vs joint ciment : tout savoir pour bien choisir', slug: '/blog/joint-epoxy-vs-joint-ciment-carrelage-luxembourg', type: 'Technique', date: 'Janvier 2026' },
+  { title: 'Pose droite, diagonale ou chevron : quel calepinage choisir\ ?', slug: '/blog/calepinage-carrelage-pose-droite-diagonale-chevron-luxembourg', type: 'Comparatif', date: 'Janvier 2026' },
+  { title: 'Tendances carrelage 2026 : grands formats, terrazzo et effets matière', slug: '/blog/tendances-carrelage-2026-luxembourg', type: 'Tendance', date: 'Décembre 2025' },
+  { title: 'Entretien du carrelage et de la pierre naturelle : le guide complet', slug: '/blog/entretien-carrelage-pierre-naturelle-luxembourg', type: 'Guide', date: 'Décembre 2025' },
 ]
 
 export default function Blog() {

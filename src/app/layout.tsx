@@ -20,11 +20,11 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Terranova Carrelage Luxembourg | Artisan Compagnon \u00e0 Mersch",
+    default: "Terranova Carrelage Luxembourg | Artisan Compagnon à Mersch",
     template: "%s | Terranova Carrelage Luxembourg",
   },
   description:
-    "Artisan compagnon, Fran\u00e7ois pose marbre et travertin au Grand-Duch\u00e9 depuis 2001. Protocoles adapt\u00e9s \u00e0 chaque pierre. Showroom \u00e0 Mersch sur rendez-vous.",
+    "Artisan compagnon, François pose marbre et travertin au Grand-Duché depuis 2001. Protocoles adaptés à chaque pierre. Showroom à Mersch sur rendez-vous.",
   metadataBase: new URL("https://www.terranova-carrelage.lu"),
   openGraph: {
     type: "website",

@@ -109,7 +109,7 @@ function TilePattern() {
 
 const stats = [
   { value: '25', label: 'ans de métier' },
-  { value: '2\u00a0800+', label: 'chantiers réalisés' },
+  { value: '2\ 800+', label: 'chantiers réalisés' },
   { value: '4', label: 'langues parlées' },
   { value: '10', label: 'ans de garantie' },
 ]
@@ -219,7 +219,7 @@ export default function HeroSection() {
                   href="/contact"
                   className="bg-accent-500 hover:bg-accent-700 text-white font-body font-semibold rounded-lg h-14 px-8 text-base shadow-[0_4px_20px_rgba(196,150,90,0.3)] hover:shadow-[0_6px_28px_rgba(196,150,90,0.4)] transition-all duration-300"
                 >
-                  D\u00e9crire mon projet
+                  Décrire mon projet
                   <ArrowRight className="size-4 ml-2" />
                 </MagneticCTA>
                 <MagneticCTA

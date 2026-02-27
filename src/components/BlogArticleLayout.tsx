@@ -40,7 +40,7 @@ export default function BlogArticleLayout({ title, date, readTime, intro, sectio
 
           {relatedLinks && relatedLinks.length > 0 && (
             <div className="mt-12 pt-8 border-t border-ivory-200">
-              <h3 className="font-body font-semibold text-brand-900 mb-3">Articles et pages associ\u00e9s</h3>
+              <h3 className="font-body font-semibold text-brand-900 mb-3">Articles et pages associés</h3>
               <div className="flex flex-wrap gap-2">
                 {relatedLinks.map((l) => (
                   <Link key={l.href} href={l.href} className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-ivory-100 text-sm font-body text-brand-800 hover:text-accent-500 transition-colors">

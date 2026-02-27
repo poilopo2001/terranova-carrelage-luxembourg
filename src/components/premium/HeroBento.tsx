@@ -136,27 +136,27 @@ function GrainOverlay() {
 const galleryImages = [
   {
     src: "photo-1600607687939-ce8a6c349979",
-    alt: "Marbre Calacatta Oro \u2014 calepinage diagonal avec book matching",
+    alt: "Marbre Calacatta Oro — calepinage diagonal avec book matching",
     label: "Marbre Calacatta",
   },
   {
     src: "photo-1600607688969-a5bfcd646154",
-    alt: "Salle de bain compl\u00e8te \u2014 fa\u00efence Porcelanosa et mosa\u00efque verre",
+    alt: "Salle de bain complète — faïence Porcelanosa et mosaïque verre",
     label: "Salle de bain Bertrange",
   },
   {
     src: "photo-1562259949-e8e7689d7828",
-    alt: "Parquet carrel\u00e9 chevron \u2014 z\u00e9ro lippage, joints tabac",
-    label: "Chevron gr\u00e8s c\u00e9rame",
+    alt: "Parquet carrelé chevron — zéro lippage, joints tabac",
+    label: "Chevron grès cérame",
   },
   {
     src: "photo-1600585154340-be6161a56a0c",
-    alt: "Travertin roman bouch\u00e9 \u2014 format 120x60cm",
+    alt: "Travertin roman bouché — format 120x60cm",
     label: "Travertin roman",
   },
 ]
 
-const trustBadges = ["Garantie d\u00e9cennale", "Retour sous 48h", "4 langues"]
+const trustBadges = ["Garantie décennale", "Retour sous 48h", "4 langues"]
 
 /* ═══════════════════════════════════════════
    HERO BENTO
@@ -274,7 +274,7 @@ export function HeroBento({ stats }: HeroBentoProps) {
                   href="/contact"
                   className="bg-accent-500 hover:bg-accent-600 text-white font-body font-semibold rounded-xl h-14 px-8 text-base shadow-[0_4px_20px_rgba(196,150,90,0.25)] hover:shadow-[0_6px_28px_rgba(196,150,90,0.35)] transition-all duration-300"
                 >
-                  D\u00e9crire mon projet
+                  Décrire mon projet
                   <ArrowRight className="size-4 ml-2" />
                 </MagneticCTA>
                 <MagneticCTA

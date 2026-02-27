@@ -5,21 +5,21 @@ import SchemaOrg from '@/components/SchemaOrg'
 import { LayeredServices } from '@/components/premium/LayeredServices'
 
 export const metadata: Metadata = {
-  title: 'Services Carrelage Luxembourg | Pose, R\u00e9novation, Pierre',
-  description: 'Pose carrelage sol et mural, fa\u00efence, mosa\u00efque, pierre naturelle, parquet carrel\u00e9, r\u00e9novation et r\u00e9paration au Luxembourg. Artisan Compagnon du Tour de France.',
+  title: 'Services Carrelage Luxembourg | Pose, Rénovation, Pierre',
+  description: 'Pose carrelage sol et mural, faïence, mosaïque, pierre naturelle, parquet carrelé, rénovation et réparation au Luxembourg. Artisan Compagnon du Tour de France.',
   alternates: { canonical: 'https://www.terranova-carrelage.lu/services' },
 }
 
 const services = [
-  { title: 'Pose carrelage sol', desc: 'Gr\u00e8s c\u00e9rame, grand format jusqu\u0027\u00e0 120x260cm, plancher chauffant. Calepinage sur mesure. Double encollage syst\u00e9matique pour les formats sup\u00e9rieurs \u00e0 60x60cm.', href: '/services/pose-carrelage-sol', icon: 'Grid3X3', price: '\u20ac35 - \u20ac85/m\u00b2' },
-  { title: 'Pierre naturelle', desc: 'Marbre, travertin, granit, ardoise. Chaque pierre a son protocole : colle sp\u00e9cifique, impr\u00e9gnation adapt\u00e9e, joints calcul\u00e9s. La beaut\u00e9 durable.', href: '/services/pose-pierre-naturelle', icon: 'Feather', price: '\u20ac65 - \u20ac150/m\u00b2' },
-  { title: 'Pose carrelage mural', desc: '\u00c9tanch\u00e9it\u00e9 Schl\u00fcter-Kerdi, douche italienne, grand format 60x180cm. Z\u00e9ro infiltration, garanti.', href: '/services/pose-carrelage-mural', icon: 'Layers', price: '\u20ac40 - \u20ac95/m\u00b2' },
-  { title: 'Pose fa\u00efence', desc: 'Zellige, subway tiles, hexagones, cr\u00e9dence cuisine. Calepinage d\u00e9coratif sur mesure.', href: '/services/pose-faience', icon: 'Square', price: '\u20ac38 - \u20ac72/m\u00b2' },
-  { title: 'Pose mosa\u00efque', desc: 'Verre, marbre, \u00e9maux de Briare. Douches, piscines. Calepinage informatique au millim\u00e8tre.', href: '/services/pose-mosaique', icon: 'Aperture', price: '\u20ac75 - \u20ac180/m\u00b2' },
-  { title: 'Pose parquet carrel\u00e9', desc: 'Imitation bois gr\u00e8s c\u00e9rame. Chevron, quinconce. Lippage garanti < 0,5mm.', href: '/services/pose-parquet-carrele', icon: 'AlignLeft', price: '\u20ac50 - \u20ac90/m\u00b2' },
-  { title: 'Jointoyage', desc: 'Rejointoiement ciment ou \u00e9poxy. Traitement anti-moisissures. \u00c9conomie 80% vs d\u00e9pose-repose.', href: '/services/jointoyage', icon: 'MinusSquare', price: '\u20ac15 - \u20ac35/m\u00b2' },
-  { title: 'R\u00e9novation carrelage', desc: 'D\u00e9pose-repose ou polissage marbre en place. \u00c9conomie jusqu\u0027\u00e0 95%.', href: '/services/renovation-carrelage', icon: 'RotateCcw', price: '\u20ac45 - \u20ac130/m\u00b2' },
-  { title: 'R\u00e9paration carrelage', desc: 'Remplacement carreaux cass\u00e9s, injection carreaux creux, fissures.', href: '/services/reparation-carrelage', icon: 'Wrench', price: '\u20ac80 - \u20ac350/zone' },
+  { title: 'Pose carrelage sol', desc: 'Grès cérame, grand format jusqu\'à 120x260cm, plancher chauffant. Calepinage sur mesure. Double encollage systématique pour les formats supérieurs à 60x60cm.', href: '/services/pose-carrelage-sol', icon: 'Grid3X3', price: '€35 - €85/m²' },
+  { title: 'Pierre naturelle', desc: 'Marbre, travertin, granit, ardoise. Chaque pierre a son protocole : colle spécifique, imprégnation adaptée, joints calculés. La beauté durable.', href: '/services/pose-pierre-naturelle', icon: 'Feather', price: '€65 - €150/m²' },
+  { title: 'Pose carrelage mural', desc: 'Étanchéité Schlüter-Kerdi, douche italienne, grand format 60x180cm. Zéro infiltration, garanti.', href: '/services/pose-carrelage-mural', icon: 'Layers', price: '€40 - €95/m²' },
+  { title: 'Pose faïence', desc: 'Zellige, subway tiles, hexagones, crédence cuisine. Calepinage décoratif sur mesure.', href: '/services/pose-faience', icon: 'Square', price: '€38 - €72/m²' },
+  { title: 'Pose mosaïque', desc: 'Verre, marbre, émaux de Briare. Douches, piscines. Calepinage informatique au millimètre.', href: '/services/pose-mosaique', icon: 'Aperture', price: '€75 - €180/m²' },
+  { title: 'Pose parquet carrelé', desc: 'Imitation bois grès cérame. Chevron, quinconce. Lippage garanti < 0,5mm.', href: '/services/pose-parquet-carrele', icon: 'AlignLeft', price: '€50 - €90/m²' },
+  { title: 'Jointoyage', desc: 'Rejointoiement ciment ou époxy. Traitement anti-moisissures. Économie 80% vs dépose-repose.', href: '/services/jointoyage', icon: 'MinusSquare', price: '€15 - €35/m²' },
+  { title: 'Rénovation carrelage', desc: 'Dépose-repose ou polissage marbre en place. Économie jusqu\'à 95%.', href: '/services/renovation-carrelage', icon: 'RotateCcw', price: '€45 - €130/m²' },
+  { title: 'Réparation carrelage', desc: 'Remplacement carreaux cassés, injection carreaux creux, fissures.', href: '/services/reparation-carrelage', icon: 'Wrench', price: '€80 - €350/zone' },
 ]
 
 export default function ServicesPage() {

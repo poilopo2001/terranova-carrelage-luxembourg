@@ -7,12 +7,12 @@ import { Button } from '@/components/ui/button'
 import { motion, useInView } from 'framer-motion'
 
 const services = [
-  { title: 'Pose carrelage sol', desc: 'Gr\u00e8s c\u00e9rame, grand format jusqu\u0027\u00e0 120x260cm, plancher chauffant.', href: '/services/pose-carrelage-sol', icon: Grid3X3 },
-  { title: 'Pose carrelage mural', desc: '\u00c9tanch\u00e9it\u00e9 Schl\u00fcter-Kerdi, douche italienne, grand format 60x180.', href: '/services/pose-carrelage-mural', icon: Layers },
+  { title: 'Pose carrelage sol', desc: 'Grès cérame, grand format jusqu\'à 120x260cm, plancher chauffant.', href: '/services/pose-carrelage-sol', icon: Grid3X3 },
+  { title: 'Pose carrelage mural', desc: 'Étanchéité Schlüter-Kerdi, douche italienne, grand format 60x180.', href: '/services/pose-carrelage-mural', icon: Layers },
   { title: 'Pierre naturelle', desc: 'Marbre, travertin, granit, ardoise. Chaque pierre a son protocole.', href: '/services/pose-pierre-naturelle', icon: Feather },
-  { title: 'Fa\u00efence d\u00e9corative', desc: 'Zellige, subway tiles, hexagones, cr\u00e9dence. Calepinage sur mesure.', href: '/services/pose-faience', icon: Square },
-  { title: 'Parquet carrel\u00e9', desc: 'Imitation bois en gr\u00e8s c\u00e9rame. Chevron, quinconce. Lippage garanti < 0,5mm.', href: '/services/pose-parquet-carrele', icon: AlignLeft },
-  { title: 'Mosa\u00efque', desc: 'Verre, marbre, \u00e9maux de Briare. Calepinage informatique.', href: '/services/pose-mosaique', icon: Aperture },
+  { title: 'Faïence décorative', desc: 'Zellige, subway tiles, hexagones, crédence. Calepinage sur mesure.', href: '/services/pose-faience', icon: Square },
+  { title: 'Parquet carrelé', desc: 'Imitation bois en grès cérame. Chevron, quinconce. Lippage garanti < 0,5mm.', href: '/services/pose-parquet-carrele', icon: AlignLeft },
+  { title: 'Mosaïque', desc: 'Verre, marbre, émaux de Briare. Calepinage informatique.', href: '/services/pose-mosaique', icon: Aperture },
 ]
 
 function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {

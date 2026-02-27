@@ -12,7 +12,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import Breadcrumb from '@/components/Breadcrumb'
 import SchemaOrg from '@/components/SchemaOrg'
 
-const steps = ['Votre projet', 'Vos coordonn\u00e9es', 'Confirmation']
+const steps = ['Votre projet', 'Vos coordonnées', 'Confirmation']
 
 export default function Contact() {
   const [step, setStep] = useState(0)
@@ -79,7 +79,7 @@ export default function Contact() {
       <section className="bg-brand-900 text-ivory-25 py-12 md:py-16 px-6">
         <div className="max-w-[1280px] mx-auto">
           <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">
-            R\u00e9ponse sous 48h
+            Réponse sous 48h
           </p>
           <h1 className="font-heading text-3xl md:text-4xl font-bold tracking-tight">
             D&eacute;crivez votre chantier, Fran&ccedil;ois vous rappelle
@@ -114,7 +114,7 @@ export default function Contact() {
                 <CardContent className="p-6 md:p-8">
                   {step === 0 && (
                     <div className="space-y-6">
-                      <h2 className="font-heading text-xl font-bold text-brand-900">D\u00e9crivez votre projet</h2>
+                      <h2 className="font-heading text-xl font-bold text-brand-900">Décrivez votre projet</h2>
 
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Type de projet</Label>
@@ -125,7 +125,7 @@ export default function Contact() {
                           </div>
                           <div className="flex items-center gap-2 p-3 border border-ivory-200 rounded-lg">
                             <RadioGroupItem value="renovation" id="renovation" />
-                            <Label htmlFor="renovation" className="font-body text-sm cursor-pointer">R\u00e9novation</Label>
+                            <Label htmlFor="renovation" className="font-body text-sm cursor-pointer">Rénovation</Label>
                           </div>
                         </RadioGroup>
                       </div>
@@ -133,17 +133,17 @@ export default function Contact() {
                       <div className="space-y-2">
                         <Label className="font-body font-semibold text-brand-900">Type de prestation</Label>
                         <Select value={service} onValueChange={setService}>
-                          <SelectTrigger><SelectValue placeholder="S\u00e9lectionnez une prestation" /></SelectTrigger>
+                          <SelectTrigger><SelectValue placeholder="Sélectionnez une prestation" /></SelectTrigger>
                           <SelectContent>
                             <SelectItem value="sol">Pose carrelage sol</SelectItem>
                             <SelectItem value="mural">Pose carrelage mural</SelectItem>
-                            <SelectItem value="faience">Pose fa\u00efence</SelectItem>
-                            <SelectItem value="mosaique">Pose mosa\u00efque</SelectItem>
+                            <SelectItem value="faience">Pose faïence</SelectItem>
+                            <SelectItem value="mosaique">Pose mosaïque</SelectItem>
                             <SelectItem value="pierre">Pose pierre naturelle</SelectItem>
-                            <SelectItem value="parquet">Pose parquet carrel\u00e9</SelectItem>
+                            <SelectItem value="parquet">Pose parquet carrelé</SelectItem>
                             <SelectItem value="jointoyage">Jointoyage / Rejointoiement</SelectItem>
-                            <SelectItem value="renovation">R\u00e9novation carrelage</SelectItem>
-                            <SelectItem value="reparation">R\u00e9paration carrelage</SelectItem>
+                            <SelectItem value="renovation">Rénovation carrelage</SelectItem>
+                            <SelectItem value="reparation">Réparation carrelage</SelectItem>
                             <SelectItem value="autre">Autre</SelectItem>
                           </SelectContent>
                         </Select>
@@ -151,7 +151,7 @@ export default function Contact() {
 
                       <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
-                          <Label className="font-body font-semibold text-brand-900">Surface estim\u00e9e (m\u00b2)</Label>
+                          <Label className="font-body font-semibold text-brand-900">Surface estimée (m²)</Label>
                           <Input type="number" placeholder="ex: 25" value={surface} onChange={e => setSurface(e.target.value)} />
                         </div>
                         <div className="space-y-2">
@@ -159,19 +159,19 @@ export default function Contact() {
                           <Select value={budget} onValueChange={setBudget}>
                             <SelectTrigger><SelectValue placeholder="Fourchette" /></SelectTrigger>
                             <SelectContent>
-                              <SelectItem value="500-2000">&lt; 2 000 \u20ac</SelectItem>
-                              <SelectItem value="2000-5000">2 000 - 5 000 \u20ac</SelectItem>
-                              <SelectItem value="5000-10000">5 000 - 10 000 \u20ac</SelectItem>
-                              <SelectItem value="10000-25000">10 000 - 25 000 \u20ac</SelectItem>
-                              <SelectItem value="25000+">25 000 \u20ac +</SelectItem>
+                              <SelectItem value="500-2000">&lt; 2 000 €</SelectItem>
+                              <SelectItem value="2000-5000">2 000 - 5 000 €</SelectItem>
+                              <SelectItem value="5000-10000">5 000 - 10 000 €</SelectItem>
+                              <SelectItem value="10000-25000">10 000 - 25 000 €</SelectItem>
+                              <SelectItem value="25000+">25 000 € +</SelectItem>
                             </SelectContent>
                           </Select>
                         </div>
                       </div>
 
                       <div className="space-y-2">
-                        <Label className="font-body font-semibold text-brand-900">D\u00e9tails du projet</Label>
-                        <Textarea rows={4} placeholder="Mat\u00e9riau souhait\u00e9, pi\u00e8ce concern\u00e9e, contraintes particuli\u00e8res..." value={details} onChange={e => setDetails(e.target.value)} />
+                        <Label className="font-body font-semibold text-brand-900">Détails du projet</Label>
+                        <Textarea rows={4} placeholder="Matériau souhaité, pièce concernée, contraintes particulières..." value={details} onChange={e => setDetails(e.target.value)} />
                       </div>
 
                       <Button onClick={() => setStep(1)} className="w-full bg-accent-500 hover:bg-accent-700 text-white font-body font-semibold rounded-[8px] h-12">
@@ -182,12 +182,12 @@ export default function Contact() {
 
                   {step === 1 && (
                     <div className="space-y-6">
-                      <h2 className="font-heading text-xl font-bold text-brand-900">Vos coordonn\u00e9es</h2>
+                      <h2 className="font-heading text-xl font-bold text-brand-900">Vos coordonnées</h2>
 
                       <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
-                          <Label className="font-body font-semibold text-brand-900">Pr\u00e9nom</Label>
-                          <Input placeholder="Votre pr\u00e9nom" required value={firstName} onChange={e => setFirstName(e.target.value)} />
+                          <Label className="font-body font-semibold text-brand-900">Prénom</Label>
+                          <Input placeholder="Votre prénom" required value={firstName} onChange={e => setFirstName(e.target.value)} />
                         </div>
                         <div className="space-y-2">
                           <Label className="font-body font-semibold text-brand-900">Nom</Label>
@@ -201,7 +201,7 @@ export default function Contact() {
                       </div>
 
                       <div className="space-y-2">
-                        <Label className="font-body font-semibold text-brand-900">T\u00e9l\u00e9phone</Label>
+                        <Label className="font-body font-semibold text-brand-900">Téléphone</Label>
                         <Input type="tel" placeholder="+352 ..." required value={phone} onChange={e => setPhone(e.target.value)} />
                       </div>
 
@@ -276,10 +276,10 @@ export default function Contact() {
                 <h3 className="font-heading text-lg font-bold text-brand-900">De votre message au premier carreau</h3>
                 <div className="space-y-3">
                   {[
-                    'Vous d\u00e9crivez le chantier (2 min)',
-                    'Fran\u00e7ois vous rappelle sous 48h',
-                    'Il se d\u00e9place, mesure et v\u00e9rifie le support',
-                    'Chiffrage d\u00e9taill\u00e9 avec calepinage sur plan',
+                    'Vous décrivez le chantier (2 min)',
+                    'François vous rappelle sous 48h',
+                    'Il se déplace, mesure et vérifie le support',
+                    'Chiffrage détaillé avec calepinage sur plan',
                   ].map((s, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <div className="w-6 h-6 rounded-full bg-accent-500 text-white flex items-center justify-center shrink-0 text-xs font-body font-semibold">{i + 1}</div>

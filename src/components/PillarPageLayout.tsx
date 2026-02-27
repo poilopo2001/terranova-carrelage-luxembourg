@@ -70,7 +70,7 @@ export default function PillarPageLayout({ title, subtitle, intro, sections, faq
       {/* FAQ */}
       <section className="bg-ivory-100 py-16 px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-heading text-2xl md:text-3xl font-bold text-brand-900 mb-8">Questions fr\u00e9quentes</h2>
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-brand-900 mb-8">Questions fréquentes</h2>
           <div className="space-y-4">
             {faq.map((f, i) => (
               <Card key={i} className="border-ivory-200 bg-white">

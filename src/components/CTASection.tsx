@@ -10,7 +10,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   title = "Parlons de votre sol",
-  subtitle = "Fran\u00e7ois d\u00e9croche en personne. D\u00e9crivez votre projet, recevez un retour sous 48h avec calepinage.",
+  subtitle = "François décroche en personne. Décrivez votre projet, recevez un retour sous 48h avec calepinage.",
   dark = false,
 }: CTASectionProps) {
   return (

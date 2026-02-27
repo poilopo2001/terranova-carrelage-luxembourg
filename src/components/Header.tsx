@@ -20,13 +20,13 @@ import {
 const services = [
   { label: 'Pose carrelage sol', href: '/services/pose-carrelage-sol' },
   { label: 'Pose carrelage mural', href: '/services/pose-carrelage-mural' },
-  { label: 'Pose fa\u00efence', href: '/services/pose-faience' },
-  { label: 'Pose mosa\u00efque', href: '/services/pose-mosaique' },
+  { label: 'Pose faïence', href: '/services/pose-faience' },
+  { label: 'Pose mosaïque', href: '/services/pose-mosaique' },
   { label: 'Pose pierre naturelle', href: '/services/pose-pierre-naturelle' },
-  { label: 'Pose parquet carrel\u00e9', href: '/services/pose-parquet-carrele' },
+  { label: 'Pose parquet carrelé', href: '/services/pose-parquet-carrele' },
   { label: 'Jointoyage', href: '/services/jointoyage' },
-  { label: 'R\u00e9novation carrelage', href: '/services/renovation-carrelage' },
-  { label: 'R\u00e9paration carrelage', href: '/services/reparation-carrelage' },
+  { label: 'Rénovation carrelage', href: '/services/renovation-carrelage' },
+  { label: 'Réparation carrelage', href: '/services/reparation-carrelage' },
 ]
 
 const zones = [
@@ -40,10 +40,10 @@ const zones = [
 const navItems = [
   { label: 'Accueil', href: '/' },
   { label: 'Services', href: '/services', children: services },
-  { label: 'R\u00e9alisations', href: '/realisations' },
-  { label: 'Mat\u00e9riaux', href: '/materiaux' },
+  { label: 'Réalisations', href: '/realisations' },
+  { label: 'Matériaux', href: '/materiaux' },
   { label: 'Zones', href: '/zones-intervention', children: zones },
-  { label: '\u00c0 propos', href: '/a-propos' },
+  { label: 'À propos', href: '/a-propos' },
 ]
 
 /* ═══════════════════════════════════════════
@@ -485,7 +485,7 @@ export default function Header() {
                 className="bg-accent-500 hover:bg-accent-600 text-white font-body font-semibold rounded-xl h-10 px-6 text-sm shadow-[0_3px_12px_rgba(196,150,90,0.25)] hover:shadow-[0_5px_20px_rgba(196,150,90,0.35)] transition-all duration-300"
               >
                 <Link href="/contact">
-                  D\u00e9crire mon projet
+                  Décrire mon projet
                 </Link>
               </Button>
             </MagneticWrap>
@@ -496,7 +496,7 @@ export default function Header() {
             <a
               href="tel:+35226548875"
               className="p-2.5 rounded-lg transition-colors"
-              aria-label="Appeler Fran\u00e7ois"
+              aria-label="Appeler François"
             >
               <motion.div
                 style={{

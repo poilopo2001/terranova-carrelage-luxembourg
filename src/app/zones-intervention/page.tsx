@@ -6,27 +6,27 @@ import Breadcrumb from '@/components/Breadcrumb'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Zones d\u0027Intervention Carreleur Luxembourg | Terranova',
-  description: 'Terranova Carrelage intervient dans tout le Grand-Duch\u00e9 : Luxembourg-Ville, Mersch, Ettelbruck, Bertrange, Grevenmacher et zones frontali\u00e8res.',
+  title: 'Zones d\'Intervention Carreleur Luxembourg | Terranova',
+  description: 'Terranova Carrelage intervient dans tout le Grand-Duché : Luxembourg-Ville, Mersch, Ettelbruck, Bertrange, Grevenmacher et zones frontalières.',
   alternates: { canonical: 'https://www.terranova-carrelage.lu/zones-intervention' },
 }
 
 const zones = [
-  { name: 'Luxembourg-Ville', href: '/zones-intervention/luxembourg-ville', desc: 'Kirchberg, Limpertsberg, Belair. Chantiers de prestige, immeubles anciens, r\u00e9sidences haut de gamme.' },
-  { name: 'Mersch & Steinfort', href: '/zones-intervention/mersch-steinfort', desc: 'Si\u00e8ge et showroom. Proximit\u00e9 imm\u00e9diate, d\u00e9lais d\u0027intervention parmi les meilleurs du canton.' },
-  { name: 'Ettelbruck & Diekirch', href: '/zones-intervention/ettelbruck-diekirch', desc: 'Nord du Grand-Duch\u00e9. R\u00e9sidentiel et h\u00f4tellerie de l\u0027Ardenne luxembourgeoise.' },
-  { name: 'Bertrange & Mamer', href: '/zones-intervention/bertrange-mamer', desc: 'Villas premium de la zone ouest. Client\u00e8le exigeante, mat\u00e9riaux nobles.' },
+  { name: 'Luxembourg-Ville', href: '/zones-intervention/luxembourg-ville', desc: 'Kirchberg, Limpertsberg, Belair. Chantiers de prestige, immeubles anciens, résidences haut de gamme.' },
+  { name: 'Mersch & Steinfort', href: '/zones-intervention/mersch-steinfort', desc: 'Siège et showroom. Proximité immédiate, délais d\'intervention parmi les meilleurs du canton.' },
+  { name: 'Ettelbruck & Diekirch', href: '/zones-intervention/ettelbruck-diekirch', desc: 'Nord du Grand-Duché. Résidentiel et hôtellerie de l\'Ardenne luxembourgeoise.' },
+  { name: 'Bertrange & Mamer', href: '/zones-intervention/bertrange-mamer', desc: 'Villas premium de la zone ouest. Clientèle exigeante, matériaux nobles.' },
   { name: 'Grevenmacher & Remich', href: '/zones-intervention/grevenmacher-remich', desc: 'Maisons viticoles et pierres de taille de la Moselle luxembourgeoise.' },
 ]
 
 export default function ZonesIntervention() {
   return (
     <>
-      <Breadcrumb items={[{ label: 'Zones d\u0027intervention' }]} />
+      <Breadcrumb items={[{ label: 'Zones d\'intervention' }]} />
 
       <section className="bg-brand-900 text-ivory-25 py-16 md:py-20 px-6">
         <div className="max-w-[1280px] mx-auto">
-          <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">Tout le Grand-Duch\u00e9 couvert</p>
+          <p className="text-accent-400 font-body font-semibold text-sm tracking-[0.15em] uppercase mb-3">Tout le Grand-Duché couvert</p>
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">Chaque canton du Grand-Duch&eacute;, un carreleur qui conna&icirc;t le terrain</h1>
           <p className="font-body text-lg text-ivory-100 max-w-[680px] mt-4">Des immeubles anciens du Limpertsberg aux villas de Bertrange, des maisons viticoles de Remich aux ardoises de Diekirch. Fran&ccedil;ois adapte le protocole au b&acirc;timent.</p>
         </div>

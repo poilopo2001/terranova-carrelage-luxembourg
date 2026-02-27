@@ -7,10 +7,10 @@ import { motion, useInView } from 'framer-motion'
 const trustItems = [
   { icon: Award, label: 'Compagnon du Tour de France', emphasis: true },
   { icon: Shield, label: 'Assurance RC Pro Foyer' },
-  { icon: Award, label: 'Certifi\u00e9 Sika Pro' },
-  { icon: Shield, label: 'F\u00e9d\u00e9ration des Artisans LU' },
-  { icon: Languages, label: 'FR \u00b7 PT \u00b7 LU \u00b7 DE' },
-  { icon: Ruler, label: 'Formats jusqu\u0027\u00e0 120\u00d7260cm' },
+  { icon: Award, label: 'Certifié Sika Pro' },
+  { icon: Shield, label: 'Fédération des Artisans LU' },
+  { icon: Languages, label: 'FR · PT · LU · DE' },
+  { icon: Ruler, label: "Formats jusqu\u0027à 120×260cm" },
 ]
 
 export default function HomeTrustBand() {
